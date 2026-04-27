@@ -33,9 +33,10 @@ jobs:
         run: |
           mkdir -p docs/wiki
           cp -r wiki/*.md docs/wiki/
-          cp index.md docs/index.md
-          # Use README as the homepage for the site
-          cp README.md docs/README.md
+          # README becomes the homepage (landing page)
+          cp README.md docs/index.md
+          # Original index.md becomes the topic index
+          cp index.md docs/topics.md
 
       - name: Build site
         run: mkdocs build
