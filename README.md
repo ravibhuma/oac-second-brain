@@ -63,25 +63,63 @@ Use the **search bar** to ask any of these — it'll surface the relevant pages.
 
 ---
 
-## 🚀 Three Ways To Use This Knowledge
+## 🚀 Two Steps To Get Started
 
-### 1. Browse This Site (You're Here)
-Read, search, navigate — no login required.
-
-### 2. Ask Questions With AI
-Use this content as the knowledge base for an AI assistant:
-- **Claude Project** *(coming soon)* — shareable Q&A
-- **Claude Code locally** — clone the repo, ask any OAC question
-
-### 3. Run It Locally (Power Users)
-Clone the repo, open in [Obsidian](https://obsidian.md) for graph view + linking, or use [Claude Code](https://claude.com/claude-code) for AI Q&A:
-
+### Step 1 — Download The Knowledge Base
 ```bash
 git clone https://github.com/ravibhuma/oac-second-brain.git
 cd oac-second-brain
-# Open the folder as a vault in Obsidian, OR
-# Run: claude (with Claude Code installed) and ask anything
 ```
+
+Or just visit the [browsable site](https://ravibhuma.github.io/oac-second-brain/) — no install needed.
+
+### Step 2 — Set Up Claude Code (Recommended)
+
+**👉 Follow the complete guide: [CLAUDE_CODE_SETUP.md](CLAUDE_CODE_SETUP.md)**
+
+Quick version:
+```bash
+# 1. Install Claude Code (needs Node.js 18+)
+npm install -g @anthropic-ai/claude-code
+
+# 2. From inside the cloned repo folder
+claude
+
+# 3. Sign in when prompted, then ask anything:
+> How do I configure row-level security in OAC?
+```
+
+Claude reads the entire knowledge base and answers with citations. **Free tier covers most casual use.**
+
+### Alternative AI Tools
+
+If you prefer a different tool, all of these work — drop the wiki/ folder + selected PDFs into:
+
+| Tool | Cost | Best For |
+|---|---|---|
+| **[Claude Desktop](https://claude.ai)** | Free tier | Visual UI, no terminal |
+| **[ChatGPT](https://chat.openai.com)** | Free / Plus | Familiar interface |
+| **[Google Gemini](https://gemini.google.com)** | **Free** (huge files) | All 9 PDFs at once |
+| **[Ollama](https://ollama.ai) + AnythingLLM** | Free, offline | Private/sensitive data |
+| **OAC AI Agent** | Already have OAC | Production OAC users |
+
+### Example Questions To Try
+
+```
+"How do I configure row-level security in OAC?"
+"Walk me through the three-layer Semantic Model architecture"
+"What's the R.T.C.C.O.E framework for AI Agents?"
+"Compare OAC vs OBIEE migration paths"
+"Show me the Logical SQL syntax for time-series functions"
+```
+
+### For Browsing (No AI)
+
+Open the cloned folder in **[Obsidian](https://obsidian.md)** as a vault to:
+- See the full graph of `[[wiki links]]`
+- Browse with the file tree
+- Search keywords across all pages
+- Read with rendered markdown, images, tables
 
 ---
 
