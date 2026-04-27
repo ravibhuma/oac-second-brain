@@ -1,0 +1,114 @@
+site_name: OAC Second Brain
+site_description: Comprehensive AI-maintained knowledge base for Oracle Analytics Cloud
+site_url: https://ravibhuma.github.io/oac-second-brain/
+repo_url: https://github.com/ravibhuma/oac-second-brain
+repo_name: ravibhuma/oac-second-brain
+edit_uri: edit/main/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - awesome-pages
+  - roamlinks  # converts [[wiki links]] to proper links
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: README.md
+  - Index: index.md
+  - Coverage Matrix: wiki/Docs Coverage Matrix.md
+  - Platform & Architecture:
+    - wiki/OAC Overview & Architecture.md
+    - wiki/OAC vs OBIEE vs OAS Comparison.md
+    - wiki/Subscribe & Provisioning.md
+    - wiki/Whats New & Release Updates.md
+  - Data Layer:
+    - wiki/Data Sources & Connections.md
+    - wiki/Semantic Model.md
+    - wiki/Subject Areas & Datasets.md
+  - Analytics & Reporting:
+    - wiki/Workbooks & Visualizations.md
+    - wiki/Maps & Geospatial Analytics.md
+    - wiki/Classic Dashboards & Analyses.md
+    - wiki/BI Publisher.md
+  - Data Engineering:
+    - wiki/Data Flows & Data Preparation.md
+    - wiki/Machine Learning & AI Features.md
+  - AI Ecosystem:
+    - wiki/OAC AI Ecosystem.md
+    - wiki/OAC AI Agents.md
+    - wiki/OAC MCP Server.md
+  - Governance & Security:
+    - wiki/Security & Row-Level Security.md
+    - wiki/Administration & Service Console.md
+  - Developer Reference:
+    - wiki/Logical SQL Reference.md
+    - wiki/APIs, Embedding & Integration.md
+    - wiki/OCI REST APIs & CLI for OAC.md
+    - wiki/Custom Visualizations & Plug-ins.md
+  - End User:
+    - wiki/Consumer Guide (Explore).md
+    - wiki/Mobile (Oracle Analytics App).md
+  - Operations:
+    - wiki/KPIs, Alerts & Notifications.md
+    - wiki/Migration, Snapshots & Lifecycle.md
+    - wiki/FAQs & Troubleshooting.md
+  - Reference:
+    - wiki/Tutorials, Solutions & Learning Resources.md
+    - wiki/Source PDFs Index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ravibhuma
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@ravishankerb

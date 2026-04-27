@@ -1,0 +1,600 @@
+Oracle® Cloud
+
+Getting Started with Oracle Analytics Cloud
+
+               E83317-48
+               January 2026
+Oracle Cloud Getting Started with Oracle Analytics Cloud,
+
+E83317-48
+
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+
+Primary Author: Rosie Harvey
+
+Contributors: Oracle Analytics Cloud development, product management, and quality assurance teams
+
+This software and related documentation are provided under a license agreement containing restrictions on use and
+disclosure and are protected by intellectual property laws. Except as expressly permitted in your license agreement or
+allowed by law, you may not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit,
+perform, publish, or display any part, in any form, or by any means. Reverse engineering, disassembly, or decompilation
+of this software, unless required by law for interoperability, is prohibited.
+
+The information contained herein is subject to change without notice and is not warranted to be error-free. If you find
+any errors, please report them to us in writing.
+
+If this is software, software documentation, data (as defined in the Federal Acquisition Regulation), or related
+documentation that is delivered to the U.S. Government or anyone licensing it on behalf of the U.S. Government, then
+the following notice is applicable:
+
+U.S. GOVERNMENT END USERS: Oracle programs (including any operating system, integrated software, any
+programs embedded, installed, or activated on delivered hardware, and modifications of such programs) and Oracle
+computer documentation or other Oracle data delivered to or accessed by U.S. Government end users are "commercial
+computer software," "commercial computer software documentation," or "limited rights data" pursuant to the applicable
+Federal Acquisition Regulation and agency-specific supplemental regulations. As such, the use, reproduction,
+duplication, release, display, disclosure, modification, preparation of derivative works, and/or adaptation of i) Oracle
+programs (including any operating system, integrated software, any programs embedded, installed, or activated on
+delivered hardware, and modifications of such programs), ii) Oracle computer documentation and/or iii) other Oracle
+data, is subject to the rights and limitations specified in the license contained in the applicable contract. The terms
+governing the U.S. Government's use of Oracle cloud services are defined by the applicable contract for such services.
+No other rights are granted to the U.S. Government.
+
+This software or hardware is developed for general use in a variety of information management applications. It is not
+developed or intended for use in any inherently dangerous applications, including applications that may create a risk of
+personal injury. If you use this software or hardware in dangerous applications, then you shall be responsible to take all
+appropriate fail-safe, backup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its
+affiliates disclaim any liability for any damages caused by use of this software or hardware in dangerous applications.
+
+Oracle®, Java, MySQL, and NetSuite are registered trademarks of Oracle and/or its affiliates. Other names may be
+trademarks of their respective owners.
+
+Intel and Intel Inside are trademarks or registered trademarks of Intel Corporation. All SPARC trademarks are used
+under license and are trademarks or registered trademarks of SPARC International, Inc. AMD, Epyc, and the AMD logo
+are trademarks or registered trademarks of Advanced Micro Devices. UNIX is a registered trademark of The Open
+Group.
+
+This software or hardware and documentation may provide access to or information about content, products, and
+services from third parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all
+warranties of any kind with respect to third-party content, products, and services unless otherwise set forth in an
+applicable agreement between you and Oracle. Oracle Corporation and its affiliates will not be responsible for any loss,
+costs, or damages incurred due to your access to or use of third-party content, products, or services, except as set forth
+in an applicable agreement between you and Oracle.
+Contents
+
+Preface
+
+Audience                                               i
+
+Related Documents                                      i
+
+Conventions                                            i
+
+1 What Is Oracle Analytics Cloud?
+
+About Oracle Analytics Cloud                           1
+
+Features of Oracle Analytics Cloud                     1
+
+Preview Features                                       3
+
+Editions: Enterprise and Professional                  3
+
+Service Management                                     4
+
+Service Infrastructure                                 5
+
+2 How Do I Get Started?
+
+Get Started with Oracle Analytics Cloud on Gen 2       1
+
+3 Where Do I Go for More Information?
+
+How Do I Set Up a Cloud Service?                       1
+
+How Do I Model and Report Enterprise Data?             1
+
+How Do I Visualize Data?                               1
+
+How Do I Share Analytics Content?                      2
+
+Getting Started with Oracle Analytics Cloud            January 19, 2026
+E83317-48                                                       Page i of i
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+Preface
+
+                       Learn how to get started with Oracle Analytics Cloud.
+
+                       Topics:
+
+                       · Audience
+                       · Related Documents
+                       · Conventions
+
+Audience
+
+                       Getting Started with Oracle Analytics Cloud is intended for consumers, analysts, and
+                       administrators using Oracle Analytics Cloud for the first time.
+
+                       · Administrators create services, manage access to Oracle Analytics Cloud and perform
+                             other administrative duties such as backing up and restoring information for others.
+
+                       · Analysts load data, model data, visualize data, and create reports for consumers. Data
+                             integration options range from self-service import to operational ETL updates. Analysts can
+                             select interactive visualizations and create advanced calculations to reveal insights in the
+                             data.
+
+                       · Consumers customize dashboard pages and work with their favorite reports and data
+                             visualizations. Dashboards allow consumers to quickly analyze and manage activity across
+                             their system.
+
+Related Documents
+
+                       For a full list of guides, refer to the Books tab on Oracle Analytics Cloud Help Center.
+
+                       · http://docs.oracle.com/en/cloud/paas/analytics-cloud/books.html
+
+Conventions
+
+                       This document uses the standard Oracle text and image conventions.
+
+                       Text Conventions
+
+Convention                                             Meaning
+boldface
+italic                                                 Boldface type indicates graphical user interface elements associated with an
+monospace                                              action, or terms defined in text or the glossary.
+
+                                                       Italic type indicates book titles, emphasis, or placeholder variables for which
+                                                       you supply particular values.
+
+                                                       Monospace type indicates commands within a paragraph, URLs, code in
+                                                       examples, text that appears on the screen, or text that you enter.
+
+Getting Started with Oracle Analytics Cloud            January 19, 2026
+E83317-48                                                       Page i of ii
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+                                                                                                                      Preface
+
+Videos and Images
+Skins and styles customize the look and feel of Oracle Analytics Cloud, dashboards, reports,
+and other objects. Videos and images used in this guide may not have the same skin or style
+that you're using, but the behavior and techniques shown are the same.
+
+Getting Started with Oracle Analytics Cloud            January 19, 2026
+E83317-48                                                      Page ii of ii
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+1
+
+What Is Oracle Analytics Cloud?
+
+                       Let's explore Oracle Analytics Cloud and how you can take advantage of its features.
+
+                       Topics:
+                       · About Oracle Analytics Cloud
+                       · Features of Oracle Analytics Cloud
+                       · Editions: Enterprise and Professional
+                       · Service Management
+                       · Service Infrastructure
+
+About Oracle Analytics Cloud
+
+                       Oracle Analytics Cloud is a scalable and secure Oracle Cloud service that provides a full set of
+                       capabilities to explore and perform collaborative analytics for you, your workgroup, and your
+                       enterprise.
+                       With Oracle Analytics Cloud you also get flexible service management capabilities, including
+                       fast setup, easy scaling and patching, and automated lifecycle management.
+
+Features of Oracle Analytics Cloud
+
+                       Oracle Analytics Cloud is built on a high-performance platform with flexible data storage, and
+                       provides you with a complete set of tools to derive and share data insights.
+                       Oracle Analytics Cloud supports your entire analytics workflow.
+
+· Data connectivity: Unify your data sources using a wide range of out-of-the-box data
+     connections. Or use JDBC (Java Database Connectivity) for other sources and legacy
+
+Getting Started with Oracle Analytics Cloud            January 19, 2026
+E83317-48                                                     Page 1 of 5
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+                                                                                                                                  Chapter 1
+                                                                                         Features of Oracle Analytics Cloud
+
+     systems. Access all your data, including personal data sets like Excel or CSV, wherever
+     they're located. Securely create, manage and share connections with your team or across
+     the organization.
+
+· Data preparation: Ingest, profile, and cleanse your data using a variety of algorithms.
+
+· Data flow: Transform and aggregate your data, and then run machine-learning models at
+     scale.
+
+· Data modeling: Develop trusted and governed semantic models to ensure a consistent
+     view of business-critical data. Use semantic models to ensure trusted numbers across your
+     enterprise, regardless of the which visualization you choose. Business users can directly
+     join tables through self-service, and share self-service data models with their colleagues.
+
+· Data visualization: Visualize and explore your data, on any device, on-premises, and in the
+     cloud. See the signals in your data and make complex ideas engaging, meaningful, and
+     easy to understand.
+
+· Data discovery: Subject matter experts can easily collaborate with other business users,
+     blending intelligent analysis at scale and machine learning insights.
+
+· Data collaboration: Large organizations and small teams can share data more simply,
+     without the need to manage or consolidate multiple versions of spreadsheets, and quickly
+     perform ad hoc analysis of their spreadsheet data. Data-level security, enables fine-
+     grained access to ensure that your team or users can share reports but see only data they
+     have access to.
+
+· Data access: Stay connected with automated delivery of analytics and monitor ongoing
+     business performance from anywhere at any time. Mobile apps learn from your unique
+     patterns and data interests to deliver intelligent recommendations for further analysis or
+     data exploration.
+
+· Data-driven: Application developers can utilize interfaces that enable them to extend,
+     customize, and embed rich analytic experiences in the application flow.
+
+Oracle Analytics Cloud offers analytics capabilities to all roles within your organization
+including IT, executives, data engineers, citizen data scientists, business analysts. and
+business users.
+
+· Centralized, governed reporting and analytics together with business-led self-service
+     analytics, while always ensuring consistent and trusted numbers.
+
+Getting Started with Oracle Analytics Cloud            January 19, 2026
+E83317-48                                                     Page 2 of 5
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+                                                                                                             Chapter 1
+                                                                           Editions: Enterprise and Professional
+
+                       · Built-in AI and machine learning for every level of user from no-code, 1-click analytics to
+                             customizable algorithms trained for specific use cases.
+
+                       · A semantic model that abstracts physical data sources and query languages from business
+                             users.
+
+                       · Built-in, trackable, and repeatable data preparation and enrichment that removes the need
+                             for insecure data exports and Excel.
+
+Preview Features
+
+                       As we continue to enhance Oracle Analytics, we'll offer preview features for you to try. Preview
+                       features are design, specification, and implementation complete but might change before
+                       they're available as standard features.
+
+                       Preview features aren't recommended for production use or business critical scenarios as the
+                       behavior of these features might change between updates. To find out about features currently
+                       available for preview, see Preview Features in Oracle Analytics Cloud.
+
+                       Preview features are either disabled by default or clearly marked as preview. If you want to
+                       explore a preview feature that's disabled by default, ask your administrator to enable it for your
+                       organization. Administrators can make preview features available for others to try; see Make
+                       Preview Features Available.
+
+Editions: Enterprise and Professional
+
+                       Oracle Analytics Cloud is available in two editions: Enterprise Edition and Professional Edition.
+
+Features Available                                     Enterprise Edition  Professional Edition
+Workbooks and self-service analytics
+
+Datasets and direct connection to data
+sources
+
+Data preparation using data flows
+
+Machine-learning capabilities
+
+Explain, auto-insights, and natural
+language features
+
+AI assistance using generative AI
+services and large language models
+(LLM)
+
+Mobile applications
+
+Custom knowledge enrichment
+
+Connectivity to private data sources
+
+Advanced enterprise analysis and
+dashboards
+
+Oracle Analytics Publisher for pixel-
+perfect reports
+
+Enterprise semantic modeling
+
+Email distribution (analysis, dashboards,
+and pixel-perfect reports)
+
+Usage tracking
+
+Getting Started with Oracle Analytics Cloud                                January 19, 2026
+E83317-48                                                                         Page 3 of 5
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+                                                                                                Chapter 1
+                                                                                 Service Management
+
+                           Features Available                Enterprise Edition  Professional Edition
+                           Customer-managed data encryption
+                           keys
+
+Service Management
+
+Oracle Analytics Cloud is an Oracle-managed service built entirely on Oracle Cloud
+Infrastructure. While Oracle manages most lifecycle tasks for you, you're responsible for
+managing several security and cost-related activities.
+
+· Managed By Oracle
+· Managed By You (Customer Responsible)
+
+Managed By Oracle
+
+Oracle provides you with lifecycle management and configuration. You can log service
+requests with Oracle Support for assistance.
+
+Service Management                                     Managed by      Description
+                                                       Oracle
+                                                                       Oracle schedules and manages backups for the
+Back up and restore services                                           sole use of minimizing content loss as a result of a
+                                                                       service incident.
+Update and patch services                                              Oracle schedules and applies regular updates and
+Patch operating system                                                 patches.
+Audit system                                                           Oracle schedules and applies patches.
+
+Monitor services                                                       Oracle logs REST API calls to resources and
+                                                                       makes logs available to customers for auditing
+                                                                       purposes.
+                                                                       Oracle has direct access to diagnostic logs for
+                                                                       troubleshooting issues.
+
+Managed By You (Customer Responsible)
+As the customer, you're responsible for managing activities related to security and costs.
+
+Service Management                                     Managed By You  Description
+Manage users and roles
+                                                                       You set up users and groups in your identity
+Create and size services                                               domain, and assign users suitable permissions
+                                                                       (through application roles).
+Pause and resume services
+Take snapshots and restore                                             You set up and size services, with the option to
+content from snapshots                                                 modify the number of Oracle Compute Units
+                                                                       (OCPUs) or users if your needs change.
+Configure public or private
+endpoint                                                               You pause services to temporarily prevent access
+                                                                       and reduce costs.
+
+                                                                       You take a snapshot of your environment before
+                                                                       people start using the system and again at suitable
+                                                                       intervals so you can restore the environment if
+                                                                       something goes wrong.
+
+                                                                       You control access through a public internet
+                                                                       accessible endpoint or a private endpoint.
+
+Getting Started with Oracle Analytics Cloud                                      January 19, 2026
+E83317-48                                                                               Page 4 of 5
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+                                                                                        Chapter 1
+                                                                         Service Infrastructure
+
+                           Service Management          Managed By You    Description
+                           Connect to private data
+                           sources                                       Option to set up a private access channel so users
+                                                                         can analyze data that is stored on private data
+                           Manage encryption                             sources.
+                                                                         Option for you to configure custom encryption keys
+                           Set up a vanity URL                           or let Oracle manage data encryption for you.
+                           Monitor usage and costs                       Option for you to configure a custom vanity URL.
+
+Service Infrastructure                                                   You monitor usage metrics and analyze costs from
+                                                                         Oracle Cloud Infrastructure Console.
+
+Oracle Analytics Cloud leverages the full power of Oracle Cloud Infrastructure and gives you
+enhanced capabilities for identity management, governance through compartments and
+quotas, audits, tags, usage tracking, as well as lifecycle management capabilities through the
+standard SDKs and tools available in Oracle Cloud Infrastructure.
+
+This table lists some of the infrastructure options that Oracle Analytics Cloud uses or offers.
+
+Service Infrastructure                                 Oracle Analytics  Description
+                                                       Cloud
+                                                                         Available on Oracle Cloud Infrastructure to new
+Oracle Cloud Infrastructure                                              customers in some Oracle Cloud regions.
+Identity and Access
+Management- Identity                                                     An Oracle-managed load balancer is automatically
+Domains                                                                  created and configured for your service.
+                                                                         Oracle Analytics Cloud uses Oracle Cloud
+Oracle Identity Cloud                                                    Infrastructure Object Storage. A storage bucket is
+Service                                                                  automatically created for your service.
+                                                                         Various Oracle Compute Unit (OCPU) sizing
+Load Balancer                                                            options are available.
+
+Cloud Storage Required                                                   Each region has multiple isolated availability
+                                                                         domains, with separate power and cooling. The
+Size Deployment by Shape                                                 availability domains within a region are
+                                                                         interconnected using a low-latency network. When
+Size Deployment by                                                       you create a service, you can select the region
+Number of Users                                                          where you want to deploy the service and Oracle
+Scale Up and Scale Down                                                  automatically selects an availability domain.
+Availability Domains                                                     Manage service lifecycle using REST APIs, SDKs,
+                                                                         CLI, and other developer tools.
+Lifecycle Management
+Tools
+
+Getting Started with Oracle Analytics Cloud                              January 19, 2026
+E83317-48                                                                       Page 5 of 5
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+2
+
+How Do I Get Started?
+
+                       Sometimes it's hard to know where to start. Knowing the steps and which ones apply to you
+                       can help you get started.
+
+Get Started with Oracle Analytics Cloud on Gen 2
+
+                       These are the steps to get started when you deploy Oracle Analytics Cloud on Oracle Cloud
+                       Infrastructure Gen 2.
+
+First Steps                          User              More Information                           Book
+                                     Buyer             Request and Manage Free Oracle Cloud
+Sign up for a free credit promotion                    Promotions                                 Getting Started with
+or subscribe to Oracle Analytics                       Upgrade to a Paid Account                  Oracle Cloud
+Cloud through Universal Credits.                       Typical Workflow to Create Service         Infrastructure
+
+Understand the prerequisites         Administrator     Create Services with Oracle Analytics      Administering Oracle
+                                                       Cloud                                      Analytics Cloud on
+Set up services for others to use Administrator                                                   Oracle Cloud
+                                                       Set Up Users, Groups, and Application      Infrastructure (Gen 2)
+Add user accounts and manage         Administrator     Roles
+their roles                                                                                       Administering Oracle
+                                                       Verify Your Service and Sign In            Analytics Cloud on
+Sign in to your service              Administrator                                                Oracle Cloud
+                                     User              Get Started with Data Visualization        Infrastructure (Gen 2)
+
+Get started with data visualization  User                                                         Administering Oracle
+· Upload data                        User                                                         Analytics Cloud on
+· Explore data                                                                                    Oracle Cloud
+· Share insights                                                                                  Infrastructure (Gen 2)
+
+Get started with data modeling                                                                    Administering Oracle
+· Create semantic models                                                                          Analytics Cloud on
+· Build reports and dashboards                                                                    Oracle Cloud
+· Design and publish pixel-                                                                       Infrastructure (Gen 2)
+
+      perfect reports                                                                             Visualizing Data and
+                                                                                                  Building Reports in
+                                                                                                  Oracle Analytics Cloud
+
+                                                       Get Started with Data Modeling             Building Semantic
+                                                       Get Started with Analyses and              Models in Oracle
+                                                       Dashboards                                 Analytics Cloud
+                                                       Get Started with Pixel-Perfect Publishing
+                                                                                                  Visualizing Data and
+                                                                                                  Building Reports in
+                                                                                                  Oracle Analytics Cloud
+
+Migrate existing content to Oracle Administrator       Migrate Content to Oracle Analytics Cloud Administering Oracle
+Analytics Cloud
+                                                       from Other Environments                    Analytics Cloud on
+
+                                                                                                  Oracle Cloud
+
+                                                                                                  Infrastructure (Gen 2)
+
+Getting Started with Oracle Analytics Cloud                                                       January 19, 2026
+E83317-48                                                                                                Page 1 of 1
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+3
+
+Where Do I Go for More Information?
+
+                       There are plenty of books, videos, and other resources available. Watch short videos and
+                       explore the documentation to learn more.
+
+                       Topics:
+                       · How Do I Set Up a Cloud Service?
+                       · How Do I Model and Report Enterprise Data?
+                       · How Do I Visualize Data?
+                       · How Do I Share Analytics Content?
+
+How Do I Set Up a Cloud Service?
+
+                       Refer to the following documentation to help you set up Oracle Analytics Cloud on Gen 2.
+
+Learn how to...                                        Audience        More Information
+                                                       Everyone        Cloud Regions - Oracle Analytics Cloud
+Find out which data regions offer                      Administrators
+Oracle Analytics Cloud on Gen 2                        Everyone        Create Services with Oracle Analytics Cloud on
+                                                                       Gen 2
+Set up Oracle Analytics Cloud on                                       Known Issues for Oracle Analytics Cloud
+Gen 2
+
+Find out about known issues
+
+How Do I Model and Report Enterprise Data?
+
+Refer to the following documentation to help you model and report on data.
+
+Learn how to...                                        Audience  Edition     More Information
+Create a semantic model                                                      Oracle Analytics Data Modeling Tools
+                                                       Data      Enterprise
+Build reports from the semantic                        modelers  Edition     Create Your First Analysis
+model
+Build dashboards to display data                       Content   Enterprise  Create Your First Dashboard
+                                                       authors   Edition
+Design and publish pixel-perfect                                             Publish Pixel-Perfect Reports
+reports                                                Content   Enterprise
+View reports and dashboards                            authors   Edition     Find and Explore Reports and
+                                                                             Dashboards
+                                                       Content   Enterprise
+                                                       authors   Edition
+
+                                                       Users     Enterprise
+                                                                 Edition
+
+How Do I Visualize Data?
+
+Refer to the following documentation to help you visualize data.
+
+Getting Started with Oracle Analytics Cloud                                  January 19, 2026
+E83317-48                                                                           Page 1 of 2
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+                                                                                                               Chapter 3
+                                                                               How Do I Share Analytics Content?
+
+Learn how to...                                        Audience  Edition       More Information
+                                                                 All           Upload and Share Data
+Upload data                                            Content   All
+                                                       authors   All           Connect Oracle Analytics Cloud to Your
+                                                                 All           Data
+Connect to online data sources                         Content                 Find and Explore Your Content
+                                                       authors   All
+                                                                 All           Build Presentation Flows and
+Visualize the data in different                        Content   All           Dashboards
+ways                                                   authors   All
+                                                                               Blend Data
+Use workbook canvases to create Content
+presentation flows as dashboards authors                                       Analyze Data with Machine Learning
+for users
+                                                                               Create Datasets Using Data Flows
+Curate data from multiple sources Content
+                                               authors                         Import, Export, and Convert
+                                                                               Workbooks
+Use machine learning to analyze Content
+
+data                                                   authors
+
+Use data flows to curate datasets Content
+                                               authors
+
+Import, export, and convert                            Content
+visualizations                                         authors
+
+How Do I Share Analytics Content?
+
+Refer to the following documentation to help you share the content you create in Oracle
+Analytics Cloud.
+
+Learn how to...                                        Audience  Edition       More Information
+Share content                                          Content   Professional  Share Your Content with Others
+                                                       authors   and
+Email reports                                                    Enterprise    Email Reports and Tracking Deliveries
+Move data visualizations                               Content   Enterprise    Migrate Content to Other Catalogs
+                                                       authors
+Move reports and dashboards                            Content   Professional  Migrate Content to Other Catalogs
+between catalogs                                       authors   and           Embed Content in Other Applications
+Embed content                                                    Enterprise
+                                                       Content   Enterprise
+                                                       authors
+                                                       Content   Professional
+                                                       authors   and
+                                                                 Enterprise
+
+Getting Started with Oracle Analytics Cloud                                    January 19, 2026
+E83317-48                                                                             Page 2 of 2
+Copyright © 2017, 2026, Oracle and/or its affiliates.
+

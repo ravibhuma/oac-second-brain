@@ -1,0 +1,37 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Obsidian local config (keep if you want shared workspace settings)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Claude local
+.claude/settings.local.json
+
+# Python (for any scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# MkDocs build output
+site/
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.bak
