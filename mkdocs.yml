@@ -4,17 +4,6 @@ site_url: https://ravibhuma.github.io/oac-second-brain/
 repo_url: https://github.com/ravibhuma/oac-second-brain
 repo_name: ravibhuma/oac-second-brain
 edit_uri: edit/main/
-docs_dir: .
-
-# Exclude folders/files mkdocs shouldn't process
-exclude_docs: |
-  raw/
-  .obsidian/
-  .github/
-  PROJECT_INSTRUCTIONS.md
-  SETUP.md
-  CLAUDE.md
-  log.md
 
 # Don't fail on warnings (e.g., files not in nav)
 validation:
@@ -83,8 +72,8 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - Home: README.md
-  - Index: index.md
+  - Home: index.md
+  - About: README.md
   - Coverage Matrix: wiki/Docs Coverage Matrix.md
   - Platform & Architecture:
     - wiki/OAC Overview & Architecture.md

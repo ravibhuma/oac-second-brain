@@ -26,8 +26,9 @@ venv/
 # Node
 node_modules/
 
-# MkDocs build output
+# MkDocs build artifacts
 site/
+docs/
 
 # Logs
 *.log

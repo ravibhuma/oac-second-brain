@@ -29,6 +29,14 @@ jobs:
         run: |
           pip install mkdocs-material
 
+      - name: Stage content into docs/ folder
+        run: |
+          mkdir -p docs/wiki
+          cp -r wiki/*.md docs/wiki/
+          cp index.md docs/index.md
+          # Use README as the homepage for the site
+          cp README.md docs/README.md
+
       - name: Build site
         run: mkdocs build
 
