@@ -31,12 +31,17 @@ jobs:
 
       - name: Stage content into docs/ folder
         run: |
-          mkdir -p docs/wiki
+          mkdir -p docs/wiki docs/stylesheets
           cp -r wiki/*.md docs/wiki/
+          cp -r stylesheets/*.css docs/stylesheets/
           # README becomes the homepage (landing page)
           cp README.md docs/index.md
           # Original index.md becomes the topic index
           cp index.md docs/topics.md
+          # Setup guides accessible from site
+          cp CLAUDE_CODE_SETUP.md docs/claude-code-setup.md
+          cp CODEX_SETUP.md docs/codex-setup.md
+          cp AI_ASSISTANTS.md docs/ai-assistants.md
 
       - name: Build site
         run: mkdocs build

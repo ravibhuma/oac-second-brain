@@ -79,6 +79,10 @@ nav:
   - Home: index.md
   - All Topics: topics.md
   - Coverage Matrix: wiki/Docs Coverage Matrix.md
+  - "Use With AI":
+    - All AI Tools: ai-assistants.md
+    - Claude Code Setup: claude-code-setup.md
+    - OpenAI Codex Setup: codex-setup.md
   - Platform & Architecture:
     - wiki/OAC Overview & Architecture.md
     - wiki/OAC vs OBIEE vs OAS Comparison.md
@@ -125,3 +129,15 @@ extra:
       link: https://github.com/ravibhuma
     - icon: fontawesome/brands/medium
       link: https://medium.com/@ravishankerb
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+# Social cards (preview when shared on Twitter/LinkedIn)
+# Requires: pip install "mkdocs-material[imaging]"
+# Disabled by default to keep CI fast — enable when ready
+
+copyright: |
+  &copy; 2026 <a href="https://github.com/ravibhuma" target="_blank" rel="noopener">Ravi Bhuma</a> ·
+  Built on <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" target="_blank" rel="noopener">Karpathy's LLM Wiki pattern</a>

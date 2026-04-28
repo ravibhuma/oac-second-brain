@@ -1,0 +1,26 @@
+/* Make tables more readable */
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+}
+
+/* Highlight code blocks better */
+.md-typeset pre > code {
+  font-size: 0.85em;
+}
+
+/* Better blockquote styling for tips/warnings */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background: var(--md-default-bg-color);
+  padding: 0.5em 1em;
+}
+
+/* Hero badge row spacing */
+.md-typeset img[src*="img.shields.io"] {
+  margin: 0 4px 8px 0;
+}
+
+/* Make wiki links look distinct */
+.md-typeset a[href*="wiki/"]:not(.md-button) {
+  font-weight: 500;
+}
