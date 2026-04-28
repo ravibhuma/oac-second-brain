@@ -147,3 +147,5 @@ The original OBIEE mobile app **Day by Day** is deprecated:
 - [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
 - [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }
 - [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Maps & Geospatial Analytics](Maps%20%26%20Geospatial%20Analytics.md){ .wikilink }
+- [OAC AI Ecosystem](OAC%20AI%20Ecosystem.md){ .wikilink }

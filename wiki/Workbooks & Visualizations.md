@@ -216,3 +216,5 @@ Generative AI (OCI AI Services backed) for chart recommendations, data descripti
 - [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
 - [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }
 - [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [Custom Visualizations & Plug-ins](Custom%20Visualizations%20%26%20Plug-ins.md){ .wikilink }
+- [Maps & Geospatial Analytics](Maps%20%26%20Geospatial%20Analytics.md){ .wikilink }

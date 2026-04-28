@@ -172,3 +172,6 @@ OAC records usage events:
 - [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
 - [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 - [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }
+- [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink }
+- [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink }

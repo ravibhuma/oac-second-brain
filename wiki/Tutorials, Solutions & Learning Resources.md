@@ -193,6 +193,8 @@ For ANY topic deeper than what the wiki covers:
 ---
 
 ## Related
-- index
 - [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
 - [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink }
+- [Source PDFs Index](Source%20PDFs%20Index.md){ .wikilink }
+- [Docs Coverage Matrix](Docs%20Coverage%20Matrix.md){ .wikilink }
+- [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }

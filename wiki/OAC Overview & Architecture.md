@@ -127,3 +127,6 @@ Key paths:
 - [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 - [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
 - [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Consumer Guide (Explore)](Consumer%20Guide%20%28Explore%29.md){ .wikilink }
+- [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink }
+- [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink }

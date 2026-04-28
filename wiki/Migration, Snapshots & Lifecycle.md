@@ -184,3 +184,6 @@ Oracle releases monthly updates to OAC:
 - [Semantic Model](Semantic%20Model.md){ .wikilink }
 - [OAC vs OBIEE vs OAS Comparison](OAC%20vs%20OBIEE%20vs%20OAS%20Comparison.md){ .wikilink }
 - [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink }
+- [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink }
+- [BI Publisher](BI%20Publisher.md){ .wikilink }

@@ -149,3 +149,5 @@ OAC        →  Strategic platform — invest here
 - [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
 - [Semantic Model](Semantic%20Model.md){ .wikilink }
 - [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [FAQs & Troubleshooting](FAQs%20%26%20Troubleshooting.md){ .wikilink }
+- [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink }

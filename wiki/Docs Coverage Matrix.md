@@ -143,6 +143,6 @@ This is the canonical Karpathy LLM Wiki workflow — sources curated by human, w
 ---
 
 ## Related
-- index
 - [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink }
+- [Source PDFs Index](Source%20PDFs%20Index.md){ .wikilink }
 - All wiki pages

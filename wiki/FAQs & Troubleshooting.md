@@ -267,3 +267,7 @@ PaaS — you provision instances, manage content, but don't manage infrastructur
 - [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 - [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
 - [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Consumer Guide (Explore)](Consumer%20Guide%20%28Explore%29.md){ .wikilink }
+- [OAC vs OBIEE vs OAS Comparison](OAC%20vs%20OBIEE%20vs%20OAS%20Comparison.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
+- [Source PDFs Index](Source%20PDFs%20Index.md){ .wikilink }

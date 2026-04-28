@@ -242,3 +242,5 @@ Embed OAC content in Oracle APEX applications:
 - [BI Publisher](BI%20Publisher.md){ .wikilink }
 - [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
 - [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink }
+- [Custom Visualizations & Plug-ins](Custom%20Visualizations%20%26%20Plug-ins.md){ .wikilink }
+- [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink }

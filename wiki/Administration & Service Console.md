@@ -202,3 +202,7 @@ Administration → Security → Test User:
 - [Semantic Model](Semantic%20Model.md){ .wikilink }
 - [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 - [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
+- [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink }
+- [Custom Visualizations & Plug-ins](Custom%20Visualizations%20%26%20Plug-ins.md){ .wikilink }
+- [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }
+- [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink }

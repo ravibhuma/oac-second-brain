@@ -200,3 +200,6 @@ Reports can be scheduled to run automatically.
 - [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
 - [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 - [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }
