@@ -325,6 +325,79 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     max-width: 240px;
   }
+
+  /* Explainer panel — top-left, dismissible */
+  .explainer {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--slate-100);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    max-width: 320px;
+    color: var(--slate-700);
+    z-index: 5;
+  }
+  .explainer-title {
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--slate-500);
+    margin-bottom: 6px;
+  }
+  .explainer-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+  }
+  .explainer-icon {
+    flex-shrink: 0;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .explainer-icon .dot-sample {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--oac-green);
+  }
+  .explainer-icon .line-sample {
+    width: 28px; height: 1px;
+    background: var(--slate-300);
+  }
+  .explainer-icon .dot-large {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--oac-green);
+  }
+  .explainer-tip {
+    font-size: 0.75rem;
+    color: var(--slate-500);
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--slate-100);
+  }
+  .explainer-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--slate-300);
+    font-size: 1.1rem;
+    padding: 0;
+    line-height: 1;
+  }
+  .explainer-close:hover { color: var(--slate-700); }
+  .explainer.hidden { display: none; }
   .legend-title {
     font-weight: 700;
     margin-bottom: 8px;
@@ -445,6 +518,28 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <div id="graph-container">
   <div class="loading" id="loading">Loading knowledge graph...</div>
   <div id="graph"></div>
+
+  <div class="explainer" id="explainer">
+    <button class="explainer-close" id="explainer-close" aria-label="Dismiss">×</button>
+    <div class="explainer-title">What am I looking at?</div>
+    <div class="explainer-row">
+      <span class="explainer-icon"><span class="dot-sample"></span></span>
+      <span><strong>Each circle</strong> = one wiki page (an OAC topic)</span>
+    </div>
+    <div class="explainer-row">
+      <span class="explainer-icon"><span class="line-sample"></span></span>
+      <span><strong>Each line</strong> = a cross-reference between two pages</span>
+    </div>
+    <div class="explainer-row">
+      <span class="explainer-icon"><span class="dot-large"></span></span>
+      <span><strong>Bigger circle</strong> = more connections (hub topic)</span>
+    </div>
+    <div class="explainer-tip">
+      💡 <strong>Hover</strong> a node to see its connections ·
+      <strong>Click</strong> for details · <strong>Double-click</strong> to open the page ·
+      <strong>Zoom in</strong> to read labels
+    </div>
+  </div>
 
   <div class="legend" id="legend">
     <div class="legend-title">Categories</div>
@@ -592,6 +687,11 @@ network.once('afterDrawing', () => {
 // Stats
 document.getElementById('stat-nodes').textContent = GRAPH_DATA.stats.total_nodes;
 document.getElementById('stat-edges').textContent = GRAPH_DATA.stats.total_edges;
+
+// Dismissable explainer
+document.getElementById('explainer-close').addEventListener('click', () => {
+  document.getElementById('explainer').classList.add('hidden');
+});
 
 // Build legend
 const legendItems = document.getElementById('legend-items');
