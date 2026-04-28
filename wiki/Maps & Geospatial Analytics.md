@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** maps, geospatial, GeoJSON, Oracle Maps, Esri, geocoding, location, map layers
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data — Maps](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 OAC provides rich map visualizations with multiple background tile providers (Oracle Maps, Esri), automatic geocoding of address columns, support for custom GeoJSON layers, and several map visualization types (point, choropleth, heatmap, flow). Maps work in both Workbooks and Classic Analyses.
 

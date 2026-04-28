@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** analysis, dashboard, answers, criteria, filters, prompts, actions, views, pivot, subject area
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data and Building Reports — Dashboards](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 Classic Analyses and Dashboards are OAC's enterprise-grade reporting layer, inherited from OBIEE. Analyses are parameterized, multi-view queries against Subject Areas. Dashboards assemble analyses and other content into governed, multi-page portals. This layer supports complex conditional formatting, drill-down hierarchies, dashboard prompts, and action links.
 

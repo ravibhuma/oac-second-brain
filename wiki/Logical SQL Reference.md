@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** logical SQL, LSQL, query language, functions, time series, variables, XSA, syntax
 
+
+📖 **Full Oracle Documentation**: [Logical SQL Reference Guide](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmdg/)
+
 ## Summary
 Logical SQL is Oracle Analytics Cloud's query language for the Presentation/Semantic layer. It looks like standard SQL but operates on Subject Area column names rather than physical table/column names. The BI Server translates Logical SQL into optimized physical SQL for the underlying database. All OAC analyses, Workbook data requests, and API queries ultimately use Logical SQL.
 

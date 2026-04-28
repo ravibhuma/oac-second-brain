@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** AI ecosystem, AI Assistant, AI Agents, MCP Server, generative AI, OCI Generative AI, conversational analytics, augmented analytics
 
+
+📖 **Full Oracle Documentation**: [Oracle Analytics Blog — AI Ecosystem](https://blogs.oracle.com/analytics/the-oracle-analytics-cloud-ai-ecosystem-shaping-the-future-of-enterprise-analytics) · [Visualizing Data — AI Assistant](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 OAC's AI ecosystem is a layered stack: **augmented analytics** built into the product (Explain, Auto Insights, NLQ), **generative AI** via OCI Generative AI integration (AI Assistant in homepage, workbook, mobile), **AI Agents** for domain-specialized conversational experiences, and the **MCP Server** for external AI client integration. Together they shift OAC from a "platform you navigate" to "analytics you talk to."
 

@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** KPI, alert, agent, notification, scorecard, watchlist, delivery
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data — KPIs and Agents](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 OAC provides two systems for metric monitoring and alerting: **KPI Watchlists** (self-service, Workbook-based metric tracking) and **Agents** (Classic, rule-based scheduled delivery of analyses with conditional alerts). Together they enable business users to monitor KPIs, receive automated alerts, and schedule report distributions.
 

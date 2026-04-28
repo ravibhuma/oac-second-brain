@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** sources, PDFs, deep reference, citations
 
+
+📖 **Full Oracle Documentation**: [OAC Documentation Hub](https://docs.oracle.com/en/cloud/paas/analytics-cloud/)
+
 ## Summary
 The `raw/pdfs/` folder contains the authoritative Oracle documentation in PDF + searchable text. When wiki pages don't have enough depth, I (Claude) **grep these text files at query time** and cite the result. This is the deep-reference layer that makes the knowledge graph comprehensive.
 

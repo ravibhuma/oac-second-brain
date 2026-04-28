@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** coverage, mapping, oracle docs, status, gaps
 
+
+📖 **Full Oracle Documentation**: [OAC Documentation Hub (all guides)](https://docs.oracle.com/en/cloud/paas/analytics-cloud/)
+
 ## Summary
 Mapping of every official Oracle Analytics Cloud documentation guide → corresponding wiki page(s) → coverage status. Use this to find which wiki page covers a given Oracle doc topic, identify gaps, and prioritize deepening.
 

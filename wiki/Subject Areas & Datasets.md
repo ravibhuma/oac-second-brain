@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** subject area, dataset, XSA, measures, attributes, dimensions, data blending
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data and Building Reports](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/) · [Building Semantic Models](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmdg/)
+
 ## Summary
 OAC exposes data to users through two mechanisms: **Subject Areas** (enterprise-grade, defined in the Semantic Model) and **Datasets** (self-service, uploaded or queried directly). Subject Areas are the backbone of Classic Analyses and Dashboards; Datasets power Workbooks and can be joined together through data blending.
 

@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** BI Publisher, pixel-perfect, reports, templates, RTF, XPT, bursting, scheduling, data model
 
+
+📖 **Full Oracle Documentation**: [Designing and Publishing Pixel-Perfect Reports](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acpub/) · [Designing Pixel-Perfect Layouts](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acpld/)
+
 ## Summary
 Oracle BI Publisher (part of OAC Enterprise) generates pixel-perfect, formatted reports for printing, distribution, and regulatory compliance. It separates data retrieval (Data Model) from layout (Template), enabling the same data to be rendered in RTF Word documents, Excel spreadsheets, PDFs, HTML, and more. Key capabilities include bursting (splitting and delivering reports per recipient) and scheduling.
 

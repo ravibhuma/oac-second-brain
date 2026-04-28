@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** AI agents, conversational analytics, RAG, supplemental instructions, RTCCOE, knowledge documents, prompt engineering
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data — AI Assistants](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/) · [Building Effective OAC AI Agents (Medium)](https://medium.com/@ravishankerb/building-effective-oac-ai-agents-the-framework-the-techniques-and-the-resource-hub-to-get-you-eba3797ca991)
+
 ## Summary
 OAC AI Agents are domain-specialized conversational interfaces that turn datasets and business knowledge into a "data analyst that talks." Unlike the generic AI Assistant, an Agent is bound to a specific dataset, encoded with custom business rules (Supplemental Instructions), enriched with knowledge documents (RAG), and tuned for a specific business function. The quality gap between a frustrating agent and an expert one comes down to **Supplemental Instructions engineering**.
 

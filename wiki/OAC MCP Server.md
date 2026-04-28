@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** MCP, Model Context Protocol, Claude, Cline, GitHub Copilot, n8n, LangChain, external AI, LSQL
 
+
+📖 **Full Oracle Documentation**: [Oracle Analytics Blog — MCP Server](https://blogs.oracle.com/analytics/oracle-analytics-cloud-mcp-server-bridging-enterprise-analytics-and-ai) · [Model Context Protocol](https://modelcontextprotocol.io/)
+
 ## Summary
 The Oracle Analytics Cloud MCP Server implements the open **Model Context Protocol** standard, enabling external AI clients (Claude Desktop, Claude Code, Cline, GitHub Copilot, n8n, LangChain) to query OAC data through governed conversational interfaces. It bridges enterprise analytics with the broader AI ecosystem while maintaining row-level security, role-based access, and semantic model governance.
 

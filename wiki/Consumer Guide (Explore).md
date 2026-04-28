@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** consumers, end users, viewing, exploring, interacting, business users, navigation
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data and Building Reports](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 This guide is for **OAC consumers** — business users who view, interact with, and explore content built by others. Consumers don't build dashboards or models; they navigate, filter, drill, comment, and share. This page covers everything an end user needs to know.
 

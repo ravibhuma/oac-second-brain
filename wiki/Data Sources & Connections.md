@@ -3,40 +3,126 @@
 > **Last updated:** 2026-04-27
 > **Tags:** connections, data sources, PAC, remote data gateway, database, cloud
 
+📖 **Full Oracle Documentation**: [Connecting OAC to Your Data](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acdpr/)
+
 ## Summary
-OAC can connect to virtually any data source — cloud databases, on-premise databases, files, REST APIs, and SaaS applications. Connections are managed centrally and can be shared or private.
+OAC can connect to virtually any data source — **80+ supported types** across cloud databases, on-premise databases, files, REST APIs, big-data engines, and SaaS applications. Connections are managed centrally and can be shared or private.
+
+For the complete, always-current list of supported data sources, see Oracle's official documentation: [Supported Data Sources](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acdpr/supported-data-sources.html).
 
 ---
 
-## Connection Types
+## Connection Types — Full Reference
 
-### Database Connections
+### Oracle Databases
 | Type | Protocol | Notes |
 |---|---|---|
-| Oracle Database (ADW, ATP, DB) | JDBC/TNS | Native, best performance |
-| Oracle Autonomous Database | mTLS wallet or TLS | Recommended for cloud-native |
-| MySQL | JDBC | |
-| PostgreSQL | JDBC | |
-| SQL Server | JDBC | |
-| IBM DB2 | JDBC | |
-| Hive / Spark | JDBC | |
-| Snowflake | JDBC | |
-| BigQuery | JDBC | |
+| Oracle Database (on-premise) | JDBC/TNS | Native, best performance |
+| Oracle Autonomous Data Warehouse (ADW) | mTLS wallet or TLS | Recommended for cloud DW |
+| Oracle Autonomous Transaction Processing (ATP) | mTLS wallet or TLS | OLTP workloads |
+| Oracle Database Cloud Service | JDBC/TNS | Older Oracle Cloud DB |
+| Oracle Essbase | Native API | Multidimensional / OLAP |
+| Oracle MySQL HeatWave | JDBC | Cloud MySQL with analytics acceleration |
+| Oracle TimesTen | JDBC | In-memory database |
 
-### File-Based Connections
-- **Excel** (.xlsx, .xls) — upload directly, creates Dataset
-- **CSV / TSV** — upload, creates Dataset
-- **JSON** — flat file upload
-- **Dropbox / Google Drive** — cloud file integration
+### Open-Source / Third-Party Databases
+| Type | Protocol |
+|---|---|
+| MySQL | JDBC |
+| PostgreSQL | JDBC |
+| Microsoft SQL Server | JDBC |
+| MariaDB | JDBC |
+| IBM DB2 | JDBC |
+| IBM Informix | JDBC |
+| Sybase ASE / IQ | JDBC |
+| Teradata | JDBC |
+| Vertica | JDBC |
+| Greenplum | JDBC |
+| Apache Drill | JDBC |
+| Apache Pinot | JDBC |
+| Cassandra | JDBC |
+| MongoDB | JDBC (BI Connector) |
+| ClickHouse | JDBC |
+| YugabyteDB | JDBC (PostgreSQL-compatible) |
 
-### Cloud Application Connections
-- Oracle Fusion (ERP, HCM, SCM) — preconfigured connector
-- Salesforce — REST API connector
-- Oracle NetSuite — REST connector
-- ServiceNow — REST connector
+### Cloud Data Warehouses
+| Type | Notes |
+|---|---|
+| Snowflake | JDBC |
+| Google BigQuery | JDBC |
+| Amazon Redshift | JDBC |
+| Amazon Aurora (MySQL/PostgreSQL) | JDBC |
+| Amazon RDS | JDBC |
+| Microsoft Azure SQL Database | JDBC |
+| Microsoft Azure Synapse Analytics | JDBC |
+| SAP HANA | JDBC |
+| SAP S/4 HANA Cloud | JDBC |
+| Databricks | JDBC |
 
-### REST API Connections
-Generic REST connector allows connecting to any HTTP/HTTPS API endpoint.
+### Big Data Engines
+| Type | Notes |
+|---|---|
+| Apache Hive | JDBC (HiveServer2) |
+| Apache Spark SQL | JDBC (Thrift Server) |
+| Apache Impala | JDBC |
+| Cloudera CDP | JDBC |
+| Hortonworks (legacy) | JDBC |
+| Amazon EMR | JDBC |
+
+### File-Based Sources
+| Type | Notes |
+|---|---|
+| **Excel** (.xlsx, .xls) | Upload directly → creates Dataset |
+| **CSV / TSV** | Upload → creates Dataset (auto-detect delimiter) |
+| **JSON** | Flat file upload, schema inferred |
+| **Apache Parquet** | Columnar, used heavily for object storage data |
+| **Apache Avro** | For Hadoop ecosystems |
+
+### Cloud File Storage
+- **OCI Object Storage** — native, recommended for OAC
+- **Dropbox** — personal/team file integration
+- **Google Drive** — personal/team file integration
+- **Box** — enterprise file storage
+- **Microsoft OneDrive / SharePoint** — via REST connector
+- **Amazon S3** — via JDBC or generic connectors
+
+### Cloud Applications (SaaS)
+| Application | Connector Type |
+|---|---|
+| **Oracle Fusion ERP** | Preconfigured Oracle Fusion connector |
+| **Oracle Fusion HCM** | Preconfigured Oracle Fusion connector |
+| **Oracle Fusion SCM** | Preconfigured Oracle Fusion connector |
+| **Oracle Fusion CX (Sales/Service/Marketing)** | Preconfigured Oracle Fusion connector |
+| **Oracle NetSuite** | REST API connector |
+| **Oracle Eloqua** | REST API connector |
+| **Oracle E-Business Suite (EBS)** | JDBC + Subject Area |
+| **Oracle JD Edwards** | JDBC |
+| **Oracle Siebel CRM** | JDBC |
+| **Oracle PeopleSoft** | JDBC |
+| **Salesforce** | REST API connector (with OAuth) |
+| **Salesforce Commerce Cloud** | REST API |
+| **ServiceNow** | REST API connector |
+| **Workday** | REST API + WSDL |
+| **SAP S/4 HANA** | JDBC + REST |
+| **SAP BW** | JDBC |
+| **HubSpot** | REST connector |
+| **Marketo** | REST connector |
+| **Zendesk** | REST connector |
+| **Microsoft Dynamics 365** | OData/REST |
+
+### REST API & Web Services
+- **Generic REST connector** — any HTTP/HTTPS endpoint with JSON/XML response
+- **Generic OAuth REST connector** — for OAuth 2.0 authenticated APIs
+- **OData v4** — built-in for OData-compliant APIs
+- **SOAP Web Services** — XML-based legacy APIs
+
+### Oracle Fusion Analytics Warehouse (FAW) Sources
+When OAC is paired with FAW, additional pre-built connections include Fusion ERP/HCM/SCM/CX with auto-pipelined data into Oracle Autonomous Data Warehouse.
+
+### Streaming / Real-Time Sources
+- **Kafka** (via Hive/Drill bridges)
+- **OCI Streaming** (via REST)
+- For true streaming, use Oracle GoldenGate to land into a connected DB
 
 ---
 

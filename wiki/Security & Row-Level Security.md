@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** security, roles, permissions, row-level security, RLS, IDCS, SSO, data-level, object-level, VPD
 
+
+📖 **Full Oracle Documentation**: [Administering OAC — Security](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acoag/) · [Building Semantic Models — Data Access Security](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmdg/)
+
 ## Summary
 OAC security is multi-layered: identity management (who can log in), application roles (what they can do), object permissions (what content they can see), and data-level security (which rows they see in query results). Identity is managed via Oracle Identity Cloud Service (IDCS) / OCI IAM. Data security is enforced in the Semantic Model via session variables and row-level filters.
 

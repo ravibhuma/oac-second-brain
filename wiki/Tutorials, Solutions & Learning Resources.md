@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** tutorials, solutions, technical papers, videos, community, learning paths, training
 
+
+📖 **Full Oracle Documentation**: [OAC Tutorials Hub](https://docs.oracle.com/en/cloud/paas/analytics-cloud/tutorials) · [Oracle Analytics Blog](https://blogs.oracle.com/analytics/)
+
 ## Summary
 Index of all official Oracle and notable community learning resources for Oracle Analytics Cloud. Organized by format (tutorial, video, technical paper, blog) and by topic area. Use this as the starting point for deepening knowledge on any specific OAC feature.
 

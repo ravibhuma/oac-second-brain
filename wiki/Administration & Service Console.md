@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** administration, service console, snapshots, scaling, caching, performance, diagnostics, usage tracking
 
+
+📖 **Full Oracle Documentation**: [Administering OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acoag/) · [Configuring OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/aciag/)
+
 ## Summary
 OAC administration is performed through the **Service Console** (OCI console → Analytics Cloud → your instance) and the **OAC Administration** page (within the OAC UI). Admins manage backups/snapshots, scaling, system configuration, caching, diagnostics, and user management.
 

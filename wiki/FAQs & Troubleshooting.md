@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** FAQ, troubleshooting, errors, performance, common issues, diagnostics
 
+
+📖 **Full Oracle Documentation**: [FAQs for OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/faqs/) · [Troubleshooting Guide](https://docs.oracle.com/en/cloud/paas/analytics-cloud/troubleshoot/)
+
 ## Summary
 Catalog of frequently asked questions and the most common troubleshooting scenarios in OAC: connection errors, query failures, RPD upload issues, performance problems, security errors, embedding issues, and BI Publisher problems.
 

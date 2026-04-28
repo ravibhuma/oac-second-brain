@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** custom visualization, plug-in, extension, D3, JavaScript, SDK, marketplace
 
+
+📖 **Full Oracle Documentation**: [Developing in OAC — Custom Visualizations](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acdev/) · [Oracle Analytics Library](https://www.oracle.com/business-analytics/analytics-library/)
+
 ## Summary
 OAC supports **custom visualizations** built with JavaScript (and D3, Chart.js, Highcharts, or any web library) that integrate seamlessly into Workbooks and Classic Analyses. This enables organizations to build domain-specific charts (Sankey, Gantt, Network Graphs, custom KPI cards) and share them across the platform.
 

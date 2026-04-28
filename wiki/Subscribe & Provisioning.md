@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** provisioning, subscription, OCPU, sizing, region, IDCS, OCI IAM, setup
 
+
+📖 **Full Oracle Documentation**: [Administering OAC (Gen 2)](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acoag/) · [Subscribe and Set Up](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acoag/manage-services.html)
+
 ## Summary
 Provisioning OAC means creating an Analytics Cloud instance in Oracle Cloud Infrastructure. This involves choosing a region, sizing OCPUs, configuring identity (IDCS or OCI IAM with Identity Domains), and (optionally) configuring Private Access Channel for private network connectivity.
 

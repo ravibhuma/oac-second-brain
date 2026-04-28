@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** mobile, iOS, Android, Oracle Analytics app, Day by Day, push notifications, voice
 
+
+📖 **Full Oracle Documentation**: [Oracle Analytics Mobile App](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 OAC provides a native mobile app — **Oracle Analytics** — for iOS and Android. It enables consumers to access Workbooks, Dashboards, and KPIs on phone or tablet, receive push notifications from Agents, and (in modern versions) use voice and AI Assistant for hands-free analytics.
 

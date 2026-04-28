@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** REST API, JavaScript API, embedding, Smart View, data actions, safe domains, Oracle Analytics Publisher API
 
+
+📖 **Full Oracle Documentation**: [Developing in OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acdev/) · [OAC REST APIs](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acpra/)
+
 ## Summary
 OAC provides multiple integration points: a REST API for catalog and administration operations, a JavaScript Embedding API for embedding analytics in external web applications, Data Actions for cross-application navigation, and Smart View for Excel-based analytics. All embedding scenarios require Safe Domain registration.
 

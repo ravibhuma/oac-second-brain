@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** workbook, canvas, visualization, chart, filter, calculation, storytelling, self-service
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data and Building Reports](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 Workbooks are OAC's modern self-service analytics interface. A Workbook contains one or more **Canvases** (pages), each with **Visualizations** built from Datasets or Subject Areas. Workbooks support rich interactivity, AI-powered insights, map visualizations, and narration for storytelling.
 

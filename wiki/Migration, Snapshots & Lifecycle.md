@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** migration, snapshot, bundle, promotion, OBIEE, OAS, lifecycle, deployment, environments
 
+
+📖 **Full Oracle Documentation**: [Migrating to OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmig/) · [Administering OAC — Snapshots](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acoag/)
+
 ## Summary
 OAC lifecycle management covers: taking snapshots (full backup/restore), promoting content between environments (dev→test→prod), migrating from on-premise OBIEE/OAS to OAC, and managing the Semantic Model RPD through environments. These processes are critical for enterprise deployments with multiple environments and change management requirements.
 

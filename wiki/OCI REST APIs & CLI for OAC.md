@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** OCI, REST API, CLI, instance management, automation, terraform, IaC, scaling
 
+
+📖 **Full Oracle Documentation**: [OCI Analytics Cloud REST API](https://docs.oracle.com/en-us/iaas/api/#/en/analytics/) · [OCI CLI for Analytics](https://docs.oracle.com/en-us/iaas/tools/oci-cli/latest/oci_cli_docs/cmdref/analytics.html)
+
 ## Summary
 The **OCI Analytics Cloud REST API** and **OCI CLI** manage OAC at the **infrastructure level** — creating instances, scaling, taking snapshots, configuring PAC, starting/stopping. This is distinct from the [OAC application REST API](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink } which manages content (analyses, dashboards) inside an instance.
 

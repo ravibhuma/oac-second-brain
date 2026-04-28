@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** architecture, overview, platform, editions, components
 
+
+📖 **Full Oracle Documentation**: [Getting Started with OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acsgs/) · [OAC Documentation Hub](https://docs.oracle.com/en/cloud/paas/analytics-cloud/)
+
 ## Summary
 Oracle Analytics Cloud (OAC) is Oracle's cloud-native business intelligence and analytics platform. It delivers self-service data visualization, enterprise reporting, augmented analytics (AI/ML), and semantic modeling in a fully managed SaaS/PaaS service on Oracle Cloud Infrastructure (OCI).
 

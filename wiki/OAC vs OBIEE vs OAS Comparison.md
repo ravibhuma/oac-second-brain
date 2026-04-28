@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** OBIEE, OAS, OAC, comparison, migration, differences, feature parity
 
+
+📖 **Full Oracle Documentation**: [Migrating to OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmig/) · [Oracle Analytics Server](https://docs.oracle.com/en/middleware/bi/analytics-server/)
+
 ## Summary
 Oracle has three generations of analytics platforms: **OBIEE** (on-premise, legacy), **Oracle Analytics Server (OAS)** (on-premise, current), and **Oracle Analytics Cloud (OAC)** (cloud, current). OAC is the strategic direction. OAS is OAC's on-premise equivalent with near feature parity. OBIEE 11g is end-of-life; OBIEE 12c is in sustaining support.
 

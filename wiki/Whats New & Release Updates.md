@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** release notes, what's new, preview features, monthly updates, version history
 
+
+📖 **Full Oracle Documentation**: [What's New in OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acwhn/) · [Preview Features](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acwhn/preview-features.html)
+
 ## Summary
 Oracle Analytics Cloud follows a monthly release cadence. New features ship continuously. This page tracks the structure of OAC's release model, where to find official what's-new info, the preview-features program, and how to opt in or defer updates.
 

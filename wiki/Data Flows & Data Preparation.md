@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** data flow, data preparation, ETL, transform, machine learning, output, dataset
 
+
+📖 **Full Oracle Documentation**: [Connecting OAC to Your Data — Curate Data](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acdpr/) · [Visualizing Data — Data Flows](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/)
+
 ## Summary
 Data Flows are OAC's built-in ETL/ELT tool for preparing, cleansing, enriching, joining, and transforming data. They read from one or more sources (connections, datasets, Subject Areas), apply transformation steps, and write to an output (Dataset, Database, Object Storage). Data Flows can also apply Machine Learning models as pipeline steps.
 

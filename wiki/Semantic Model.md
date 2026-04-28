@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** semantic model, RPD, data model, BI server, logical layer, physical layer, presentation layer, measures, dimensions, hierarchies
 
+
+📖 **Full Oracle Documentation**: [Building Semantic Models in OAC](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acmdg/) · [SMML Schema Reference](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acsmm/)
+
 ## Summary
 The Semantic Model (historically called the RPD — Repository Definition File) is the heart of Oracle Analytics Cloud's enterprise analytics capability. It provides a business-friendly abstraction over raw database schemas, enabling consistent metric definitions, automatic join resolution, and cross-source federation. OAC offers two tools to build it: the modern **Semantic Modeler** (browser-based) and the legacy **Model Administration Tool** (desktop, `.rpd` file-based).
 

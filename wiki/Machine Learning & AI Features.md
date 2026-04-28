@@ -3,6 +3,9 @@
 > **Last updated:** 2026-04-27
 > **Tags:** machine learning, AI, OML, AutoML, explain, natural language, AI assistant, augmented analytics, clustering, regression, classification
 
+
+📖 **Full Oracle Documentation**: [Visualizing Data — Machine Learning](https://docs.oracle.com/en/cloud/paas/analytics-cloud/acubi/) · [OCI AI Services](https://docs.oracle.com/en-us/iaas/Content/services.htm)
+
 ## Summary
 OAC integrates machine learning and AI capabilities at multiple levels: automated insight discovery (Explain), natural language querying (Ask), generative AI (AI Assistant), in-platform model training (OML via Data Flows), and OCI AI Services integration (Vision, Language, Forecasting). These features make analytics accessible to both business users and data scientists.
 
