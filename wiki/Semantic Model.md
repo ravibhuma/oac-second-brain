@@ -141,12 +141,14 @@ SELECT TO_CHAR(SYSDATE, 'YYYY') FROM DUAL
 
 ### Aggregate Navigation
 The BI Server can automatically route queries to pre-aggregated tables (aggregate tables) to improve performance:
+
 1. Define aggregate tables in the Physical Layer
 2. Map them as additional Logical Table Sources in the BMM Layer
 3. BI Server chooses the most appropriate aggregate level automatically
 
 ### Fragmentation / Content Filtering
 Used to partition data across multiple physical sources:
+
 - Filter by time period (e.g., LTS1 = current year, LTS2 = historical)
 - Filter by region (e.g., LTS1 = EMEA, LTS2 = AMER)
 

@@ -38,6 +38,7 @@ Step 1: Grep raw/pdfs/*.txt for keywords from the question
 Step 2: Read the matching sections (use line offsets)
 Step 3: Read the related wiki page for structure
 Step 4: Synthesize answer with citations:
+
    - Wiki Page Name
    - (Source: <pdf-name>, near line N)
 ```

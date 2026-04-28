@@ -135,6 +135,7 @@ This three-step flow ensures the AI has correct schema knowledge before generati
 #### For Claude Desktop
 
 Edit the config file:
+
 - **Windows**: `C:\Users\<username>\AppData\Roaming\Claude\claude_desktop_config.json`
 - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 
@@ -197,6 +198,7 @@ Datasets: Marketing Campaign Data (XSA), Customer Survey Q1
 ```
 Subject Area: Sales Overview
 Tables:
+
   - Time: Year, Quarter, Month, Date
   - Product: Category, Subcategory, Product Name
   - Customer: Region, Country, Segment

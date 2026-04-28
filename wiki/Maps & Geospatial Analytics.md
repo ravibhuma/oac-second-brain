@@ -36,6 +36,7 @@ OAC provides rich map visualizations with multiple background tile providers (Or
 ### Step 2: Geocode Address Columns
 
 If your dataset has addresses (no lat/lon), enrich the dataset:
+
 1. Open Dataset → select address column
 2. **Recommendations** panel → "Enrich with Geography"
 3. OAC adds Latitude, Longitude, City, State, Country columns
@@ -119,6 +120,7 @@ Color regions based on a measure:
 ## Multi-Layer Maps
 
 A single map visualization can have multiple layers:
+
 - Layer 1: Choropleth (regions colored by sales)
 - Layer 2: Points (store locations)
 - Layer 3: Heatmap (customer density)
@@ -126,6 +128,7 @@ A single map visualization can have multiple layers:
 **Configure**: Map Properties → **Add Layer**
 
 Each layer:
+
 - Independent data binding
 - Independent style
 - Toggleable on/off in legend

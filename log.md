@@ -22,6 +22,7 @@
 
 ## 2026-04-27 — Coverage Expansion (Round 2)
 Added 8 wiki pages to align with full Oracle docs structure:
+
 - Whats New & Release Updates
 - FAQs & Troubleshooting
 - Consumer Guide (Explore)
@@ -33,11 +34,13 @@ Added 8 wiki pages to align with full Oracle docs structure:
 
 ## 2026-04-27 — AI Ecosystem Coverage (Round 3)
 Ingested 3 source articles:
+
 - `raw/articles/medium-building-effective-oac-ai-agents.md` (Ravi Bhuma — Medium)
 - `raw/articles/oracle-blog-mcp-server.md` (Oracle Analytics Blog)
 - `raw/articles/oracle-blog-ai-ecosystem.md` (Oracle Analytics Blog)
 
 Added 4 wiki pages:
+
 - OAC AI Agents (R.T.C.C.O.E framework, SI engineering)
 - OAC MCP Server (Discover/Describe/Execute, Claude integration)
 - OAC AI Ecosystem (master 5-layer overview)
@@ -50,6 +53,7 @@ Added 4 wiki pages:
 
 ## 2026-04-27 — PDF Ingestion (Round 4)
 User dropped 9 official Oracle Analytics Cloud PDFs into `raw/pdfs/`:
+
 - getting-started-oracle-analytics-cloud.pdf (864KB)
 - whats-new-oracle-analytics-cloud.pdf (324KB)
 - building-semantic-models-oracle-analytics-cloud.pdf (3.1MB)
@@ -65,6 +69,7 @@ User dropped 9 official Oracle Analytics Cloud PDFs into `raw/pdfs/`:
 
 **Strategy decision**: Rather than copy PDF content into wiki pages (token-expensive,
 lossy summarization), adopted **grep-at-query-time** pattern:
+
 - Wiki pages = navigation + structure (29 pages)
 - Raw .txt files = full deep reference, grep at query time
 - CLAUDE.md updated with the two-layer query pattern

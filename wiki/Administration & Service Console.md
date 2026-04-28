@@ -15,6 +15,7 @@ OAC administration is performed through the **Service Console** (OCI console →
 
 ### OCI Console (Provisioning & Infrastructure)
 `OCI Console` → `Analytics & AI` → `Analytics Cloud` → select your instance
+
 - Scale OCPUs up/down
 - Start/stop the service
 - Create/restore snapshots
@@ -23,6 +24,7 @@ OAC administration is performed through the **Service Console** (OCI console →
 
 ### OAC Administration Page (In-App)
 `OAC Home` → **Navigator (hamburger)** → **Console** (or **Administration**)
+
 - System configuration
 - Semantic model management
 - Usage tracking
@@ -50,6 +52,7 @@ Snapshots capture the complete OAC state: catalog, data models, connections, sys
 
 ### Scheduled Snapshots
 Oracle does NOT automatically schedule snapshots. Best practice:
+
 - Create a weekly snapshot via OCI Console or API
 - Store externally (download to Object Storage) for DR
 
@@ -59,6 +62,7 @@ Oracle does NOT automatically schedule snapshots. Best practice:
 
 ### Vertical Scaling (OCPUs)
 OAC is licensed and sized by OCPUs:
+
 - Scale up: increase OCPUs for better query performance / more concurrent users
 - Scale down: reduce costs during off-peak
 
@@ -82,6 +86,7 @@ oci analytics analytics-instance scale \
 
 ### BI Server Cache (Query Cache)
 Caches Logical SQL query results:
+
 - **Enabled by default**
 - Cache entries keyed by exact Logical SQL + parameters
 - TTL configurable per Subject Area or globally
@@ -99,6 +104,7 @@ Caches Logical SQL query results:
 
 ### Dataset Cache
 Datasets loaded into OAC in-memory engine:
+
 - Set dataset refresh schedule or manual refresh
 - Administration → Dataset Cache → view cached datasets
 
@@ -118,6 +124,7 @@ Datasets loaded into OAC in-memory engine:
 
 ### Mail Server
 Configure SMTP for:
+
 - Agent deliveries (scheduled reports/alerts)
 - BI Publisher report distribution
 - KPI alert notifications
@@ -132,6 +139,7 @@ Records every query executed against OAC Subject Areas.
 
 ### Enable Usage Tracking
 Administration → Usage Tracking:
+
 1. Enable Usage Tracking
 2. Specify target connection (Oracle DB recommended)
 3. Specify schema / table prefix
@@ -160,6 +168,7 @@ Administration → Usage Tracking:
 
 ### Enable Query Logging per User
 For debugging a specific user's queries:
+
 1. Administration → Manage Sessions → select user → set Log Level (1-5)
 2. Level 1: basic query info; Level 5: full query trace
 
@@ -173,6 +182,7 @@ Shows render time, query time, and data fetch time per visualization.
 
 ### Upload RPD (Classic)
 Service Console → Semantic Model → Upload:
+
 - Upload `.rpd` file
 - Set RPD password
 - Activate (takes 1-2 minutes)
@@ -189,12 +199,14 @@ Access via OAC Home → Navigate → Semantic Model
 
 ### View Active Sessions
 Administration → Manage Sessions:
+
 - See all active user sessions
 - Kill a session
 - See what query a user is running
 
 ### Impersonate User
 Administration → Security → Test User:
+
 - Log in as another user to test their security context
 
 ---

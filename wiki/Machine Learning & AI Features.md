@@ -45,6 +45,7 @@ OAC interprets the question, selects appropriate columns, and renders a visualiz
 
 ### Auto Insights
 OAC proactively surfaces insights when opening a Workbook:
+
 - Identifies metrics that changed significantly
 - Detects correlations
 - Surfaces anomalies
@@ -52,6 +53,7 @@ Access: **View** → **Auto Insights** panel
 
 ### AI Assistant (Generative AI)
 Powered by OCI Generative AI Services:
+
 - **Describe**: Generate a natural language description of a visualization
 - **Ask questions**: Conversational Q&A against the dataset
 - **Suggest**: Recommend visualization types for your data
@@ -158,6 +160,7 @@ OAC can call Oracle Cloud AI Services from within Data Flows.
 ## Registering External Models (OCI Data Science)
 
 Models trained in OCI Data Science (Python, AutoML) can be registered in OAC:
+
 1. Save model to OCI Model Catalog
 2. OAC → **Machine Learning** → **Register** → point to OCI Model Catalog entry
 3. Apply registered model in a Data Flow **Apply Model** step

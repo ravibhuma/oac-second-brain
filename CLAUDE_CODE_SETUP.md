@@ -103,6 +103,7 @@ How do I configure row-level security in OAC?
 ```
 
 Claude will:
+
 1. **Search the wiki** for relevant pages (semantic search)
 2. **Grep the PDFs** for specific keywords
 3. **Read** the matching sections
@@ -195,6 +196,7 @@ Check current pricing: https://www.anthropic.com/pricing
 
 ### `claude: command not found`
 Node.js install didn't add npm globals to PATH. Fix:
+
 - Close and reopen your terminal
 - On Windows: log out and back in
 - Or reinstall Node.js with the LTS installer (uncheck and recheck "Add to PATH")

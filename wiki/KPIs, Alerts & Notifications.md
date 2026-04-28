@@ -38,6 +38,7 @@ Revenue KPI:
 
 ### KPI Watchlist
 A Watchlist groups multiple KPIs on one page:
+
 - **Create** → **Watchlist** → add KPIs
 - Displays KPI cards in a grid
 - Each card shows: current value, status indicator, trend sparkline, vs. target
@@ -52,6 +53,7 @@ Drag a KPI tile from the Catalog onto a Workbook canvas for integrated dashboard
 
 ### What Is a Scorecard?
 Scorecards (from Classic/OBIEE) implement Balanced Scorecard methodology:
+
 - **Objectives** — strategic goals
 - **KPIs** — measurable outcomes
 - **Initiatives** — programs to achieve objectives
@@ -69,6 +71,7 @@ Scorecards (from Classic/OBIEE) implement Balanced Scorecard methodology:
 
 ### KPI in Classic Scorecards
 Classic KPIs differ from modern KPI Watchlists:
+
 - Defined via KPI Editor (Answers → New → KPI)
 - Support dimensional pinning (e.g., "Revenue" always shown for "Region = EMEA")
 - Support override and annotation (user can explain status)
@@ -80,6 +83,7 @@ Classic KPIs differ from modern KPI Watchlists:
 
 ### What Is an Agent?
 An Agent is a scheduled job that:
+
 1. Runs an Analysis or Dashboard
 2. Evaluates a condition (optional)
 3. Delivers the results to recipients via email, OAC Inbox, or other channels
@@ -138,6 +142,7 @@ Agent delivers to each `MANAGER_EMAIL` with their specific `REGION` data.
 ## OAC Inbox (In-App Notifications)
 
 When Agents deliver to "OAC Inbox":
+
 - Recipients see a bell notification icon in OAC header
 - Clicking opens the delivered content
 - Notifications persist until dismissed
@@ -157,6 +162,7 @@ When Agents deliver to "OAC Inbox":
 ## Push Notifications (Mobile)
 
 For Oracle Analytics mobile app users:
+
 - Agents can send push notifications
 - Configure Mobile in Service Console
 - Recipient must have the OAC mobile app installed and logged in

@@ -221,12 +221,14 @@ The on-brand path if you have an OAC instance — apply the [R.T.C.C.O.E framewo
 
 ### `oac-knowledge` (Claude Code)
 Answers OAC questions using the two-layer strategy:
+
 1. Search wiki/ for organized synthesis
 2. Grep raw/pdfs/*.txt for specific keywords
 3. Cite both wiki page + source PDF
 
 ### `oac-ingest` (Claude Code)
 Adds new sources to the wiki:
+
 1. Reads file from raw/articles/, raw/pdfs/, or raw/notes/
 2. Identifies affected wiki pages
 3. Updates those pages with new facts
@@ -236,6 +238,7 @@ Adds new sources to the wiki:
 
 ### `oac-lint` (Claude Code)
 Periodic wiki health check:
+
 1. Finds broken links, contradictions, orphans
 2. Checks PDF coverage and citations
 3. Reports stale content
@@ -252,6 +255,7 @@ After installing your chosen AI tool and pointing it at the cloned folder, run t
 ```
 
 A correctly configured AI should:
+
 1. Reference `wiki/Security & Row-Level Security.md`
 2. Mention the 4 RLS methods (Subject Area Data Filters, VPD, Connection Pool, BMM Layer Filters)
 3. Cite `building-semantic-models-oracle-analytics-cloud.txt` from raw/pdfs/

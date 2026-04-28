@@ -15,6 +15,7 @@ OAC security is multi-layered: identity management (who can log in), application
 
 ### Oracle Identity Cloud Service (IDCS) / OCI IAM
 OAC delegates all identity management to IDCS (or the newer OCI IAM with Identity Domains):
+
 - User provisioning, deprovisioning
 - Password policies
 - MFA (multi-factor authentication)
@@ -23,6 +24,7 @@ OAC delegates all identity management to IDCS (or the newer OCI IAM with Identit
 
 ### SSO Configuration
 OAC supports SAML 2.0 federation with corporate identity providers (Okta, Azure AD, Ping, ADFS):
+
 1. Register OAC as a Service Provider in IDCS
 2. Configure corporate IdP as Identity Provider in IDCS
 3. Map IdP attributes (email, groups) to IDCS user attributes
@@ -63,6 +65,7 @@ Each object in the catalog (folder, analysis, dashboard, workbook, data model) h
 
 ### Setting Permissions
 Catalog → right-click object/folder → **Permissions**:
+
 - Add users or application roles
 - Set permission level
 - Optionally inherit from parent folder
@@ -102,6 +105,7 @@ This runs at login and sets `NQ_SESSION.USER_REGION` for the session.
 ### Method 2: Virtual Private Database (VPD / Oracle Label Security)
 
 For Oracle DB sources:
+
 - DB-level VPD policy automatically filters rows based on the DB user
 - OAC connection pool configured with **per-user login** or passes `USER` variable
 - Transparent to OAC — filtering happens at the database level
@@ -126,6 +130,7 @@ Applied automatically to all queries using that LTS.
 ## Data-Level Security for Workbooks / Datasets
 
 For self-service datasets (not Semantic Model):
+
 - **No automatic RLS** — datasets are user-managed
 - Control via: limiting who can see the dataset (catalog permissions)
 - For governed data access, route through Subject Areas
@@ -145,6 +150,7 @@ For self-service datasets (not Semantic Model):
 ## Audit & Logging
 
 OAC records usage events:
+
 - **Usage Tracking**: SQL queries executed, user, time, subject area, performance
   - Enable in Service Console → Usage Tracking
   - Write to a target DB table for analysis

@@ -71,6 +71,7 @@ OAC provides a native mobile app — **Oracle Analytics** — for iOS and Androi
 
 ### Today / Briefing
 Automated daily summary:
+
 - Top KPIs
 - Significant changes from yesterday
 - Anomalies detected
@@ -115,6 +116,7 @@ When designing for mobile consumers:
 ## Mobile Embedding (Advanced)
 
 You can embed OAC content in your custom mobile app:
+
 - Use **JavaScript Embedding API** in a WebView
 - Native iOS / Android SDKs not provided directly — wrap web embedding
 - Pass authentication via OAuth token
@@ -137,6 +139,7 @@ See [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){
 ## Deprecation Notice — Day by Day
 
 The original OBIEE mobile app **Day by Day** is deprecated:
+
 - No longer receives feature updates
 - May still work for OBIEE 12c / OAS connections
 - Migrate users to **Oracle Analytics** app

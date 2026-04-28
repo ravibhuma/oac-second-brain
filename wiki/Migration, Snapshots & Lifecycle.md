@@ -56,6 +56,7 @@ POST /api/20210901/snapshots
 
 ### Method 1: Catalog Manager (Classic Tool)
 Desktop tool for bulk catalog operations:
+
 - Archive/unarchive catalog sections
 - Compare catalogs between environments
 - Move selected items with permission preservation
@@ -82,6 +83,7 @@ POST /api/20210901/import
 
 ### Method 3: Snapshot Promotion
 Take a full snapshot from DEV → restore to TEST → restore to PROD:
+
 - Simple but promotes everything (not selective)
 - Good for initial environment setup
 
@@ -128,6 +130,7 @@ For Semantic Modeler (browser-based): export the model file and import to target
 
 ### Migration Checker Tool
 Oracle provides a migration assessment tool:
+
 - Scans OBIEE catalog for compatibility issues
 - Reports items needing manual remediation
 - Available on Oracle support (My Oracle Support)
@@ -175,6 +178,7 @@ DEV ──→ TEST ──→ PROD
 ## OAC Version Updates
 
 Oracle releases monthly updates to OAC:
+
 - Applied by Oracle (no customer action for patches)
 - Customers can defer one release cycle
 - Review **What's New** in Oracle docs before each update

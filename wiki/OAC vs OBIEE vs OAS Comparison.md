@@ -127,6 +127,7 @@ Oracle has three generations of analytics platforms: **OBIEE** (on-premise, lega
 ## Oracle Fusion Analytics Warehouse (FAW)
 
 FAW is a pre-built analytics solution for Oracle Fusion Cloud (ERP, HCM, SCM, CX):
+
 - Pre-built data pipelines: Fusion → ADW
 - Pre-built semantic model (Subject Areas)
 - Pre-built dashboards and KPIs for each Fusion module

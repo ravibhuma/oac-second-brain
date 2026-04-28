@@ -125,6 +125,7 @@ Best practice: maintain your own change log per environment:
 ## API Versioning
 
 OAC REST APIs are versioned by date:
+
 - `/api/20210901/` (current major version)
 - Older versions available for compatibility
 - Oracle deprecates old versions with 12+ month notice
@@ -134,6 +135,7 @@ OAC REST APIs are versioned by date:
 ## Backward Compatibility
 
 OAC maintains:
+
 - **Catalog backward compatibility**: Older analyses/dashboards continue to work after updates
 - **RPD compatibility**: RPDs uploaded years ago continue to work
 - **Logical SQL**: stable across releases

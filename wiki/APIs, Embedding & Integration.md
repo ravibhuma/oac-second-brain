@@ -201,6 +201,7 @@ Oracle Smart View connects Microsoft Excel, Word, and PowerPoint to OAC Subject 
 ## Publisher Web Services (SOAP)
 
 BI Publisher exposes SOAP web services for:
+
 - Running reports programmatically
 - Scheduling reports via API
 - Browsing the catalog
@@ -224,6 +225,7 @@ BI Publisher exposes SOAP web services for:
 ## OAC + Oracle Integration Cloud (OIC)
 
 Use OIC to trigger OAC Agents (scheduled deliveries) or consume OAC REST APIs:
+
 - OIC REST Adapter → OAC REST API
 - Trigger data refresh after ERP data loads
 - Post-processing of report outputs
@@ -233,6 +235,7 @@ Use OIC to trigger OAC Agents (scheduled deliveries) or consume OAC REST APIs:
 ## OAC + Oracle APEX
 
 Embed OAC content in Oracle APEX applications:
+
 1. Register APEX domain in Safe Domains
 2. Use APEX page with HTML region containing the `<oracle-dv>` embed tag
 3. Pass APEX session context as filter values

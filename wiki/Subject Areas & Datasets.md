@@ -51,6 +51,7 @@ Subject Area: "Sales Performance"
 
 ### What Is a Dataset?
 A Dataset is a self-service data source created by a user. It can be:
+
 - An uploaded file (Excel, CSV)
 - A query against a database connection
 - A result from a Data Flow
@@ -125,6 +126,7 @@ Blend two or more Datasets (or Datasets + Subject Areas) in a single Workbook.
 ## Data Preparation (Dataset Editor)
 
 When creating or editing a dataset, the Data Preparation editor allows:
+
 - **Rename** columns
 - **Change data type** (String, Number, Date)
 - **Hide** columns

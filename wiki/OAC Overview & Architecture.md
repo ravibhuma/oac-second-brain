@@ -75,18 +75,21 @@ Oracle Analytics Cloud (OAC) is Oracle's cloud-native business intelligence and 
 
 ### Fully Managed (Default)
 OAC runs entirely on OCI. Oracle manages:
+
 - Patching, upgrades, backups
 - High availability and disaster recovery
 - Scaling (vertical: OCPU scaling)
 
 ### Private Access Channel (PAC)
 Connects OAC to private/on-premise data sources without exposing them to the internet.
+
 - Reverse proxy inside customer VCN
 - Supports DB, REST, JDBC connections
 - See [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 
 ### Remote Data Gateway (RDG)
 Agent installed on-premise to relay data queries:
+
 - Supports relational databases, files
 - Used when PAC is not sufficient or for legacy connectivity
 
@@ -110,6 +113,7 @@ https://<instance-name>-<tenant>.analytics.ocp.oraclecloud.com/ui/
 ```
 
 Key paths:
+
 - `/ui/` — Main analytics UI
 - `/analytics/` — Alternate path (same destination)
 - `/xmlpserver/` — BI Publisher direct access

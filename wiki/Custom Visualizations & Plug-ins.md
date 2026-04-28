@@ -14,6 +14,7 @@ OAC supports **custom visualizations** built with JavaScript (and D3, Chart.js, 
 ## When to Build Custom Visualizations
 
 Use built-in visualizations whenever possible. Custom viz is needed when:
+
 - Specialized chart type not in OAC (Sankey, network diagram, force-directed graph)
 - Brand-specific styling requirements (custom KPI tile design)
 - Domain-specific charts (medical, scientific, engineering)
@@ -158,6 +159,7 @@ export default class SankeyViz {
 
 ### Marketplace
 Oracle hosts a public **Oracle Analytics Library** with community-shared visualizations:
+
 - Calendar Heatmap
 - Sankey Diagram
 - Decomposition Tree

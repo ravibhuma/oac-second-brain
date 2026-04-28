@@ -132,6 +132,7 @@ Sequence: "Daily ETL"
 ## Data Preparation (Dataset Editor)
 
 Separate from Data Flows, the Dataset Editor provides in-situ data prep:
+
 - Applied when creating/editing a Dataset
 - Non-destructive transformations stored as metadata
 - Recommendations engine suggests fixes (nulls, obvious mismatches)
@@ -139,6 +140,7 @@ Separate from Data Flows, the Dataset Editor provides in-situ data prep:
 
 ### Recommendations
 OAC analyzes the dataset and suggests:
+
 - Fill nulls with median/mean/mode
 - Correct date formats
 - Standardize text values (e.g., "USA" and "United States" → same value)

@@ -33,6 +33,7 @@ Before provisioning OAC:
 
 ### Step 2: Create Instance
 Click **Create Instance**:
+
 - **Name**: e.g., `oac-prod`
 - **Compartment**: choose compartment
 - **Region**: confirm region
@@ -43,6 +44,7 @@ Click **Create Instance**:
 
 ### Step 3: Authentication
 Choose identity provider:
+
 - **OCI IAM with Identity Domains** (recommended for new instances)
 - **IDCS** (legacy, for existing tenancies)
 
@@ -63,6 +65,7 @@ Click **Create**. Provisioning takes 15-30 minutes.
 ## OCPU Sizing Guidance
 
 OCPU = the unit of compute that determines:
+
 - Memory (typically 16-30 GB per OCPU)
 - Concurrent user capacity
 - Query parallelism
@@ -121,6 +124,7 @@ Click the OAC URL: `https://<instance>-<tenant>.analytics.ocp.oraclecloud.com/ui
 
 ### 3. Add Users to Roles
 Navigate to **Console** → **Users and Roles**:
+
 - Assign **BI Service Administrator** to admins
 - Assign **DV Author** or **BI Author** to content creators
 - Assign **DV Consumer** or **BI Consumer** to end users
@@ -144,6 +148,7 @@ Navigate to **Console** → **Users and Roles**:
 
 ### 7. Set Up Connections
 Console → **Connections** → create connections to data sources:
+
 - Oracle Autonomous Database
 - On-premise databases (via PAC)
 - Cloud applications (Fusion, Salesforce, etc.)
@@ -175,6 +180,7 @@ Use snapshots to clone PROD → TEST or DEV for testing.
 
 ### Pause / Resume
 OAC can be **paused** when not in use:
+
 - **OCI Console** → instance → **Stop**
 - Stops billing for OCPU compute
 - Storage continues to bill (small)
@@ -196,6 +202,7 @@ oci analytics analytics-instance scale \
 ## Region Selection
 
 Choose region based on:
+
 - **User location** (latency)
 - **Data source location** (avoid cross-region data transfer fees)
 - **Compliance** (data sovereignty)
@@ -224,6 +231,7 @@ OAC is available in 30+ OCI regions globally.
 ## Decommissioning
 
 To delete an OAC instance:
+
 1. Take final snapshot (optional, for archive)
 2. Download snapshot to OCI Object Storage
 3. **OCI Console** → instance → **Delete**

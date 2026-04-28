@@ -37,6 +37,7 @@ Featured tutorials covering the most common starting points. Browse all at the [
 [https://docs.oracle.com/en/cloud/paas/analytics-cloud/solutions](https://docs.oracle.com/en/cloud/paas/analytics-cloud/solutions)
 
 Pre-built solutions for common use cases:
+
 - Sales pipeline analytics
 - HR workforce analytics
 - Financial reporting
@@ -47,6 +48,7 @@ Pre-built solutions for common use cases:
 [https://docs.oracle.com/en/cloud/paas/analytics-cloud/technical-papers](https://docs.oracle.com/en/cloud/paas/analytics-cloud/technical-papers)
 
 In-depth technical references:
+
 - Architecture deep dives
 - Performance tuning whitepapers
 - Security best practices
@@ -194,6 +196,7 @@ In-depth technical references:
 Pick a topic in index → find the corresponding wiki page → use its **Related** section + this resource hub to dive deeper.
 
 For ANY topic deeper than what the wiki covers:
+
 1. Start with the official Oracle docs guide for that area
 2. Search Oracle Analytics Blog for recent updates
 3. Watch related YouTube playlist

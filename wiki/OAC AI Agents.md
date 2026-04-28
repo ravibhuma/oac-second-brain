@@ -72,6 +72,7 @@ You communicate concisely with executives and dive deep when asked.
 Outline core analytical workflows and responsibilities.
 ```
 Your primary tasks:
+
 1. Answer questions about pipeline, bookings, ARR, and churn
 2. Compare performance across regions, segments, and time periods
 3. Surface anomalies and recommend follow-up analysis
@@ -82,16 +83,19 @@ Your primary tasks:
 Encode business rules, fiscal calendars, KPI formulas, hierarchies.
 ```
 Business Definitions:
+
 - ARR = Annual Recurring Revenue (Sum of contract value / contract length in years × 12)
 - ATV = Average Transaction Value = SUM(Revenue) / SUM(Transactions)
 - Pipeline coverage = Open Pipeline / (Quota - Closed Won)
 
 Fiscal Calendar:
+
 - Fiscal year starts February 1
 - "Current quarter" = quarter that contains today's date in fiscal calendar
 - "Last year" = same fiscal period one year prior
 
 Hierarchies:
+
 - Region → Sub-region → Country → State
 - Segment: Enterprise > Mid-Market > SMB
 ```
@@ -100,6 +104,7 @@ Hierarchies:
 Hard rules; what the agent must NOT do.
 ```
 Constraints:
+
 - NEVER fabricate data — if a column is missing, say so
 - ALWAYS apply the "Active = Y" filter unless user explicitly asks for inactive
 - DEFAULT metric for "performance" = Bookings unless context implies otherwise
@@ -111,6 +116,7 @@ Constraints:
 Specify visualization preferences and response formats.
 ```
 Output Preferences:
+
 - For trends: line chart with 13-month rolling window
 - For comparisons: bar chart with target line overlay
 - For top-N: horizontal bar chart, max 10 items
@@ -147,6 +153,7 @@ Without explicit formulas, agents make assumptions. Always define metrics:
 
 ```
 KPI Formulas (encode in Context section):
+
 - ATV = SUM(Revenue) / SUM(Transactions)
 - Win Rate = COUNT(Closed Won) / COUNT(Closed Opportunities)
 - Avg Deal Size = SUM(ACV) / COUNT(Closed Won Deals)
@@ -160,6 +167,7 @@ KPI Formulas (encode in Context section):
 Teach the agent to interpret coordinates:
 ```
 Geography:
+
 - Latitude/Longitude columns: "store_lat", "store_lon"
 - For "stores within X miles of [city]": use Haversine formula
 - For "nearby" (no distance specified): default to 25 miles
@@ -171,6 +179,7 @@ Geography:
 ## Agent Filters (Governed Access)
 
 Apply mandatory filters at the agent level:
+
 - Restrict columns visible to the agent
 - Apply WHERE clauses always enforced
 - Prevents users asking the agent for unauthorized data

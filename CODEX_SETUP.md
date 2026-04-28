@@ -126,6 +126,7 @@ You'll see a prompt. Type your question:
 ```
 
 Codex will:
+
 1. **Read the directory structure** to understand what's there
 2. **Search wiki/ + raw/** for relevant content
 3. **Open matching files**
@@ -215,6 +216,7 @@ If you don't want to install anything locally, you can use **ChatGPT Codex** —
 
 ### `codex: command not found`
 Node.js install didn't add npm globals to PATH. Fix:
+
 - Close and reopen terminal
 - On Windows: log out and back in
 - Or reinstall Node.js with LTS installer
@@ -226,6 +228,7 @@ sudo npm install -g @openai/codex
 
 ### `OPENAI_API_KEY not set`
 Either:
+
 - Sign in with ChatGPT account: just run `codex` → browser auth
 - Or set the API key as shown in Step 2 Method B
 

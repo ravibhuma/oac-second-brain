@@ -103,6 +103,7 @@ git add . && git commit -m "Description" && git push
 ## When You Don't Know
 
 If a question is outside this knowledge base:
+
 - Say so explicitly
 - Point to the relevant Oracle docs URL: `https://docs.oracle.com/en/cloud/paas/analytics-cloud/`
 - Suggest searching: Oracle Analytics Blog, YouTube, Community forums

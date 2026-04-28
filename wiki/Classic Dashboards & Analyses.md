@@ -85,6 +85,7 @@ Reusable filter conditions saved to the catalog and applied across multiple anal
 ## Conditional Formatting
 
 Applied per-column in Column Properties → Conditional Format:
+
 - Highlight cells by threshold (Green/Yellow/Red traffic lights)
 - Apply to measures or attributes
 - Supports gradient coloring
@@ -173,6 +174,7 @@ Saved reusable actions in the catalog.
 
 ### Drill
 Click a hierarchy member to drill to the next level:
+
 - Drill is enabled by default for hierarchy columns
 - Behavior defined in Subject Area hierarchy settings
 
@@ -190,6 +192,7 @@ Right-click a value → **Keep Only** / **Remove** for ad-hoc filtering.
 ## Catalog Management
 
 Analyses and Dashboards are stored in the **Catalog**:
+
 - `/Shared Folders/` — shared content, governed
 - `/My Folders/` — personal content, not shared
 - Folders support permissions (Full Control, Modify, Read, No Access)

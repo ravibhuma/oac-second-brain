@@ -69,6 +69,7 @@ git push -u origin main
 
 ### 1.5 Add Topics for Discoverability
 On your repo page:
+
 1. Click the **gear icon** next to "About" (right sidebar)
 2. Add topics: `oracle-analytics-cloud`, `oac`, `obiee`, `claude`, `llm-wiki`, `knowledge-base`, `obsidian`, `business-intelligence`, `ai-agents`
 3. Save
@@ -119,6 +120,7 @@ git push
 
 ### 2.5 Visit Your Site
 Once the workflow completes:
+
 - URL: `https://YOUR-USERNAME.github.io/oac-knowledge-graph/`
 - Browse with sidebar nav, search any topic, dark mode toggle
 
@@ -180,6 +182,7 @@ This makes the brain **AI-queryable for anyone with a Claude.ai account**.
 ### 3.5 Test the Project
 
 In a new conversation within the Project, ask:
+
 - *"What's the R.T.C.C.O.E framework for building OAC AI Agents?"*
 - *"How do I configure row-level security in OAC?"*
 - *"Walk me through the three layers of the Semantic Model"*
@@ -299,6 +302,7 @@ git push
 ## Done!
 
 You now have:
+
 - ✅ A public GitHub repo
 - ✅ A beautiful searchable website
 - ✅ A shareable AI Q&A project

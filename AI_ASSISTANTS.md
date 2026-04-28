@@ -256,6 +256,7 @@ You use VS Code                       →   Cline or Copilot Chat
 ## Power User Tip — Use Two Tools
 
 Different LLMs answer the same question differently. Try the same query in:
+
 - **Claude Code** (cited, structured)
 - **Codex CLI** (concise, code-focused)
 - **Gemini** (broad, free)

@@ -204,6 +204,7 @@ OAC ──── Oracle Cloud Relay ──── RDG Agent (on-premise) ──�
 
 ## Connection Pools (Semantic Model)
 In the Semantic Model, connection pools define how the BI Server connects to a physical database:
+
 - **Shared login** — all users use one DB account (most common)
 - **Individual login** — each OAC user maps to a DB account
 - **Session variables** — pass user context (e.g., `VALUEOF(NQ_SESSION.USER)`) to DB for VPD/RLS

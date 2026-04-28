@@ -68,11 +68,13 @@ Type a question in the Workbook → get a visualization.
 
 ### Explain
 Right-click a measure → Explain.
+
 - Basic facts, key drivers, segments, anomalies
 - One-click adoption of insights into canvas
 
 ### Auto Insights
 Proactive insights surfaced when you open a Workbook:
+
 - Significant changes
 - Correlations
 - Outliers
@@ -150,6 +152,7 @@ See [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink }.
 ## Architectural Principle: One Brain, Many Surfaces
 
 All five layers share the same governed foundation:
+
 - The **Semantic Model** (RPD) provides metric consistency
 - **Row-level security** applies across all interfaces
 - **Roles** control what each user/agent can see
@@ -191,6 +194,7 @@ The ecosystem is moving from **"navigate to insight"** → **"talk to your data"
 > *"Analytics is no longer something users navigate. It's something they talk to."*
 
 Key trends:
+
 - AI Assistant becoming the default entry point
 - Domain Agents proliferating (each business area has its own)
 - MCP Server enabling embedded analytics in any app

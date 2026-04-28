@@ -22,6 +22,7 @@ This guide is for **OAC consumers** — business users who view, interact with, 
 ## The Home Page
 
 The home page surfaces:
+
 - **Recent**: items you opened recently
 - **Favorites**: items you starred
 - **Featured**: content highlighted by admins
@@ -55,6 +56,7 @@ The home page surfaces:
 
 ### Opening
 Click a workbook to open it. You'll see:
+
 - **Canvas tabs** at the bottom — click to switch pages
 - **Filter bar** at the top — current filters
 - **Visualizations** filling the canvas
@@ -66,6 +68,7 @@ Click a workbook to open it. You'll see:
 
 ### Drilling
 For hierarchical data:
+
 - Click a value (e.g., 2024) → drills to next level (Quarters)
 - Breadcrumb shows current drill path
 - Click any breadcrumb level to jump back
@@ -87,12 +90,14 @@ Hover over any data point → tooltip shows exact values and additional context.
 ## Interacting with a Classic Dashboard
 
 Different from Workbooks (older UI):
+
 - **Page tabs** at the top — click to navigate
 - **Dashboard prompts** at the top — apply, then click Apply or hit Enter
 - **Analyses** populate the page — interact: drill, sort, navigate
 
 ### Right-click Actions
 On any value in an analysis:
+
 - **Drill**: go to next hierarchy level
 - **Keep Only / Remove**: ad-hoc filter
 - **Action Links**: navigate to another analysis, URL, or report
@@ -102,6 +107,7 @@ On any value in an analysis:
 ## Viewing KPIs (Watchlists)
 
 KPI Watchlists show key metrics with status indicators:
+
 - **Green/Yellow/Red** — performance vs. target
 - Click a KPI tile → drill to detail breakdown
 - See trend sparkline next to the value
@@ -111,6 +117,7 @@ KPI Watchlists show key metrics with status indicators:
 ## Exporting Data
 
 From any visualization or analysis:
+
 - Right-click → **Export**
 - Choose format: **PDF, PNG, PowerPoint, Excel, CSV, Data**
 - "Data" exports raw query results
@@ -142,10 +149,12 @@ Star any item → it appears in **Home → Favorites**.
 
 ### Personal Filters
 Set your default filter values for a dashboard:
+
 - Apply filters → **Save Customization** → "Make this my default"
 
 ### Comments / Annotations
 On Workbooks:
+
 - **Comments** panel → add a comment about a data point
 - @mention colleagues to notify them
 - Comments are persistent across sessions
@@ -176,6 +185,7 @@ Older mobile app for OBIEE; being replaced by Oracle Analytics app.
 
 ### Ask Your Admin
 For:
+
 - Access to a dashboard you can't see → ask the content owner
 - Wrong data → contact the dashboard's owner (shown in Properties)
 - Need new analysis → request from your BI team

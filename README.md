@@ -70,6 +70,7 @@ That's it. **No vector database. No chunking pipeline. No embedding model. Just 
 **[👉 Open the Interactive Knowledge Graph](https://ravibhuma.github.io/oac-knowledge-graph/graph/)**
 
 What you'll see:
+
 - **30 colored nodes** — one per wiki page
 - **158 lines** — cross-references between topics
 - **Color-coded by category** — Architecture (dark green), AI Ecosystem (Oracle red), Security (slate), etc.
@@ -79,6 +80,7 @@ What you'll see:
 - **Search** → highlights and zooms to matching topics
 
 The category coloring shows the **mental model** of OAC at a glance:
+
 | Color | Category | Pages |
 |---|---|---|
 | 🟢 Dark green | Architecture | OAC Overview, OAC vs OBIEE, Subscribe & Provisioning, What's New |
@@ -117,6 +119,7 @@ Connections aren't random. Each line in the graph is an actual `[wiki link](Othe
 - Mobile → Workbooks, Dashboards, KPIs *(mobile is a different surface for same content)*
 
 The most-connected hub topics:
+
 1. **Docs Coverage Matrix** (28 connections — catalogs everything)
 2. **Administration & Service Console** (18 — touches all operations)
 3. **Source PDFs Index** (15 — every page traces back)
@@ -168,6 +171,7 @@ Install **[Obsidian](https://obsidian.md)** (free) for the most polished local b
 ```
 
 You get:
+
 - **Sidebar** — file tree of all 30 pages
 - **Live preview** — markdown renders beautifully
 - **Backlinks panel** — see what links to each page
@@ -218,6 +222,7 @@ oac-knowledge-graph/
 4. **GitHub Pages** deploys at https://ravibhuma.github.io/oac-knowledge-graph/
 
 Whenever you `git push`:
+
 - Wiki page edits → site rebuilds in ~3 minutes
 - New wiki pages → graph regenerates with new nodes
 - New `[wiki link](X.md)` references → new edges in the graph
@@ -305,6 +310,7 @@ The interactive graph regenerates automatically from your wiki content. Done.
 ## 🎯 Why No RAG Or Vector DB?
 
 Most "AI Q&A over docs" projects in 2025 use **RAG** (Retrieval-Augmented Generation):
+
 - Chunk documents into 500-token pieces
 - Compute vector embeddings
 - Store in a vector database
@@ -419,6 +425,7 @@ This repo demonstrates the pattern applied to enterprise documentation. **All cr
 
 ### Source Materials
 Knowledge content synthesized from publicly available materials:
+
 - [Oracle Analytics Cloud Documentation](https://docs.oracle.com/en/cloud/paas/analytics-cloud/) © Oracle Corporation
 - [Oracle Analytics Blog](https://blogs.oracle.com/analytics/) © Oracle Corporation
 - [Oracle Analytics YouTube](https://www.youtube.com/c/OracleAnalytics) © Oracle Corporation
@@ -450,6 +457,7 @@ This project is **not affiliated with, sponsored by, or endorsed by Oracle, Anth
 Maintained by **[@ravibhuma](https://github.com/ravibhuma)** ([Medium](https://medium.com/@ravishankerb)).
 
 Companion projects:
+
 - [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/) — Open-source learning platform for OAC AI Agents (R.T.C.C.O.E framework)
 - [Building Effective OAC AI Agents](https://medium.com/@ravishankerb/building-effective-oac-ai-agents-the-framework-the-techniques-and-the-resource-hub-to-get-you-eba3797ca991) — Medium article
 

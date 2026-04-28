@@ -80,6 +80,7 @@ Workbook
 ## Grammar Panel (Properties)
 
 Each visualization has a Grammar Panel with:
+
 - **Columns**: assign data to X, Y, Color, Size, Shape, Tooltip, Trellis axes
 - **Properties**: title, legend, axis labels, data labels, colors, sorting
 - **Filters**: local filters scoped to this viz only
@@ -91,12 +92,14 @@ Each visualization has a Grammar Panel with:
 
 ### Canvas Filters
 Apply to all visualizations on a canvas:
+
 - Add via the Filter Bar at the top of the canvas
 - Range, list, date range, or expression filters
 - Can be pinned across canvases
 
 ### Visualization Filters
 Apply only to one visualization:
+
 - Right-click column → **Add Filter**
 
 ### Dashboard Filters (Workbook-Level)
@@ -157,11 +160,13 @@ CASE WHEN "Revenue" > 100000 THEN 'High'
 
 ### Presentation Mode
 Full-screen view of a canvas for dashboarding/presenting.
+
 - `View` → `Present`
 - Navigate between canvases with arrows
 
 ### Story Mode (Narration)
 Add text, images, and embedded visualizations for guided analytics:
+
 1. Add a **Narration** canvas
 2. Drag in text boxes and viz thumbnails
 3. Present as a slide-style story
@@ -181,6 +186,7 @@ Add text, images, and embedded visualizations for guided analytics:
 
 ### Explain
 Auto-generates insights for a selected measure:
+
 - Basic facts (total, average, distribution)
 - Key drivers (which dimensions drive the metric)
 - Segments (clusters of data)
@@ -189,6 +195,7 @@ Access: Right-click a column/measure → **Explain**
 
 ### Ask (Natural Language Query)
 Type a question in plain English → OAC generates a visualization:
+
 - "Show me revenue by region for last year"
 - "Top 10 products by profit margin"
 
