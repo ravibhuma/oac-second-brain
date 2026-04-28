@@ -206,17 +206,25 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body {
+    width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     background: #ffffff;
     color: var(--slate-900);
     overflow: hidden;
   }
-  body { display: flex; flex-direction: column; }
 
+  /* Use FIXED positioning for bulletproof full-viewport layout */
   header {
-    padding: 16px 24px;
-    background: rgba(255, 255, 255, 0.92);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    padding: 0 24px;
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     border-bottom: 1px solid var(--slate-100);
@@ -224,8 +232,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    flex-wrap: wrap;
-    z-index: 10;
+    z-index: 100;
   }
   .brand {
     display: flex; align-items: center; gap: 12px;
@@ -287,14 +294,23 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
   }
 
   #graph-container {
-    flex: 1;
-    position: relative;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: #fcfdfd;
     background-image:
       radial-gradient(circle at 1px 1px, var(--slate-100) 1px, transparent 0);
     background-size: 24px 24px;
   }
-  #graph { width: 100%; height: 100%; }
+  #graph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
   .legend {
     position: absolute;
@@ -514,10 +530,36 @@ const options = {
   },
 };
 
+// Sanity check: vis.js must be loaded
+if (typeof vis === 'undefined') {
+  document.getElementById('loading').innerHTML =
+    '<div style="text-align: center; padding: 40px;">' +
+    '<p style="color: #C74634; font-weight: 600;">Failed to load vis.js library.</p>' +
+    '<p style="margin-top: 8px; color: #5A6772;">Check your internet connection or try again.</p>' +
+    '</div>';
+  throw new Error('vis.js not loaded');
+}
+
 const network = new vis.Network(container, data, options);
 
-network.once('stabilizationIterationsDone', () => {
-  document.getElementById('loading').style.display = 'none';
+// Hide loader once ready
+let loaderHidden = false;
+function hideLoader() {
+  if (loaderHidden) return;
+  loaderHidden = true;
+  const loader = document.getElementById('loading');
+  if (loader) loader.style.display = 'none';
+}
+
+network.once('stabilizationIterationsDone', hideLoader);
+// Fallback: hide loader after 5s even if stabilization isn't done
+setTimeout(hideLoader, 5000);
+
+// Force-resize on window changes to keep vis.js canvas correct
+window.addEventListener('resize', () => network.redraw());
+// Initial fit-to-view
+network.once('afterDrawing', () => {
+  setTimeout(() => network.fit({ animation: { duration: 800 } }), 200);
 });
 
 // Stats
