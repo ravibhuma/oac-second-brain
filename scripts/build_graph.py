@@ -162,9 +162,9 @@ def build_graph(wiki_dir: Path) -> dict:
     max_count = max(connection_count.values()) if connection_count else 1
     for node in nodes:
         count = connection_count[node["id"]]
-        # Size 6-20 based on connections (Obsidian-like: small + subtle)
+        # Size 4-13 based on connections (Obsidian-style tiny dots)
         node["value"] = count
-        node["size"] = 6 + (count / max_count) * 14
+        node["size"] = 4 + (count / max_count) * 9
         node["connections"] = count
 
     return {
@@ -482,11 +482,12 @@ const nodes = new vis.DataSet(GRAPH_DATA.nodes.map(n => ({
   },
   size: n.size,
   font: {
-    color: '#5A6772',
-    size: 11,
+    // Tiny by default — only readable when zoomed in or on hover (Obsidian-style)
+    color: 'rgba(90, 103, 114, 0.0)',  // invisible until hovered/zoomed
+    size: 9,
     face: 'Inter, system-ui, sans-serif',
-    strokeWidth: 4,
-    strokeColor: 'rgba(255,255,255,0.95)',
+    strokeWidth: 3,
+    strokeColor: 'rgba(255,255,255,0.92)',
     multi: false,
     vadjust: -2,
   },
@@ -520,15 +521,15 @@ const data = { nodes, edges };
 const options = {
   physics: {
     forceAtlas2Based: {
-      gravitationalConstant: -120,
-      centralGravity: 0.005,
-      springLength: 220,
-      springConstant: 0.04,
+      gravitationalConstant: -80,
+      centralGravity: 0.008,
+      springLength: 160,
+      springConstant: 0.06,
       damping: 0.7,
-      avoidOverlap: 0.5,
+      avoidOverlap: 0.3,
     },
     solver: 'forceAtlas2Based',
-    stabilization: { iterations: 250, updateInterval: 25 },
+    stabilization: { iterations: 300, updateInterval: 25 },
     timestep: 0.4,
   },
   interaction: {
@@ -601,39 +602,84 @@ GRAPH_DATA.categories.forEach(cat => {
   legendItems.appendChild(item);
 });
 
-// Hover highlights — Obsidian-style dimming
+// Hover highlights — Obsidian-style: focus + reveal labels
 network.on('hoverNode', params => {
   const nodeId = params.node;
   const connectedNodes = new Set(network.getConnectedNodes(nodeId));
   connectedNodes.add(nodeId);
   const connectedEdges = new Set(network.getConnectedEdges(nodeId));
 
-  // Dim non-connected nodes
+  // Reveal labels for connected nodes; dim others
   nodes.forEach(n => {
     if (connectedNodes.has(n.id)) {
+      const isHovered = n.id === nodeId;
       nodes.update({
         id: n.id,
         opacity: 1,
-        font: { ...n.font, color: '#161B1F', size: 12 }
+        font: {
+          color: isHovered ? '#161B1F' : '#5A6772',
+          size: isHovered ? 13 : 11,
+          face: 'Inter, system-ui, sans-serif',
+          strokeWidth: 4,
+          strokeColor: 'rgba(255,255,255,0.95)',
+          vadjust: -4,
+        }
       });
     } else {
-      nodes.update({ id: n.id, opacity: 0.12 });
+      nodes.update({ id: n.id, opacity: 0.10 });
     }
   });
 
-  // Dim non-connected edges
+  // Highlight connected edges; dim others
   edges.forEach(e => {
     if (connectedEdges.has(e.id)) {
-      edges.update({ id: e.id, color: { color: '#2D7D55', opacity: 1 }, width: 1.2 });
+      edges.update({ id: e.id, color: { color: '#2D7D55', opacity: 1 }, width: 1.4 });
     } else {
-      edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.05)' }, width: 0.4 });
+      edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.04)' }, width: 0.4 });
     }
   });
 });
 
 network.on('blurNode', () => {
-  nodes.forEach(n => nodes.update({ id: n.id, opacity: 1, font: { ...n.font, color: '#5A6772', size: 11 } }));
+  // Revert: hide labels (transparent), restore opacity
+  nodes.forEach(n => nodes.update({
+    id: n.id,
+    opacity: 1,
+    font: {
+      color: 'rgba(90, 103, 114, 0.0)',
+      size: 9,
+      face: 'Inter, system-ui, sans-serif',
+      strokeWidth: 3,
+      strokeColor: 'rgba(255,255,255,0.92)',
+      vadjust: -2,
+    }
+  }));
   edges.forEach(e => edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.18)' }, width: 0.6 }));
+});
+
+// Reveal labels when zoomed in (Obsidian-style)
+network.on('zoom', (params) => {
+  const scale = params.scale || network.getScale();
+  // Above 1.5x zoom, fade in all labels gradually
+  const labelOpacity = Math.max(0, Math.min(1, (scale - 1.0) * 1.5));
+  if (labelOpacity > 0) {
+    nodes.forEach(n => {
+      // Don't override hover styling
+      const current = nodes.get(n.id);
+      if (current.opacity < 0.5) return;
+      nodes.update({
+        id: n.id,
+        font: {
+          color: `rgba(90, 103, 114, ${labelOpacity})`,
+          size: 9 + labelOpacity * 2,
+          face: 'Inter, system-ui, sans-serif',
+          strokeWidth: 3,
+          strokeColor: 'rgba(255,255,255,0.92)',
+          vadjust: -2,
+        }
+      });
+    });
+  }
 });
 
 // Click → show info panel
