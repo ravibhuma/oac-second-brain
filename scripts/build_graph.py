@@ -162,9 +162,9 @@ def build_graph(wiki_dir: Path) -> dict:
     max_count = max(connection_count.values()) if connection_count else 1
     for node in nodes:
         count = connection_count[node["id"]]
-        # Size from 16 to 50 based on connections
+        # Size 6-20 based on connections (Obsidian-like: small + subtle)
         node["value"] = count
-        node["size"] = 16 + (count / max_count) * 34
+        node["size"] = 6 + (count / max_count) * 14
         node["connections"] = count
 
     return {
@@ -474,16 +474,24 @@ const nodes = new vis.DataSet(GRAPH_DATA.nodes.map(n => ({
   id: n.id,
   label: n.label,
   group: n.group,
-  color: { background: n.color, border: n.color, highlight: { background: n.color, border: '#000' } },
+  color: {
+    background: n.color,
+    border: n.color,
+    highlight: { background: n.color, border: '#161B1F' },
+    hover: { background: n.color, border: '#161B1F' }
+  },
   size: n.size,
   font: {
-    color: '#161B1F',
-    size: 13,
+    color: '#5A6772',
+    size: 11,
     face: 'Inter, system-ui, sans-serif',
-    strokeWidth: 3,
-    strokeColor: 'rgba(255,255,255,0.95)'
+    strokeWidth: 4,
+    strokeColor: 'rgba(255,255,255,0.95)',
+    multi: false,
+    vadjust: -2,
   },
   shape: 'dot',
+  borderWidth: 0,
   // Custom properties stored
   _name: n.name,
   _url: n.url,
@@ -496,9 +504,15 @@ const edges = new vis.DataSet(GRAPH_DATA.edges.map((e, i) => ({
   id: i,
   from: e.from,
   to: e.to,
-  color: { color: 'rgba(90, 103, 114, 0.25)', highlight: '#2D7D55' },
-  width: 1,
-  smooth: { type: 'continuous', roundness: 0.5 },
+  color: {
+    color: 'rgba(90, 103, 114, 0.18)',
+    highlight: '#2D7D55',
+    hover: '#2D7D55'
+  },
+  width: 0.6,
+  hoverWidth: 1.5,
+  selectionWidth: 1.5,
+  smooth: false,
 })));
 
 const container = document.getElementById('graph');
@@ -506,27 +520,39 @@ const data = { nodes, edges };
 const options = {
   physics: {
     forceAtlas2Based: {
-      gravitationalConstant: -50,
-      centralGravity: 0.012,
-      springLength: 130,
-      springConstant: 0.08,
-      damping: 0.6,
+      gravitationalConstant: -120,
+      centralGravity: 0.005,
+      springLength: 220,
+      springConstant: 0.04,
+      damping: 0.7,
+      avoidOverlap: 0.5,
     },
     solver: 'forceAtlas2Based',
-    stabilization: { iterations: 200, updateInterval: 25 },
+    stabilization: { iterations: 250, updateInterval: 25 },
+    timestep: 0.4,
   },
   interaction: {
     hover: true,
     tooltipDelay: 200,
     navigationButtons: false,
     keyboard: true,
+    zoomView: true,
   },
   nodes: {
-    borderWidth: 2,
-    shadow: { enabled: true, color: 'rgba(0,0,0,0.1)', size: 8, x: 0, y: 2 },
+    borderWidth: 0,
+    borderWidthSelected: 2,
+    shadow: false,
+    scaling: {
+      label: {
+        enabled: true,
+        min: 9,
+        max: 14,
+      },
+    },
   },
   edges: {
-    selectionWidth: 2,
+    selectionWidth: 1.5,
+    smooth: false,
   },
 };
 
@@ -575,22 +601,39 @@ GRAPH_DATA.categories.forEach(cat => {
   legendItems.appendChild(item);
 });
 
-// Hover highlights
+// Hover highlights — Obsidian-style dimming
 network.on('hoverNode', params => {
   const nodeId = params.node;
-  const connectedNodes = network.getConnectedNodes(nodeId);
-  const connectedEdges = network.getConnectedEdges(nodeId);
+  const connectedNodes = new Set(network.getConnectedNodes(nodeId));
+  connectedNodes.add(nodeId);
+  const connectedEdges = new Set(network.getConnectedEdges(nodeId));
 
+  // Dim non-connected nodes
   nodes.forEach(n => {
-    if (n.id === nodeId || connectedNodes.includes(n.id)) {
-      nodes.update({ id: n.id, opacity: 1, font: { ...n.font, color: '#161B1F' } });
+    if (connectedNodes.has(n.id)) {
+      nodes.update({
+        id: n.id,
+        opacity: 1,
+        font: { ...n.font, color: '#161B1F', size: 12 }
+      });
     } else {
-      nodes.update({ id: n.id, opacity: 0.15 });
+      nodes.update({ id: n.id, opacity: 0.12 });
+    }
+  });
+
+  // Dim non-connected edges
+  edges.forEach(e => {
+    if (connectedEdges.has(e.id)) {
+      edges.update({ id: e.id, color: { color: '#2D7D55', opacity: 1 }, width: 1.2 });
+    } else {
+      edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.05)' }, width: 0.4 });
     }
   });
 });
+
 network.on('blurNode', () => {
-  nodes.forEach(n => nodes.update({ id: n.id, opacity: 1 }));
+  nodes.forEach(n => nodes.update({ id: n.id, opacity: 1, font: { ...n.font, color: '#5A6772', size: 11 } }));
+  edges.forEach(e => edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.18)' }, width: 0.6 }));
 });
 
 // Click → show info panel
