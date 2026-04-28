@@ -50,6 +50,9 @@ jobs:
       - name: Preprocess [[wiki links]] into real markdown links
         run: python scripts/preprocess_wikilinks.py docs
 
+      - name: Build interactive knowledge graph
+        run: python scripts/build_graph.py docs
+
       - name: Build site
         run: mkdocs build
 
