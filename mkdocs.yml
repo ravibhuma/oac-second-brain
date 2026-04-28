@@ -89,6 +89,10 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.tilde
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: ravibhuma
+      repo: oac-knowledge-graph
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true

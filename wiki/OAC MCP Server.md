@@ -120,7 +120,7 @@ This three-step flow ensures the AI has correct schema knowledge before generati
    - Dependency libraries
 
 ### Step 3: Install Node.js
-- Download from `nodejs.org` (LTS recommended)
+- Download from [nodejs.org](https://nodejs.org) (LTS recommended)
 - Verify:
   ```bash
   node -v  # should be ≥ v18

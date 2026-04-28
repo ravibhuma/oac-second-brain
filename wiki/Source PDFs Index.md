@@ -65,7 +65,7 @@ The Karpathy LLM Wiki pattern explicitly endorses this: synthesize **structure**
 
 When Oracle releases new doc versions:
 
-1. Download updated PDFs from `docs.oracle.com/en/cloud/paas/analytics-cloud/`
+1. Download updated PDFs from [docs.oracle.com/en/cloud/paas/analytics-cloud/](https://docs.oracle.com/en/cloud/paas/analytics-cloud/)
 2. Replace files in `raw/pdfs/`
 3. Re-run `pdftotext`:
    ```bash

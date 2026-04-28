@@ -11,24 +11,28 @@ Index of all official Oracle and notable community learning resources for Oracle
 ## Official Oracle Resources
 
 ### Featured Learning Paths
-| Path | Resource |
+Featured tutorials covering the most common starting points. Browse all at the [OAC Tutorials Hub](https://docs.oracle.com/en/cloud/paas/analytics-cloud/tutorials).
+
+| Path | Topic |
 |---|---|
-| Create your first visualization | docs.oracle.com/.../tutorial-first-viz |
-| Create your first dashboard | docs.oracle.com/.../tutorial-first-dashboard |
-| Analyze data with Explain | docs.oracle.com/.../tutorial-explain |
-| Create map visualizations | docs.oracle.com/.../tutorial-maps |
-| Data quality assessment | docs.oracle.com/.../tutorial-data-quality |
-| Connect to Autonomous Data Warehouse | docs.oracle.com/.../tutorial-adw |
+| Create your first visualization | Build basic charts in a Workbook |
+| Create your first dashboard | Assemble Classic Dashboards from Analyses |
+| Analyze data with Explain | Use AI-powered insight generation |
+| Create map visualizations | Geocoding + Map layer visualization |
+| Data quality assessment | Profiling and cleansing tools |
+| Connect to Autonomous Data Warehouse | ADW connection with wallet |
 
 ### Tutorials Hub
-**URL**: `docs.oracle.com/en/cloud/paas/analytics-cloud/tutorials`
+[https://docs.oracle.com/en/cloud/paas/analytics-cloud/tutorials](https://docs.oracle.com/en/cloud/paas/analytics-cloud/tutorials)
+
 - Step-by-step guided tutorials
 - Sample datasets included
 - Beginner / Intermediate / Advanced tracks
 - Integration tutorials (Fusion, ATP, FAW)
 
 ### Solutions Library
-**URL**: `docs.oracle.com/en/cloud/paas/analytics-cloud/solutions`
+[https://docs.oracle.com/en/cloud/paas/analytics-cloud/solutions](https://docs.oracle.com/en/cloud/paas/analytics-cloud/solutions)
+
 Pre-built solutions for common use cases:
 - Sales pipeline analytics
 - HR workforce analytics
@@ -37,7 +41,8 @@ Pre-built solutions for common use cases:
 - Marketing campaign analysis
 
 ### Technical Papers
-**URL**: `docs.oracle.com/en/cloud/paas/analytics-cloud/technical-papers`
+[https://docs.oracle.com/en/cloud/paas/analytics-cloud/technical-papers](https://docs.oracle.com/en/cloud/paas/analytics-cloud/technical-papers)
+
 In-depth technical references:
 - Architecture deep dives
 - Performance tuning whitepapers
@@ -47,14 +52,16 @@ In-depth technical references:
 - Data modeling patterns
 
 ### Video Library
-**URL**: `docs.oracle.com/en/cloud/paas/analytics-cloud/videos`
+[https://docs.oracle.com/en/cloud/paas/analytics-cloud/videos](https://docs.oracle.com/en/cloud/paas/analytics-cloud/videos)
+
 - "What's New" series (monthly)
 - Feature deep dives
 - Architecture overviews
 - Best practice walkthroughs
 
 ### Community Forums
-**URL**: `community.oracle.com/customerconnect/categories/oac-oracle-analytics-cloud`
+[https://community.oracle.com/customerconnect/categories/oac-oracle-analytics-cloud](https://community.oracle.com/customerconnect/categories/oac-oracle-analytics-cloud)
+
 - Q&A among customers
 - Oracle PM and engineer participation
 - Feature requests and roadmap discussion
@@ -112,7 +119,7 @@ In-depth technical references:
 ### Oracle Analytics Public Library
 - Free custom visualizations
 - Templates and starter content
-- URL: search "Oracle Analytics Library" or `apexapps.oracle.com/pls/apex/r/dbpm/oal-public/home`
+- [https://apexapps.oracle.com/pls/apex/r/dbpm/oal-public/home](https://apexapps.oracle.com/pls/apex/r/dbpm/oal-public/home)
 
 ### Ravi Bhuma — OAC Prompt Studio
 - **URL**: https://ravi-bhuma.github.io/oac-prompt-studio/
@@ -126,7 +133,7 @@ In-depth technical references:
 ### Rittman Mead Blog
 - Long-running OBIEE/OAC technical blog
 - Performance tuning, RPD design, migration topics
-- URL: `rittmanmead.com/blog/`
+- [https://www.rittmanmead.com/blog/](https://www.rittmanmead.com/blog/)
 
 ### Stack Overflow
 - Tag: `oracle-analytics-cloud`
@@ -151,12 +158,12 @@ In-depth technical references:
 - **Certifications**:
   - Oracle Analytics Cloud Specialist
   - Oracle Analytics Cloud Implementation Specialist
-- URL: `education.oracle.com`
+- [https://education.oracle.com](https://education.oracle.com)
 
 ### Oracle MyLearn
 - Free curated learning paths
 - Hands-on labs in OCI Cloud Free Tier
-- URL: `mylearn.oracle.com`
+- [https://mylearn.oracle.com](https://mylearn.oracle.com)
 
 ---
 

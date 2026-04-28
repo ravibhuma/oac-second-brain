@@ -12,11 +12,11 @@ Oracle Analytics Cloud follows a monthly release cadence. New features ship cont
 
 | Resource | URL |
 |---|---|
-| What's New (current) | `docs.oracle.com/en/cloud/paas/analytics-cloud/whats-new` |
-| Preview Features | `docs.oracle.com/en/cloud/paas/analytics-cloud/preview-features` |
+| What's New (current) | [docs.oracle.com/.../whats-new](https://docs.oracle.com/en/cloud/paas/analytics-cloud/whats-new) |
+| Preview Features | [docs.oracle.com/.../preview-features](https://docs.oracle.com/en/cloud/paas/analytics-cloud/preview-features) |
 | Release Update Schedule | OCI Console → Analytics Cloud → instance → Update history |
-| Oracle Analytics Blog | https://blogs.oracle.com/analytics/ |
-| YouTube "What's New" series | https://www.youtube.com/c/OracleAnalytics |
+| Oracle Analytics Blog | [blogs.oracle.com/analytics](https://blogs.oracle.com/analytics/) |
+| YouTube "What's New" series | [youtube.com/c/OracleAnalytics](https://www.youtube.com/c/OracleAnalytics) |
 
 ---
 

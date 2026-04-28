@@ -132,7 +132,7 @@ When the user provides Oracle docs PDFs (or asks me to ingest specific guides), 
 ## How to Deepen (The Karpathy Way)
 
 To take any 🟡 page → ✅:
-1. User downloads the official PDF for that guide from `docs.oracle.com/en/cloud/paas/analytics-cloud/`
+1. User downloads the official PDF for that guide from [docs.oracle.com/en/cloud/paas/analytics-cloud/](https://docs.oracle.com/en/cloud/paas/analytics-cloud/)
 2. User saves to `raw/pdfs/<guide-name>.pdf`
 3. Ask Claude: *"Ingest the new PDF in raw/pdfs/"*
 4. Claude reads the PDF and significantly expands the related wiki page(s) with citations
