@@ -36,3 +36,10 @@ docs/
 # Temp
 *.tmp
 *.bak
+
+# Drafts (kept outside repo)
+*_DRAFT.md
+*-draft.md
+
+# Obsidian canvas scratch files (not for sharing)
+Untitled*.canvas

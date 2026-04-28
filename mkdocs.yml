@@ -42,26 +42,25 @@ theme:
     text: Inter
     code: JetBrains Mono
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    # Default: Light mode (matches docs.oracle.com aesthetic)
+    - scheme: default
       primary: white
-      accent: indigo
+      accent: green
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+    # Dark mode (when user toggles)
+    - scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
     annotation: material/plus-circle
-  logo: assets/logo.svg
   favicon: assets/favicon.svg
 
 plugins:
@@ -159,4 +158,5 @@ extra_css:
 
 copyright: |
   &copy; 2026 <a href="https://github.com/ravibhuma" target="_blank" rel="noopener">Ravi Bhuma</a> ·
-  Built on <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" target="_blank" rel="noopener">Karpathy's LLM Wiki pattern</a>
+  Pattern by <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" target="_blank" rel="noopener">Andrej Karpathy</a> ·
+  <em>Unofficial / community-built. Not affiliated with Oracle Corporation.</em>

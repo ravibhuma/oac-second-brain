@@ -20,15 +20,76 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+================================================================================
+SCOPE OF MIT LICENSE
+================================================================================
 
-NOTE ON DOCUMENTATION CONTENT:
+The MIT License above applies to:
+  - The wiki/ directory (synthesized markdown pages, original work)
+  - The scripts/ directory (preprocessor and build tooling)
+  - The stylesheets/ directory (custom CSS)
+  - The mkdocs.yml, README.md, and other configuration files
+  - The assets/ logo and favicon (original work)
 
-This repository contains synthesized knowledge derived from publicly available
-Oracle Analytics Cloud documentation, blog posts, and other sources. Oracle
-documentation is © Oracle Corporation and is included as searchable PDFs for
-fair-use review and educational reference.
+================================================================================
+THIRD-PARTY CONTENT (NOT MIT LICENSED)
+================================================================================
 
-Source materials and their original copyrights are credited within each
-relevant page. This synthesis is offered as an independent, community-
-maintained learning resource.
+The raw/pdfs/ directory contains Oracle Corporation documentation provided
+under Oracle's terms. These PDFs are included for fair-use review and
+educational reference, and are NOT covered by this MIT License.
+
+  Source: https://docs.oracle.com/en/cloud/paas/analytics-cloud/
+  Copyright: © Oracle Corporation
+  Use: Reference and educational purposes per fair use
+
+If you are an Oracle Corporation representative and would like these materials
+removed or replaced with links, please open an issue at:
+  https://github.com/ravibhuma/oac-second-brain/issues
+
+================================================================================
+TRADEMARK NOTICES
+================================================================================
+
+This project is an INDEPENDENT, COMMUNITY-MAINTAINED resource and is
+NOT AFFILIATED WITH, SPONSORED BY, OR ENDORSED BY any of the following:
+
+  - Oracle Corporation
+  - Anthropic, PBC
+  - OpenAI, Inc.
+  - Google LLC
+  - Microsoft Corporation
+  - Andrej Karpathy
+
+Trademarks referenced in this project belong to their respective owners:
+
+  - "Oracle", "Oracle Analytics Cloud", "Oracle Cloud Infrastructure",
+    "OBIEE", "OAS", "Oracle BI Publisher", and other Oracle product names
+    are registered trademarks or trademarks of Oracle Corporation
+    and/or its affiliates.
+
+  - "Claude", "Claude Code", and "Anthropic" are trademarks of Anthropic, PBC.
+
+  - "ChatGPT", "GPT", and "OpenAI" are trademarks of OpenAI, Inc.
+
+  - "Gemini", "Google", and related marks are trademarks of Google LLC.
+
+  - "GitHub", "GitHub Pages", and "GitHub Copilot" are trademarks
+    of GitHub, Inc. (a subsidiary of Microsoft Corporation).
+
+  - "Obsidian" is a trademark of Dynalist, Inc.
+
+================================================================================
+PATTERN ATTRIBUTION
+================================================================================
+
+This project applies the "LLM Wiki" pattern originally articulated by
+Andrej Karpathy in a public gist:
+
+  https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+
+All credit for the pattern itself belongs to Andrej Karpathy. He is not
+affiliated with this project. References to his name and pattern are made
+solely for proper attribution and citation.
+
+================================================================================

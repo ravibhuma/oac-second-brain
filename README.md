@@ -1,12 +1,14 @@
 # OAC Second Brain
 
-> **An open-source knowledge base for Oracle Analytics Cloud — built without RAG, vector databases, or embeddings. Just markdown, grep, and the LLM you already use.**
+> **An open-source community knowledge base for Oracle Analytics Cloud — built without RAG, vector databases, or embeddings. Just markdown, grep, and the LLM you already use.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Site Status](https://img.shields.io/badge/docs-live-brightgreen)](https://ravibhuma.github.io/oac-second-brain/)
-[![Built with Material](https://img.shields.io/badge/built%20with-MkDocs%20Material-526CFE)](https://squidfunk.github.io/mkdocs-material/)
-[![Karpathy LLM Wiki](https://img.shields.io/badge/pattern-Karpathy%20LLM%20Wiki-orange)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
-[![No Vector DB](https://img.shields.io/badge/no-vector%20database-success)](#-why-this-works-without-vectorization)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2D7D55.svg)](https://opensource.org/licenses/MIT)
+[![Site Status](https://img.shields.io/badge/docs-live-00A36C)](https://ravibhuma.github.io/oac-second-brain/)
+[![Topic: Oracle Analytics Cloud](https://img.shields.io/badge/topic-Oracle%20Analytics%20Cloud-C74634)](https://www.oracle.com/business-analytics/analytics-cloud/)
+[![No Vector DB](https://img.shields.io/badge/no-vector%20database-2D7D55)](#-why-this-works-without-vectorization)
+[![Pattern: LLM Wiki by A. Karpathy](https://img.shields.io/badge/pattern-LLM%20Wiki%20by%20A.%20Karpathy-1F5A3D)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
+> ⚠️ **Unofficial / Community-Built.** Not affiliated with, sponsored by, or endorsed by Oracle Corporation. "Oracle", "Oracle Analytics Cloud", and related marks are trademarks of Oracle and/or its affiliates. This project is an independent community resource that synthesizes publicly available Oracle documentation, blogs, and tutorials for educational use.
 
 ---
 
@@ -253,15 +255,56 @@ Or just [open an issue](https://github.com/ravibhuma/oac-second-brain/issues) de
 
 ---
 
-## 📜 License & Attribution
+## 🙏 Acknowledgments
 
-MIT License. Oracle docs © Oracle Corporation, included as searchable PDFs for fair-use review.
+### The LLM Wiki Pattern — Andrej Karpathy
+This project is a direct application of **Andrej Karpathy's LLM Wiki pattern**, originally published as a public gist:
+
+📘 **Original gist**: [karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
+Karpathy's core insight — *"the wiki is a persistent, compounding artifact; the cross-references are already there"* — guides every architectural decision in this repo:
+
+- **`raw/`** = curated immutable sources (his pattern)
+- **`wiki/`** = LLM-maintained synthesis layer (his pattern)
+- **`CLAUDE.md`** = operating rules for the agent (his pattern)
+- **Three operations: Ingest, Query, Lint** (his pattern)
+- **Human curates, LLM does everything else** (his philosophy)
+
+This repo demonstrates the pattern applied to enterprise documentation. **All credit for the pattern itself goes to Andrej Karpathy.** He is not affiliated with this project.
+
+### Source Materials
+Knowledge content synthesized from publicly available materials:
+- [Oracle Analytics Cloud Documentation](https://docs.oracle.com/en/cloud/paas/analytics-cloud/) © Oracle Corporation
+- [Oracle Analytics Blog](https://blogs.oracle.com/analytics/) © Oracle Corporation
+- [Oracle Analytics YouTube](https://www.youtube.com/c/OracleAnalytics) © Oracle Corporation
+
+Oracle documentation is included as searchable PDFs for **fair-use review and educational reference**. All Oracle copyrights, trademarks, and brand assets remain property of Oracle Corporation.
+
+---
+
+## 📜 License & Trademark Notices
+
+**Code & synthesized wiki content**: MIT License — see [LICENSE](LICENSE).
+
+**Oracle documentation in `raw/pdfs/`**: © Oracle Corporation. Used for fair-use review/educational purposes.
+
+**Trademarks**:
+- "Oracle", "Oracle Analytics Cloud", "OBIEE", "OAS", and related product names are trademarks of Oracle Corporation
+- "Claude" and "Claude Code" are trademarks of Anthropic
+- "ChatGPT" and "OpenAI" are trademarks of OpenAI
+- "Gemini" is a trademark of Google LLC
+- All other trademarks are property of their respective owners
+
+This project is **not affiliated with, sponsored by, or endorsed by Oracle, Anthropic, OpenAI, Google, or any other entity** mentioned. It is an independent community resource.
 
 ---
 
 ## 👤 Author
 
 Maintained by **[@ravibhuma](https://github.com/ravibhuma)** ([Medium](https://medium.com/@ravishankerb)).
-Inspired by [Andrej Karpathy's LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
-⭐ **[Star this repo](https://github.com/ravibhuma/oac-second-brain)** — it helps others discover the LLM Wiki pattern.
+Companion projects:
+- [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/) — Open-source learning platform for OAC AI Agents (R.T.C.C.O.E framework)
+- [Building Effective OAC AI Agents](https://medium.com/@ravishankerb/building-effective-oac-ai-agents-the-framework-the-techniques-and-the-resource-hub-to-get-you-eba3797ca991) — Medium article
+
+⭐ **[Star this repo](https://github.com/ravibhuma/oac-second-brain)** — it helps others discover the LLM Wiki pattern by Andrej Karpathy.
