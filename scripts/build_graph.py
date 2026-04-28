@@ -189,7 +189,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <title>Knowledge Graph — OAC Second Brain</title>
 <meta name="description" content="Interactive knowledge graph showing how 30+ Oracle Analytics Cloud topics connect — built without RAG or vector databases.">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<script src="../assets/vendor/vis-network.min.js"></script>
 <style>
   :root {
     --oac-green: #2D7D55;
