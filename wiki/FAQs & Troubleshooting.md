@@ -11,19 +11,19 @@ Catalog of frequently asked questions and the most common troubleshooting scenar
 ## General FAQs
 
 **Q: What's the difference between OAC and OAS?**
-OAC = managed cloud on OCI. OAS = on-premise version. Same product internally, OAS has manual ops. See [[OAC vs OBIEE vs OAS Comparison]].
+OAC = managed cloud on OCI. OAS = on-premise version. Same product internally, OAS has manual ops. See [OAC vs OBIEE vs OAS Comparison](OAC%20vs%20OBIEE%20vs%20OAS%20Comparison.md){ .wikilink }.
 
 **Q: Can I connect OAC to on-premise databases?**
-Yes — via Private Access Channel (PAC) or Remote Data Gateway (RDG). See [[Data Sources & Connections]].
+Yes — via Private Access Channel (PAC) or Remote Data Gateway (RDG). See [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }.
 
 **Q: Does OAC support row-level security?**
-Yes, multiple methods. Best practice: define data filters in the Subject Area using session variables. See [[Security & Row-Level Security]].
+Yes, multiple methods. Best practice: define data filters in the Subject Area using session variables. See [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }.
 
 **Q: Can I move content between OAC environments (Dev → Test → Prod)?**
-Yes — via snapshots (full) or REST API bundles (selective). See [[Migration, Snapshots & Lifecycle]].
+Yes — via snapshots (full) or REST API bundles (selective). See [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }.
 
 **Q: Does OAC have an SDK for embedding in custom apps?**
-Yes — JavaScript Embedding API. Requires Safe Domain registration. See [[APIs, Embedding & Integration]].
+Yes — JavaScript Embedding API. Requires Safe Domain registration. See [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }.
 
 **Q: How are OAC users billed?**
 By OCPU. Service is sized in OCPUs (typically 2-12+). Each OCPU has a per-hour rate.
@@ -263,7 +263,7 @@ PaaS — you provision instances, manage content, but don't manage infrastructur
 ---
 
 ## Related
-- [[Administration & Service Console]]
-- [[Data Sources & Connections]]
-- [[Security & Row-Level Security]]
-- [[Semantic Model]]
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }

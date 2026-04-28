@@ -169,8 +169,8 @@ Add text, images, and embedded visualizations for guided analytics:
 
 - **Share link**: copy URL to share (recipient needs OAC access)
 - **Export**: download as PDF, PNG, PowerPoint, Data (CSV/XLSX)
-- **Embed**: embed canvas in external web pages (see [[APIs, Embedding & Integration]])
-- **Email**: schedule delivery via Agents (see [[KPIs, Alerts & Notifications]])
+- **Embed**: embed canvas in external web pages (see [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink })
+- **Email**: schedule delivery via Agents (see [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink })
 
 ---
 
@@ -210,9 +210,9 @@ Generative AI (OCI AI Services backed) for chart recommendations, data descripti
 ---
 
 ## Related
-- [[Subject Areas & Datasets]]
-- [[Data Flows & Data Preparation]]
-- [[Machine Learning & AI Features]]
-- [[KPIs, Alerts & Notifications]]
-- [[APIs, Embedding & Integration]]
-- [[Classic Dashboards & Analyses]]
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Data Flows & Data Preparation](Data%20Flows%20%26%20Data%20Preparation.md){ .wikilink }
+- [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink }
+- [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }

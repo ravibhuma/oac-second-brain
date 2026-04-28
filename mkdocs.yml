@@ -98,9 +98,9 @@ nav:
   - All Topics: topics.md
   - Coverage Matrix: wiki/Docs Coverage Matrix.md
   - "Use With AI":
-    - All AI Tools: ai-assistants.md
-    - Claude Code Setup: claude-code-setup.md
-    - OpenAI Codex Setup: codex-setup.md
+    - All AI Tools: AI_ASSISTANTS.md
+    - Claude Code Setup: CLAUDE_CODE_SETUP.md
+    - OpenAI Codex Setup: CODEX_SETUP.md
   - Platform & Architecture:
     - wiki/OAC Overview & Architecture.md
     - wiki/OAC vs OBIEE vs OAS Comparison.md

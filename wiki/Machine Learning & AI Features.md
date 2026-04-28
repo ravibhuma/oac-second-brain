@@ -184,7 +184,7 @@ Models trained in OCI Data Science (Python, AutoML) can be registered in OAC:
 ---
 
 ## Related
-- [[Data Flows & Data Preparation]]
-- [[Workbooks & Visualizations]]
-- [[Subject Areas & Datasets]]
-- [[APIs, Embedding & Integration]]
+- [Data Flows & Data Preparation](Data%20Flows%20%26%20Data%20Preparation.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }

@@ -197,8 +197,8 @@ Administration → Security → Test User:
 ---
 
 ## Related
-- [[OAC Overview & Architecture]]
-- [[Security & Row-Level Security]]
-- [[Semantic Model]]
-- [[Data Sources & Connections]]
-- [[Migration, Snapshots & Lifecycle]]
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }

@@ -174,7 +174,7 @@ This works with **every major AI tool**. Pick one you already use:
 **End User** · Consumer Guide · Mobile App
 **Operations** · KPIs & Alerts · Migration & Lifecycle · FAQs & Troubleshooting
 
-📋 [Full topic index](index.md) · 📊 [Coverage matrix vs Oracle docs](wiki/Docs%20Coverage%20Matrix.md)
+📋 [Full topic index](topics.md) · 📊 [Coverage matrix vs Oracle docs](wiki/Docs%20Coverage%20Matrix.md)
 
 ---
 

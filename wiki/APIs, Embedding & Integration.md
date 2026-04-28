@@ -237,8 +237,8 @@ Embed OAC content in Oracle APEX applications:
 ---
 
 ## Related
-- [[Classic Dashboards & Analyses]]
-- [[Workbooks & Visualizations]]
-- [[BI Publisher]]
-- [[Security & Row-Level Security]]
-- [[Logical SQL Reference]]
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [BI Publisher](BI%20Publisher.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink }

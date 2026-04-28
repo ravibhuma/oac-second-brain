@@ -167,8 +167,8 @@ OAC records usage events:
 ---
 
 ## Related
-- [[Semantic Model]]
-- [[OAC Overview & Architecture]]
-- [[Administration & Service Console]]
-- [[Data Sources & Connections]]
-- [[Classic Dashboards & Analyses]]
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }

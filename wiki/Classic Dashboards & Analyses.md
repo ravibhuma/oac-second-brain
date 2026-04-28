@@ -199,9 +199,9 @@ Analyses and Dashboards are stored in the **Catalog**:
 ---
 
 ## Related
-- [[Subject Areas & Datasets]]
-- [[Semantic Model]]
-- [[BI Publisher]]
-- [[KPIs, Alerts & Notifications]]
-- [[Security & Row-Level Security]]
-- [[Workbooks & Visualizations]]
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [BI Publisher](BI%20Publisher.md){ .wikilink }
+- [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }

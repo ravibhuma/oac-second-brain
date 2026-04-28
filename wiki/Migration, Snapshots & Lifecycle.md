@@ -180,7 +180,7 @@ Oracle releases monthly updates to OAC:
 ---
 
 ## Related
-- [[Administration & Service Console]]
-- [[Semantic Model]]
-- [[OAC vs OBIEE vs OAS Comparison]]
-- [[Security & Row-Level Security]]
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [OAC vs OBIEE vs OAS Comparison](OAC%20vs%20OBIEE%20vs%20OAS%20Comparison.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }

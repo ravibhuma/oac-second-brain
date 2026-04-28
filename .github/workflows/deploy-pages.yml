@@ -37,12 +37,15 @@ jobs:
           cp -r assets/* docs/assets/
           # README becomes the homepage (landing page)
           cp README.md docs/index.md
-          # Original index.md becomes the topic index
+          # Original index.md becomes the topic index (renamed to avoid clash with homepage)
           cp index.md docs/topics.md
-          # Setup guides accessible from site
-          cp CLAUDE_CODE_SETUP.md docs/claude-code-setup.md
-          cp CODEX_SETUP.md docs/codex-setup.md
-          cp AI_ASSISTANTS.md docs/ai-assistants.md
+          # Setup guides — keep original filenames so README links work locally + on site
+          cp CLAUDE_CODE_SETUP.md docs/CLAUDE_CODE_SETUP.md
+          cp CODEX_SETUP.md docs/CODEX_SETUP.md
+          cp AI_ASSISTANTS.md docs/AI_ASSISTANTS.md
+          cp SETUP.md docs/SETUP.md
+          cp PROJECT_INSTRUCTIONS.md docs/PROJECT_INSTRUCTIONS.md
+          cp LICENSE docs/LICENSE.md
 
       - name: Preprocess [[wiki links]] into real markdown links
         run: python scripts/preprocess_wikilinks.py docs

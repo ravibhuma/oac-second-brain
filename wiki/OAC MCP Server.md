@@ -296,9 +296,9 @@ FETCH FIRST 100 ROWS ONLY
 ---
 
 ## Related
-- [[OAC AI Agents]]
-- [[OAC AI Ecosystem]]
-- [[APIs, Embedding & Integration]]
-- [[Logical SQL Reference]]
-- [[Subject Areas & Datasets]]
-- [[Security & Row-Level Security]]
+- [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }
+- [OAC AI Ecosystem](OAC%20AI%20Ecosystem.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }
+- [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }

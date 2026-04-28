@@ -181,8 +181,8 @@ COALESCE(DISCOUNT, 0)
 ---
 
 ## Related
-- [[Subject Areas & Datasets]]
-- [[Machine Learning & AI Features]]
-- [[Data Sources & Connections]]
-- [[Workbooks & Visualizations]]
-- [[Administration & Service Console]]
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }

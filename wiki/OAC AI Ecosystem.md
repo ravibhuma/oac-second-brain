@@ -51,7 +51,7 @@ The foundation — predictive and descriptive analytics.
 | OCI AI Document Understanding | OCR, table extraction |
 | OCI Anomaly Detection | Multivariate outlier detection |
 
-See [[Machine Learning & AI Features]].
+See [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink }.
 
 ---
 
@@ -74,7 +74,7 @@ Proactive insights surfaced when you open a Workbook:
 - Correlations
 - Outliers
 
-See [[Workbooks & Visualizations]] and [[Machine Learning & AI Features]].
+See [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink } and [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink }.
 
 ---
 
@@ -122,7 +122,7 @@ A step beyond assistants — dataset-specific, RAG-enabled, domain-tuned.
 - Finance FP&A Agent
 - Marketing Performance Agent
 
-See [[OAC AI Agents]] for full framework.
+See [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink } for full framework.
 
 ---
 
@@ -140,7 +140,7 @@ Open standard integration for any MCP-compliant AI client.
 - IDE coding assistants aware of your real schema
 - n8n automation with OAC as a knowledge source
 
-See [[OAC MCP Server]].
+See [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink }.
 
 ---
 
@@ -237,10 +237,10 @@ A governance checklist that applies to ALL AI surfaces:
 ---
 
 ## Related
-- [[OAC AI Agents]]
-- [[OAC MCP Server]]
-- [[Machine Learning & AI Features]]
-- [[Workbooks & Visualizations]]
-- [[Mobile (Oracle Analytics App)]]
-- [[Semantic Model]]
-- [[Security & Row-Level Security]]
+- [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }
+- [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink }
+- [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Mobile (Oracle Analytics App)](Mobile%20%28Oracle%20Analytics%20App%29.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }

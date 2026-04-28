@@ -192,7 +192,7 @@ For:
 ---
 
 ## Related
-- [[Workbooks & Visualizations]]
-- [[Classic Dashboards & Analyses]]
-- [[KPIs, Alerts & Notifications]]
-- [[Mobile (Oracle Analytics App)]]
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
+- [Mobile (Oracle Analytics App)](Mobile%20%28Oracle%20Analytics%20App%29.md){ .wikilink }

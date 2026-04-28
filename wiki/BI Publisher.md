@@ -196,7 +196,7 @@ Reports can be scheduled to run automatically.
 ---
 
 ## Related
-- [[Classic Dashboards & Analyses]]
-- [[KPIs, Alerts & Notifications]]
-- [[Data Sources & Connections]]
-- [[Security & Row-Level Security]]
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }

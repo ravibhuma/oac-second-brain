@@ -285,6 +285,6 @@ OAC SDK supports several extension types:
 ---
 
 ## Related
-- [[Workbooks & Visualizations]]
-- [[APIs, Embedding & Integration]]
-- [[Administration & Service Console]]
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }

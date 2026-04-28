@@ -145,7 +145,7 @@ OAC        →  Strategic platform — invest here
 ---
 
 ## Related
-- [[OAC Overview & Architecture]]
-- [[Migration, Snapshots & Lifecycle]]
-- [[Semantic Model]]
-- [[Classic Dashboards & Analyses]]
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }

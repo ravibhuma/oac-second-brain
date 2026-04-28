@@ -139,7 +139,7 @@ OAC maintains:
 ---
 
 ## Related
-- [[OAC Overview & Architecture]]
-- [[Subscribe & Provisioning]]
-- [[Administration & Service Console]]
-- [[FAQs & Troubleshooting]]
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [FAQs & Troubleshooting](FAQs%20%26%20Troubleshooting.md){ .wikilink }

@@ -80,7 +80,7 @@ OAC runs entirely on OCI. Oracle manages:
 Connects OAC to private/on-premise data sources without exposing them to the internet.
 - Reverse proxy inside customer VCN
 - Supports DB, REST, JDBC connections
-- See [[Data Sources & Connections]]
+- See [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 
 ### Remote Data Gateway (RDG)
 Agent installed on-premise to relay data queries:
@@ -122,8 +122,8 @@ Key paths:
 ---
 
 ## Related
-- [[OAC vs OBIEE vs OAS Comparison]]
-- [[Semantic Model]]
-- [[Data Sources & Connections]]
-- [[Administration & Service Console]]
-- [[Security & Row-Level Security]]
+- [OAC vs OBIEE vs OAS Comparison](OAC%20vs%20OBIEE%20vs%20OAS%20Comparison.md){ .wikilink }
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }

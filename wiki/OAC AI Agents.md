@@ -218,7 +218,7 @@ Before releasing an agent to users:
 | Customization | Limited | Full SI + RAG docs | None (governed by OAC) |
 | Best for | General Q&A | Domain expert experience | External AI workflows |
 
-See [[OAC MCP Server]] and [[OAC AI Ecosystem]].
+See [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink } and [OAC AI Ecosystem](OAC%20AI%20Ecosystem.md){ .wikilink }.
 
 ---
 
@@ -252,8 +252,8 @@ The author of the source article maintains an open-source learning platform:
 ---
 
 ## Related
-- [[Machine Learning & AI Features]]
-- [[OAC MCP Server]]
-- [[OAC AI Ecosystem]]
-- [[Workbooks & Visualizations]]
-- [[Subject Areas & Datasets]]
+- [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink }
+- [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink }
+- [OAC AI Ecosystem](OAC%20AI%20Ecosystem.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }

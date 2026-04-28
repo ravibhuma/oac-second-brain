@@ -132,8 +132,8 @@ When creating or editing a dataset, the Data Preparation editor allows:
 ---
 
 ## Related
-- [[Semantic Model]]
-- [[Workbooks & Visualizations]]
-- [[Data Flows & Data Preparation]]
-- [[Logical SQL Reference]]
-- [[Classic Dashboards & Analyses]]
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Data Flows & Data Preparation](Data%20Flows%20%26%20Data%20Preparation.md){ .wikilink }
+- [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink }
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }

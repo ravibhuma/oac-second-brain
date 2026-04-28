@@ -112,7 +112,7 @@ OAC ──── Oracle Cloud Relay ──── RDG Agent (on-premise) ──�
 - Credentials stored in Oracle Vault (encrypted)
 - Connection passwords never visible after save
 - Row-level security can be applied at the Subject Area level using connection pool credentials
-- See [[Security & Row-Level Security]]
+- See [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
 
 ---
 
@@ -137,7 +137,7 @@ In the Semantic Model, connection pools define how the BI Server connects to a p
 ---
 
 ## Related
-- [[Semantic Model]]
-- [[Subject Areas & Datasets]]
-- [[Security & Row-Level Security]]
-- [[Administration & Service Console]]
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }

@@ -145,7 +145,7 @@ Console → **Connections** → create connections to data sources:
 - On-premise databases (via PAC)
 - Cloud applications (Fusion, Salesforce, etc.)
 
-See [[Data Sources & Connections]].
+See [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }.
 
 ### 8. Take Initial Snapshot
 **OCI Console** → **Snapshots** → **Create**:
@@ -229,8 +229,8 @@ To delete an OAC instance:
 ---
 
 ## Related
-- [[OAC Overview & Architecture]]
-- [[Administration & Service Console]]
-- [[OCI REST APIs & CLI for OAC]]
-- [[Security & Row-Level Security]]
-- [[Migration, Snapshots & Lifecycle]]
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }

@@ -70,7 +70,7 @@ def main():
             total += n
             print(f"  {md_file.relative_to(docs_root)}: {n} link(s)")
 
-    print(f"\n✓ Replaced {total} wiki links across {files} files")
+    print(f"\n[OK] Replaced {total} wiki links across {files} files")
 
 if __name__ == "__main__":
     main()

@@ -347,7 +347,7 @@ ORDER BY "Sales"."Facts"."Revenue" DESC
 ---
 
 ## Related
-- [[Semantic Model]]
-- [[Subject Areas & Datasets]]
-- [[Classic Dashboards & Analyses]]
-- [[APIs, Embedding & Integration]]
+- [Semantic Model](Semantic%20Model.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }

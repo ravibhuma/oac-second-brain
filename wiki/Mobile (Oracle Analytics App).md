@@ -116,7 +116,7 @@ You can embed OAC content in your custom mobile app:
 - Native iOS / Android SDKs not provided directly — wrap web embedding
 - Pass authentication via OAuth token
 
-See [[APIs, Embedding & Integration]] for details.
+See [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink } for details.
 
 ---
 
@@ -142,8 +142,8 @@ The original OBIEE mobile app **Day by Day** is deprecated:
 ---
 
 ## Related
-- [[Consumer Guide (Explore)]]
-- [[Workbooks & Visualizations]]
-- [[KPIs, Alerts & Notifications]]
-- [[OAC AI Agents]]
-- [[Administration & Service Console]]
+- [Consumer Guide (Explore)](Consumer%20Guide%20%28Explore%29.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink }
+- [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }

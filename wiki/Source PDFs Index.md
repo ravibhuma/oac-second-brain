@@ -12,15 +12,15 @@ The `raw/pdfs/` folder contains the authoritative Oracle documentation in PDF + 
 
 | PDF | Text Size | Content | Maps to Wiki |
 |---|---|---|---|
-| `getting-started-oracle-analytics-cloud` | 37 KB | Orientation, editions, service mgmt | [[OAC Overview & Architecture]], [[Subscribe & Provisioning]] |
-| `whats-new-oracle-analytics-cloud` | 262 KB | Release notes (current + historical) | [[Whats New & Release Updates]] |
-| `building-semantic-models-oracle-analytics-cloud` | 1.1 MB | Semantic Modeler full guide | [[Semantic Model]] |
-| `smml-schema-reference-oracle-analytics-cloud` | 162 KB | SMML JSON schema reference | [[Semantic Model]], [[APIs, Embedding & Integration]] |
-| `connecting-oracle-analytics-cloud-your-data` | 589 KB | All data source connections | [[Data Sources & Connections]] |
-| `visualizing-data-and-building-reports-oracle-analytics-cloud` | 2.7 MB | Workbooks, dashboards, BI Publisher | [[Workbooks & Visualizations]], [[Classic Dashboards & Analyses]], [[BI Publisher]], [[Maps & Geospatial Analytics]] |
-| `administering-oracle-analytics-cloud-oracle-cloud-infrastructure-gen-2` | 570 KB | Service admin (Gen 2) | [[Administration & Service Console]], [[Subscribe & Provisioning]] |
-| `configuring-oracle-analytics-cloud` | 1.1 MB | System configuration deep dive | [[Administration & Service Console]] |
-| `OAC_REST_API_Guide` | 217 KB | OpenAPI spec for OAC REST API | [[APIs, Embedding & Integration]], [[OCI REST APIs & CLI for OAC]] |
+| `getting-started-oracle-analytics-cloud` | 37 KB | Orientation, editions, service mgmt | [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }, [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink } |
+| `whats-new-oracle-analytics-cloud` | 262 KB | Release notes (current + historical) | [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink } |
+| `building-semantic-models-oracle-analytics-cloud` | 1.1 MB | Semantic Modeler full guide | [Semantic Model](Semantic%20Model.md){ .wikilink } |
+| `smml-schema-reference-oracle-analytics-cloud` | 162 KB | SMML JSON schema reference | [Semantic Model](Semantic%20Model.md){ .wikilink }, [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink } |
+| `connecting-oracle-analytics-cloud-your-data` | 589 KB | All data source connections | [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink } |
+| `visualizing-data-and-building-reports-oracle-analytics-cloud` | 2.7 MB | Workbooks, dashboards, BI Publisher | [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }, [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }, [BI Publisher](BI%20Publisher.md){ .wikilink }, [Maps & Geospatial Analytics](Maps%20%26%20Geospatial%20Analytics.md){ .wikilink } |
+| `administering-oracle-analytics-cloud-oracle-cloud-infrastructure-gen-2` | 570 KB | Service admin (Gen 2) | [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }, [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink } |
+| `configuring-oracle-analytics-cloud` | 1.1 MB | System configuration deep dive | [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink } |
+| `OAC_REST_API_Guide` | 217 KB | OpenAPI spec for OAC REST API | [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }, [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink } |
 
 **Total deep reference**: ~6.8 MB of text (~1.5M tokens) — fully searchable.
 
@@ -35,7 +35,7 @@ Step 1: Grep raw/pdfs/*.txt for keywords from the question
 Step 2: Read the matching sections (use line offsets)
 Step 3: Read the related wiki page for structure
 Step 4: Synthesize answer with citations:
-   - [[Wiki Page Name]]
+   - Wiki Page Name
    - (Source: <pdf-name>, near line N)
 ```
 
@@ -45,7 +45,7 @@ Step 4: Synthesize answer with citations:
 **Process:**
 1. `grep -l "event polling" raw/pdfs/*.txt` → finds matches in `building-semantic-models.txt` and `smml-schema-reference.txt`
 2. Read those sections (~50 lines context)
-3. Read [[Semantic Model]] for high-level structure
+3. Read [Semantic Model](Semantic%20Model.md){ .wikilink } for high-level structure
 4. Answer with full procedure + cite source PDF + line numbers
 
 ---
@@ -78,6 +78,6 @@ When Oracle releases new doc versions:
 ---
 
 ## Related
-- [[index]]
-- [[Docs Coverage Matrix]]
-- [[Tutorials, Solutions & Learning Resources]]
+- index
+- [Docs Coverage Matrix](Docs%20Coverage%20Matrix.md){ .wikilink }
+- [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink }

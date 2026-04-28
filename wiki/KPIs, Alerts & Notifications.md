@@ -173,8 +173,8 @@ For Oracle Analytics mobile app users:
 ---
 
 ## Related
-- [[Classic Dashboards & Analyses]]
-- [[Workbooks & Visualizations]]
-- [[Administration & Service Console]]
-- [[BI Publisher]]
-- [[Security & Row-Level Security]]
+- [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink }
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [BI Publisher](BI%20Publisher.md){ .wikilink }
+- [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink }

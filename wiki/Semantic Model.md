@@ -190,8 +190,8 @@ AGO("Fact - Sales"."Revenue", "Dim - Time"."Month", 1)
 ---
 
 ## Related
-- [[OAC Overview & Architecture]]
-- [[Subject Areas & Datasets]]
-- [[Logical SQL Reference]]
-- [[Data Sources & Connections]]
-- [[Migration, Snapshots & Lifecycle]]
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink }
+- [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }

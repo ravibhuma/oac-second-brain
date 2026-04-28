@@ -4,7 +4,7 @@
 > **Tags:** OCI, REST API, CLI, instance management, automation, terraform, IaC, scaling
 
 ## Summary
-The **OCI Analytics Cloud REST API** and **OCI CLI** manage OAC at the **infrastructure level** — creating instances, scaling, taking snapshots, configuring PAC, starting/stopping. This is distinct from the [[APIs, Embedding & Integration|OAC application REST API]] which manages content (analyses, dashboards) inside an instance.
+The **OCI Analytics Cloud REST API** and **OCI CLI** manage OAC at the **infrastructure level** — creating instances, scaling, taking snapshots, configuring PAC, starting/stopping. This is distinct from the [OAC application REST API](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink } which manages content (analyses, dashboards) inside an instance.
 
 ---
 
@@ -263,7 +263,7 @@ oci analytics work-request get --work-request-id <work-request-ocid>
 ---
 
 ## Related
-- [[Subscribe & Provisioning]]
-- [[Administration & Service Console]]
-- [[Migration, Snapshots & Lifecycle]]
-- [[APIs, Embedding & Integration]]
+- [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
+- [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }

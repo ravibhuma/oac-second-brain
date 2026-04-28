@@ -23,31 +23,31 @@ Mapping of every official Oracle Analytics Cloud documentation guide → corresp
 
 | # | Oracle Docs Guide | Wiki Page(s) | Status |
 |---|---|---|---|
-| 1 | What's New | [[Whats New & Release Updates]] | ✅ |
-| 2 | Preview Features | [[Whats New & Release Updates]] | ✅ |
-| 3 | FAQs | [[FAQs & Troubleshooting]] | ✅ |
-| 4 | Troubleshoot | [[FAQs & Troubleshooting]] | ✅ |
-| 5 | Explore (consumers) | [[Consumer Guide (Explore)]] | ✅ |
-| 6 | Subscribe and Set Up | [[Subscribe & Provisioning]] | ✅ |
-| 7 | Connect to Data | [[Data Sources & Connections]] | ✅ |
-| 8 | Visualize Data | [[Workbooks & Visualizations]], [[Maps & Geospatial Analytics]] | ✅ |
-| 9 | Build Reports and Dashboards | [[Classic Dashboards & Analyses]] | ✅ |
-| 10 | Create Pixel-Perfect Reports | [[BI Publisher]] | 🟡 (deepen layout editor) |
-| 11 | Model Data (Semantic Modeler) | [[Semantic Model]] | 🟡 (deepen multi-user dev, multilingual, OLAP) |
-| 12 | Administer | [[Administration & Service Console]], [[Subscribe & Provisioning]] | ✅ |
-| 13 | Develop | [[APIs, Embedding & Integration]], [[Custom Visualizations & Plug-ins]] | ✅ |
-| 14 | Migrate | [[Migration, Snapshots & Lifecycle]] | ✅ |
-| 15 | OAC REST APIs (application) | [[APIs, Embedding & Integration]] | 🟡 (full endpoint reference needed) |
-| 16 | SOAP APIs | [[APIs, Embedding & Integration]] | 🟡 (deepen SOAP examples) |
-| 17 | Publisher Web Services | [[BI Publisher]] | 🟡 |
-| 18 | Publisher REST APIs | [[BI Publisher]] | 🟡 |
-| 19 | OCI REST APIs (instance mgmt) | [[OCI REST APIs & CLI for OAC]] | ✅ |
-| 20 | OCI CLI commands | [[OCI REST APIs & CLI for OAC]] | ✅ |
-| 21 | Community | [[Tutorials, Solutions & Learning Resources]] | 📚 |
-| 22 | Technical Papers | [[Tutorials, Solutions & Learning Resources]] | 📚 |
-| 23 | Solutions | [[Tutorials, Solutions & Learning Resources]] | 📚 |
-| 24 | Tutorials | [[Tutorials, Solutions & Learning Resources]] | 📚 |
-| 25 | Videos | [[Tutorials, Solutions & Learning Resources]] | 📚 |
+| 1 | What's New | [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink } | ✅ |
+| 2 | Preview Features | [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink } | ✅ |
+| 3 | FAQs | [FAQs & Troubleshooting](FAQs%20%26%20Troubleshooting.md){ .wikilink } | ✅ |
+| 4 | Troubleshoot | [FAQs & Troubleshooting](FAQs%20%26%20Troubleshooting.md){ .wikilink } | ✅ |
+| 5 | Explore (consumers) | [Consumer Guide (Explore)](Consumer%20Guide%20%28Explore%29.md){ .wikilink } | ✅ |
+| 6 | Subscribe and Set Up | [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink } | ✅ |
+| 7 | Connect to Data | [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink } | ✅ |
+| 8 | Visualize Data | [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }, [Maps & Geospatial Analytics](Maps%20%26%20Geospatial%20Analytics.md){ .wikilink } | ✅ |
+| 9 | Build Reports and Dashboards | [Classic Dashboards & Analyses](Classic%20Dashboards%20%26%20Analyses.md){ .wikilink } | ✅ |
+| 10 | Create Pixel-Perfect Reports | [BI Publisher](BI%20Publisher.md){ .wikilink } | 🟡 (deepen layout editor) |
+| 11 | Model Data (Semantic Modeler) | [Semantic Model](Semantic%20Model.md){ .wikilink } | 🟡 (deepen multi-user dev, multilingual, OLAP) |
+| 12 | Administer | [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }, [Subscribe & Provisioning](Subscribe%20%26%20Provisioning.md){ .wikilink } | ✅ |
+| 13 | Develop | [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink }, [Custom Visualizations & Plug-ins](Custom%20Visualizations%20%26%20Plug-ins.md){ .wikilink } | ✅ |
+| 14 | Migrate | [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink } | ✅ |
+| 15 | OAC REST APIs (application) | [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink } | 🟡 (full endpoint reference needed) |
+| 16 | SOAP APIs | [APIs, Embedding & Integration](APIs%2C%20Embedding%20%26%20Integration.md){ .wikilink } | 🟡 (deepen SOAP examples) |
+| 17 | Publisher Web Services | [BI Publisher](BI%20Publisher.md){ .wikilink } | 🟡 |
+| 18 | Publisher REST APIs | [BI Publisher](BI%20Publisher.md){ .wikilink } | 🟡 |
+| 19 | OCI REST APIs (instance mgmt) | [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink } | ✅ |
+| 20 | OCI CLI commands | [OCI REST APIs & CLI for OAC](OCI%20REST%20APIs%20%26%20CLI%20for%20OAC.md){ .wikilink } | ✅ |
+| 21 | Community | [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink } | 📚 |
+| 22 | Technical Papers | [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink } | 📚 |
+| 23 | Solutions | [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink } | 📚 |
+| 24 | Tutorials | [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink } | 📚 |
+| 25 | Videos | [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink } | 📚 |
 
 ---
 
@@ -55,17 +55,17 @@ Mapping of every official Oracle Analytics Cloud documentation guide → corresp
 
 | Topic | Wiki Page | Status |
 |---|---|---|
-| Semantic Model deep concepts | [[Semantic Model]] | 🟡 (deepen with full guide PDF) |
-| Logical SQL | [[Logical SQL Reference]] | ✅ |
-| Subject Areas vs Datasets | [[Subject Areas & Datasets]] | ✅ |
-| Data Flows / ETL | [[Data Flows & Data Preparation]] | ✅ |
-| Machine Learning (OML, OCI AI) | [[Machine Learning & AI Features]] | ✅ |
-| Security (RLS, IDCS, roles) | [[Security & Row-Level Security]] | ✅ |
-| KPIs, Agents, Alerts | [[KPIs, Alerts & Notifications]] | ✅ |
-| Maps & Geospatial | [[Maps & Geospatial Analytics]] | ✅ |
-| Custom Visualizations | [[Custom Visualizations & Plug-ins]] | ✅ |
-| Mobile Apps | [[Mobile (Oracle Analytics App)]] | ✅ |
-| OAC vs OBIEE vs OAS | [[OAC vs OBIEE vs OAS Comparison]] | ✅ |
+| Semantic Model deep concepts | [Semantic Model](Semantic%20Model.md){ .wikilink } | 🟡 (deepen with full guide PDF) |
+| Logical SQL | [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink } | ✅ |
+| Subject Areas vs Datasets | [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink } | ✅ |
+| Data Flows / ETL | [Data Flows & Data Preparation](Data%20Flows%20%26%20Data%20Preparation.md){ .wikilink } | ✅ |
+| Machine Learning (OML, OCI AI) | [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink } | ✅ |
+| Security (RLS, IDCS, roles) | [Security & Row-Level Security](Security%20%26%20Row-Level%20Security.md){ .wikilink } | ✅ |
+| KPIs, Agents, Alerts | [KPIs, Alerts & Notifications](KPIs%2C%20Alerts%20%26%20Notifications.md){ .wikilink } | ✅ |
+| Maps & Geospatial | [Maps & Geospatial Analytics](Maps%20%26%20Geospatial%20Analytics.md){ .wikilink } | ✅ |
+| Custom Visualizations | [Custom Visualizations & Plug-ins](Custom%20Visualizations%20%26%20Plug-ins.md){ .wikilink } | ✅ |
+| Mobile Apps | [Mobile (Oracle Analytics App)](Mobile%20%28Oracle%20Analytics%20App%29.md){ .wikilink } | ✅ |
+| OAC vs OBIEE vs OAS | [OAC vs OBIEE vs OAS Comparison](OAC%20vs%20OBIEE%20vs%20OAS%20Comparison.md){ .wikilink } | ✅ |
 
 ---
 
@@ -73,10 +73,10 @@ Mapping of every official Oracle Analytics Cloud documentation guide → corresp
 
 | Topic | Wiki Page | Source |
 |---|---|---|
-| AI Assistant (3 modes) | [[OAC AI Ecosystem]] | Oracle blog |
-| AI Agents (R.T.C.C.O.E framework) | [[OAC AI Agents]] | Ravi Bhuma Medium article |
-| MCP Server (external AI) | [[OAC MCP Server]] | Oracle blog |
-| Augmented Analytics (Explain, NLQ) | [[Workbooks & Visualizations]], [[Machine Learning & AI Features]] | Oracle docs |
+| AI Assistant (3 modes) | [OAC AI Ecosystem](OAC%20AI%20Ecosystem.md){ .wikilink } | Oracle blog |
+| AI Agents (R.T.C.C.O.E framework) | [OAC AI Agents](OAC%20AI%20Agents.md){ .wikilink } | Ravi Bhuma Medium article |
+| MCP Server (external AI) | [OAC MCP Server](OAC%20MCP%20Server.md){ .wikilink } | Oracle blog |
+| Augmented Analytics (Explain, NLQ) | [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }, [Machine Learning & AI Features](Machine%20Learning%20%26%20AI%20Features.md){ .wikilink } | Oracle docs |
 
 ---
 
@@ -143,6 +143,6 @@ This is the canonical Karpathy LLM Wiki workflow — sources curated by human, w
 ---
 
 ## Related
-- [[index]]
-- [[Tutorials, Solutions & Learning Resources]]
+- index
+- [Tutorials, Solutions & Learning Resources](Tutorials%2C%20Solutions%20%26%20Learning%20Resources.md){ .wikilink }
 - All wiki pages

@@ -166,22 +166,22 @@ In-depth technical references:
 - Time series functions (AGO, TODATE, PERIODROLLING)
 - Ranking (TOPN, RANK)
 - Running aggregates (RSUM, RAVG)
-- See [[Logical SQL Reference]] for full reference
+- See [Logical SQL Reference](Logical%20SQL%20Reference.md){ .wikilink } for full reference
 
 ### Connection Setup Quick Guide
 - ADW with wallet
 - On-premise via PAC
-- See [[Data Sources & Connections]]
+- See [Data Sources & Connections](Data%20Sources%20%26%20Connections.md){ .wikilink }
 
 ### RPD Migration Quick Guide
 - OBIEE 11g → 12c → OAC
-- See [[Migration, Snapshots & Lifecycle]]
+- See [Migration, Snapshots & Lifecycle](Migration%2C%20Snapshots%20%26%20Lifecycle.md){ .wikilink }
 
 ---
 
 ## How to Use This Index
 
-Pick a topic in [[index]] → find the corresponding wiki page → use its **Related** section + this resource hub to dive deeper.
+Pick a topic in index → find the corresponding wiki page → use its **Related** section + this resource hub to dive deeper.
 
 For ANY topic deeper than what the wiki covers:
 1. Start with the official Oracle docs guide for that area
@@ -193,6 +193,6 @@ For ANY topic deeper than what the wiki covers:
 ---
 
 ## Related
-- [[index]]
-- [[OAC Overview & Architecture]]
-- [[Whats New & Release Updates]]
+- index
+- [OAC Overview & Architecture](OAC%20Overview%20%26%20Architecture.md){ .wikilink }
+- [Whats New & Release Updates](Whats%20New%20%26%20Release%20Updates.md){ .wikilink }

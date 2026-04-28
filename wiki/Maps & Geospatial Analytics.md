@@ -206,7 +206,7 @@ CASE WHEN "Latitude" BETWEEN 40 AND 45
 ---
 
 ## Related
-- [[Workbooks & Visualizations]]
-- [[Subject Areas & Datasets]]
-- [[Administration & Service Console]]
-- [[Data Flows & Data Preparation]]
+- [Workbooks & Visualizations](Workbooks%20%26%20Visualizations.md){ .wikilink }
+- [Subject Areas & Datasets](Subject%20Areas%20%26%20Datasets.md){ .wikilink }
+- [Administration & Service Console](Administration%20%26%20Service%20Console.md){ .wikilink }
+- [Data Flows & Data Preparation](Data%20Flows%20%26%20Data%20Preparation.md){ .wikilink }
