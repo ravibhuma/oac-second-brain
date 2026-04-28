@@ -31,9 +31,10 @@ jobs:
 
       - name: Stage content into docs/ folder
         run: |
-          mkdir -p docs/wiki docs/stylesheets
+          mkdir -p docs/wiki docs/stylesheets docs/assets
           cp -r wiki/*.md docs/wiki/
           cp -r stylesheets/*.css docs/stylesheets/
+          cp -r assets/* docs/assets/
           # README becomes the homepage (landing page)
           cp README.md docs/index.md
           # Original index.md becomes the topic index
@@ -42,6 +43,9 @@ jobs:
           cp CLAUDE_CODE_SETUP.md docs/claude-code-setup.md
           cp CODEX_SETUP.md docs/codex-setup.md
           cp AI_ASSISTANTS.md docs/ai-assistants.md
+
+      - name: Preprocess [[wiki links]] into real markdown links
+        run: python scripts/preprocess_wikilinks.py docs
 
       - name: Build site
         run: mkdocs build
