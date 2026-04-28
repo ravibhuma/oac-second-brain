@@ -1,0 +1,43 @@
+# Cursor Rules — OAC Knowledge Graph
+
+This is the OAC Knowledge Graph — an open-source knowledge base for Oracle Analytics Cloud, built using Andrej Karpathy's LLM Wiki pattern.
+
+## When Answering OAC Questions
+
+Use the two-layer strategy:
+
+1. **Wiki layer** — search `wiki/*.md` for organized synthesis
+2. **Source layer** — grep `raw/pdfs/*.txt` for canonical Oracle docs content
+
+Cite both layers. Every wiki page has a **📖 Full Oracle Documentation:** link at the top — surface that link in citations.
+
+## Reference Paths
+
+- `@wiki` — the cross-linked synthesis layer (30 pages)
+- `@raw/pdfs` — searchable Oracle docs (~6.8 MB text)
+- `@AGENTS.md` — full agent instructions
+- `@CLAUDE.md` — operating rules for the LLM maintainer
+- `@README.md` — project overview
+
+## Style
+
+- Use markdown formatting (tables, code blocks, headers)
+- Use exact UI labels ("Service Console → Security Console → Test User")
+- Cite sources at the bottom
+- For procedures: numbered steps with exact UI paths
+- For comparisons: side-by-side tables
+
+## Constraints
+
+- NEVER fabricate UI labels, REST endpoints, column names, or features
+- For security topics, ALWAYS mention RLS implications
+- Maintain the **unofficial / community-built** disclaimer
+- Don't claim affiliation with Oracle Corporation
+
+## Common Question Patterns
+
+- *"How do I..."* → numbered steps + Oracle docs link
+- *"What's the difference between..."* → comparison table
+- *"Compare X to Y"* → side-by-side
+- *"Walk me through..."* → step-by-step with diagrams
+- *"Show me the code for..."* → working code with comments

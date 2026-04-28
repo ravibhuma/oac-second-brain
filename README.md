@@ -1,5 +1,7 @@
 # OAC Knowledge Graph
 
+**Built by [Ravi Bhuma](https://github.com/ravibhuma) · [Medium](https://medium.com/@ravishankerb) · Companion to [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/)**
+
 > **An open-source community knowledge base for Oracle Analytics Cloud — built without RAG, vector databases, or embeddings. Just markdown, grep, and the LLM you already use.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-2D7D55.svg)](https://opensource.org/licenses/MIT)
@@ -138,6 +140,20 @@ The cloned repo works with **every major AI assistant**:
 | **OAC AI Agent** | Bundle wiki into PDFs, build inside OAC | Already in OAC |
 
 **👉 Full guide for all 12 tools: [AI_ASSISTANTS.md](AI_ASSISTANTS.md)**
+
+### 🎁 Pre-Built Skills Ship With This Repo
+
+When you clone, you get **pre-configured agent skills** — no manual prompt setup:
+
+- `.claude/skills/oac-knowledge.md` — Q&A skill for Claude Code (cites sources)
+- `.claude/skills/oac-ingest.md` — Add new content to the wiki
+- `.claude/skills/oac-lint.md` — Periodic health check
+- `AGENTS.md` — Used by **Codex, Cline, agentic IDEs**
+- `.cursorrules` — Used by **Cursor**
+- `CLAUDE.md` — Project rules used by **Claude Code, Claude Desktop**
+- `PROJECT_INSTRUCTIONS.md` — Paste into **Claude Project, Custom GPT, Gemini Gem**
+
+**👉 Full skills guide: [AI_SKILLS.md](AI_SKILLS.md)**
 
 ---
 
