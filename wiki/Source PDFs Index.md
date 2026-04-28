@@ -4,7 +4,7 @@
 > **Tags:** sources, PDFs, deep reference, citations
 
 ## Summary
-The `raw/pdfs/` folder contains the authoritative Oracle documentation in PDF + searchable text. When wiki pages don't have enough depth, I (Claude) **grep these text files at query time** and cite the result. This is the deep-reference layer that makes the second brain comprehensive.
+The `raw/pdfs/` folder contains the authoritative Oracle documentation in PDF + searchable text. When wiki pages don't have enough depth, I (Claude) **grep these text files at query time** and cite the result. This is the deep-reference layer that makes the knowledge graph comprehensive.
 
 ---
 

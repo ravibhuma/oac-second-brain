@@ -1,4 +1,4 @@
-# OAC Second Brain — Ingestion Log
+# OAC Knowledge Graph — Ingestion Log
 
 ## 2026-04-27 — Initial Build
 - Created folder structure: `raw/`, `wiki/`, `index.md`, `log.md`, `CLAUDE.md`

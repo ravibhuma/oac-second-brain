@@ -186,7 +186,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Knowledge Graph — OAC Second Brain</title>
+<title>Knowledge Graph — OAC Knowledge Graph</title>
 <meta name="description" content="Interactive knowledge graph showing how 30+ Oracle Analytics Cloud topics connect — built without RAG or vector databases.">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <script src="../assets/vendor/vis-network.min.js"></script>
@@ -506,7 +506,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <header>
   <a href="../" class="brand">
     <span class="dot"></span>
-    <span><span class="red">OAC</span> Second Brain</span>
+    <span><span class="red">OAC</span> Knowledge Graph</span>
     <span style="color: var(--slate-500); font-weight: 500; font-size: 0.85rem; margin-left: 8px;">Knowledge Graph</span>
   </a>
   <nav class="controls">

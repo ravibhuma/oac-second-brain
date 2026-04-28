@@ -88,7 +88,7 @@ Or use **ChatGPT Codex** in your browser at chatgpt.com → Codex → connect th
 
 **For persistent knowledge** ($20 Plus required):
 1. Go to https://chatgpt.com/gpts/editor
-2. Create a Custom GPT named **OAC Second Brain Assistant**
+2. Create a Custom GPT named **OAC Knowledge Graph Assistant**
 3. Upload PDFs as Knowledge files
 4. Paste contents of `PROJECT_INSTRUCTIONS.md` as the GPT Instructions
 5. Save → share the public link
@@ -107,7 +107,7 @@ Or use **ChatGPT Codex** in your browser at chatgpt.com → Codex → connect th
 
 **For a custom assistant** (Gemini Advanced):
 1. Click **Gems** in sidebar → **New Gem**
-2. Name: `OAC Second Brain`
+2. Name: `OAC Knowledge Graph`
 3. Paste contents of `PROJECT_INSTRUCTIONS.md` as instructions
 4. Upload knowledge files
 5. Save and use
@@ -208,7 +208,7 @@ ollama pull qwen2.5:14b
 # Download from https://anythingllm.com
 
 # 4. In AnythingLLM:
-#    - Create new workspace: "OAC Second Brain"
+#    - Create new workspace: "OAC Knowledge Graph"
 #    - Set LLM provider: Ollama
 #    - Upload all files from oac-second-brain folder
 #    - Start chatting

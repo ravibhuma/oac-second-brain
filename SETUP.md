@@ -1,4 +1,4 @@
-# Setup Guide — Build & Share Your OAC Second Brain
+# Setup Guide — Build & Share Your OAC Knowledge Graph
 
 Step-by-step instructions to publish this knowledge base in three places:
 
@@ -47,7 +47,7 @@ git config user.email "ravi.bhuma@gmail.com"
 git add .
 
 # First commit
-git commit -m "Initial commit: OAC Second Brain — 29 wiki pages + 9 Oracle PDFs"
+git commit -m "Initial commit: OAC Knowledge Graph — 29 wiki pages + 9 Oracle PDFs"
 
 # Connect to your new GitHub repo (replace USERNAME with your GitHub username)
 git remote add origin https://github.com/USERNAME/oac-second-brain.git
@@ -142,14 +142,14 @@ This makes the brain **AI-queryable for anyone with a Claude.ai account**.
 1. Sign in to claude.ai
 2. Click **Projects** in the left sidebar
 3. Click **Create Project**
-4. Name it: **OAC Second Brain**
+4. Name it: **OAC Knowledge Graph**
 5. Description: `AI-powered Q&A for Oracle Analytics Cloud — 29 wiki pages + Oracle PDFs as knowledge base`
 
 ### 3.3 Add Custom Instructions
 
 1. In your new Project, click **Set custom instructions** (or the ⚙️ icon)
 2. Open the file `PROJECT_INSTRUCTIONS.md` from this repo
-3. **Copy the entire contents** (the section starting with "You are the OAC Second Brain...")
+3. **Copy the entire contents** (the section starting with "You are the OAC Knowledge Graph...")
 4. **Paste** into the Custom Instructions field
 5. Save
 
@@ -219,7 +219,7 @@ Now that everything's live, promote it:
 
 ### 4.2 Share on Social
 **Twitter/X**:
-> 🧠 Just open-sourced an OAC Second Brain — comprehensive AI-maintained knowledge base for Oracle Analytics Cloud.
+> 🧠 Just open-sourced an OAC Knowledge Graph — comprehensive AI-maintained knowledge base for Oracle Analytics Cloud.
 >
 > ✅ 29 cross-linked wiki pages
 > ✅ 9 Oracle PDFs as deep reference

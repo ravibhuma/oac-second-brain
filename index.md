@@ -1,4 +1,4 @@
-# OAC Second Brain — Content Index
+# OAC Knowledge Graph — Content Index
 
 > Last updated: 2026-04-27
 > Authoritative source map: [[Docs Coverage Matrix]]

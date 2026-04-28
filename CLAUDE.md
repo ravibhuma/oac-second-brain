@@ -1,4 +1,4 @@
-# OAC Second Brain — Operating Rules
+# OAC Knowledge Graph — Operating Rules
 
 ## Purpose
 This is a living, AI-maintained knowledge base for Oracle Analytics Cloud (OAC).

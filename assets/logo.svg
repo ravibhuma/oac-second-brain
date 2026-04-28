@@ -18,7 +18,7 @@
     <line x1="24" y1="28" x2="14" y2="36" stroke="url(#dot)" stroke-width="1.2" opacity="0.7"/>
     <line x1="24" y1="28" x2="34" y2="36" stroke="url(#dot)" stroke-width="1.2" opacity="0.7"/>
   </g>
-  <!-- Wordmark: "OAC" in Oracle red, "Second Brain" in slate -->
+  <!-- Wordmark: "OAC" in Oracle red, "Knowledge Graph" in slate -->
   <text x="64" y="28" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.02em" fill="#C74634">OAC</text>
-  <text x="64" y="50" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" letter-spacing="0" fill="#5A6772">Second Brain</text>
+  <text x="64" y="50" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" letter-spacing="0" fill="#5A6772">Knowledge Graph</text>
 </svg>

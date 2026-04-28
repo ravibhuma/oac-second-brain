@@ -1,4 +1,4 @@
-# OAC Second Brain
+# OAC Knowledge Graph
 
 > **An open-source community knowledge base for Oracle Analytics Cloud — built without RAG, vector databases, or embeddings. Just markdown, grep, and the LLM you already use.**
 
