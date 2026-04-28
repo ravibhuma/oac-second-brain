@@ -21,7 +21,7 @@ Total time: ~2 hours. Total cost: $0.
 1. Sign in to GitHub
 2. Click **+** (top right) → **New repository**
 3. Fill in:
-   - **Repository name**: `oac-second-brain`
+   - **Repository name**: `oac-knowledge-graph`
    - **Description**: `Comprehensive AI-maintained knowledge base for Oracle Analytics Cloud — 29 wiki pages + searchable Oracle PDFs`
    - **Visibility**: ✅ **Public**
    - ❌ Do NOT initialize with README/license/.gitignore (we already have them)
@@ -50,7 +50,7 @@ git add .
 git commit -m "Initial commit: OAC Knowledge Graph — 29 wiki pages + 9 Oracle PDFs"
 
 # Connect to your new GitHub repo (replace USERNAME with your GitHub username)
-git remote add origin https://github.com/USERNAME/oac-second-brain.git
+git remote add origin https://github.com/USERNAME/oac-knowledge-graph.git
 
 # Push
 git push -u origin main
@@ -95,9 +95,9 @@ The `mkdocs.yml` file currently has placeholder URLs. Edit it:
 # In your local folder
 # Open mkdocs.yml and replace 'ravi-bhuma' with your actual GitHub username
 # Lines to update:
-#   site_url: https://YOUR-USERNAME.github.io/oac-second-brain/
-#   repo_url: https://github.com/YOUR-USERNAME/oac-second-brain
-#   repo_name: YOUR-USERNAME/oac-second-brain
+#   site_url: https://YOUR-USERNAME.github.io/oac-knowledge-graph/
+#   repo_url: https://github.com/YOUR-USERNAME/oac-knowledge-graph
+#   repo_name: YOUR-USERNAME/oac-knowledge-graph
 #   social link: https://github.com/YOUR-USERNAME
 ```
 
@@ -119,7 +119,7 @@ git push
 
 ### 2.5 Visit Your Site
 Once the workflow completes:
-- URL: `https://YOUR-USERNAME.github.io/oac-second-brain/`
+- URL: `https://YOUR-USERNAME.github.io/oac-knowledge-graph/`
 - Browse with sidebar nav, search any topic, dark mode toggle
 
 ### 2.6 Common Issues

@@ -105,15 +105,15 @@ cd C:\Users\YourName\Documents          # Windows
 # or
 cd ~/Documents                          # Mac/Linux
 
-git clone https://github.com/ravibhuma/oac-second-brain.git
-cd oac-second-brain
+git clone https://github.com/ravibhuma/oac-knowledge-graph.git
+cd oac-knowledge-graph
 ```
 
 ---
 
 ### Step 4 — Start Codex
 
-From inside the `oac-second-brain` folder:
+From inside the `oac-knowledge-graph` folder:
 
 ```bash
 codex
@@ -169,7 +169,7 @@ If you don't want to install anything locally, you can use **ChatGPT Codex** —
 1. Sign in to https://chatgpt.com
 2. Click **Codex** in the left sidebar
 3. **Connect GitHub** → authorize the OpenAI Codex GitHub App
-4. Select the repo: `ravibhuma/oac-second-brain` (or fork it first to your account)
+4. Select the repo: `ravibhuma/oac-knowledge-graph` (or fork it first to your account)
 5. Codex creates a sandboxed environment with the repo
 6. Ask questions in the chat:
    ```
@@ -232,7 +232,7 @@ Either:
 ### Codex says "I can't access those files"
 You're running Codex from the wrong directory. Make sure you're inside the repo:
 ```bash
-cd path/to/oac-second-brain
+cd path/to/oac-knowledge-graph
 codex
 ```
 
@@ -263,7 +263,7 @@ Current pricing: https://openai.com/pricing
 When the maintainer pushes new content:
 
 ```bash
-cd oac-second-brain
+cd oac-knowledge-graph
 git pull
 ```
 
@@ -289,8 +289,8 @@ Both work great with this repo. Pick based on preference:
 
 ## Companion Resources
 
-- [📖 Browse the Wiki online](https://ravibhuma.github.io/oac-second-brain/)
-- [📂 GitHub Repo](https://github.com/ravibhuma/oac-second-brain)
+- [📖 Browse the Wiki online](https://ravibhuma.github.io/oac-knowledge-graph/)
+- [📂 GitHub Repo](https://github.com/ravibhuma/oac-knowledge-graph)
 - [📘 Claude Code Setup](CLAUDE_CODE_SETUP.md) — alternative AI tool
 - [🤖 OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/) — for building OAC AI Agents
 
@@ -300,4 +300,4 @@ Both work great with this repo. Pick based on preference:
 
 ✅ **You're set up.** Ask anything OAC-related.
 
-If you find gaps or errors, [open a GitHub issue](https://github.com/ravibhuma/oac-second-brain/issues) or submit a PR.
+If you find gaps or errors, [open a GitHub issue](https://github.com/ravibhuma/oac-knowledge-graph/issues) or submit a PR.

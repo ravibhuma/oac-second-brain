@@ -3,7 +3,7 @@
 > **An open-source community knowledge base for Oracle Analytics Cloud — built without RAG, vector databases, or embeddings. Just markdown, grep, and the LLM you already use.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-2D7D55.svg)](https://opensource.org/licenses/MIT)
-[![Site Status](https://img.shields.io/badge/docs-live-00A36C)](https://ravibhuma.github.io/oac-second-brain/)
+[![Site Status](https://img.shields.io/badge/docs-live-00A36C)](https://ravibhuma.github.io/oac-knowledge-graph/)
 [![Topic: Oracle Analytics Cloud](https://img.shields.io/badge/topic-Oracle%20Analytics%20Cloud-C74634)](https://www.oracle.com/business-analytics/analytics-cloud/)
 [![No Vector DB](https://img.shields.io/badge/no-vector%20database-2D7D55)](#-why-this-works-without-vectorization)
 [![Pattern: LLM Wiki by A. Karpathy](https://img.shields.io/badge/pattern-LLM%20Wiki%20by%20A.%20Karpathy-1F5A3D)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
@@ -21,15 +21,15 @@
 ## ⚡ Try It In 60 Seconds
 
 ```bash
-git clone https://github.com/ravibhuma/oac-second-brain.git
-cd oac-second-brain
+git clone https://github.com/ravibhuma/oac-knowledge-graph.git
+cd oac-knowledge-graph
 claude    # or: codex, or upload to Gemini/ChatGPT
 > How do I configure row-level security in OAC?
 ```
 
 That's it. No vector database. No chunking pipeline. No embedding model. Just **markdown + an LLM**.
 
-📖 [Browse the site](https://ravibhuma.github.io/oac-second-brain/) · 💬 [Setup any AI tool](AI_ASSISTANTS.md) · 🤖 [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/)
+📖 [Browse the site](https://ravibhuma.github.io/oac-knowledge-graph/) · 💬 [Setup any AI tool](AI_ASSISTANTS.md) · 🤖 [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/)
 
 ---
 
@@ -128,12 +128,12 @@ For Oracle Analytics Cloud (~7 MB of canonical docs), **LLM Wiki wins on every d
 
 ### Step 1 — Get The Knowledge Base
 
-**For browsing**: [https://ravibhuma.github.io/oac-second-brain/](https://ravibhuma.github.io/oac-second-brain/) (no install)
+**For browsing**: [https://ravibhuma.github.io/oac-knowledge-graph/](https://ravibhuma.github.io/oac-knowledge-graph/) (no install)
 
 **For AI Q&A**: clone it
 ```bash
-git clone https://github.com/ravibhuma/oac-second-brain.git
-cd oac-second-brain
+git clone https://github.com/ravibhuma/oac-knowledge-graph.git
+cd oac-knowledge-graph
 ```
 
 ### Step 2 — Pick Your AI Assistant
@@ -187,7 +187,7 @@ This works with **every major AI tool**. Pick one you already use:
 ## 🏗️ Folder Structure
 
 ```
-oac-second-brain/
+oac-knowledge-graph/
 ├── wiki/                  ← 30 cross-linked markdown pages (the brain)
 ├── raw/
 │   ├── pdfs/              ← 9 official Oracle PDFs + searchable .txt
@@ -248,7 +248,7 @@ Found a gap? Want to add a source?
 4. Claude updates the wiki + index + log
 5. Submit a PR
 
-Or just [open an issue](https://github.com/ravibhuma/oac-second-brain/issues) describing what's missing.
+Or just [open an issue](https://github.com/ravibhuma/oac-knowledge-graph/issues) describing what's missing.
 
 ---
 
@@ -313,4 +313,4 @@ Companion projects:
 - [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/) — Open-source learning platform for OAC AI Agents (R.T.C.C.O.E framework)
 - [Building Effective OAC AI Agents](https://medium.com/@ravishankerb/building-effective-oac-ai-agents-the-framework-the-techniques-and-the-resource-hub-to-get-you-eba3797ca991) — Medium article
 
-⭐ **[Star this repo](https://github.com/ravibhuma/oac-second-brain)** — it helps others discover the LLM Wiki pattern by Andrej Karpathy.
+⭐ **[Star this repo](https://github.com/ravibhuma/oac-knowledge-graph)** — it helps others discover the LLM Wiki pattern by Andrej Karpathy.

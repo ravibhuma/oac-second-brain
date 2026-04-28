@@ -1,8 +1,8 @@
 site_name: OAC Knowledge Graph
 site_description: Comprehensive AI-maintained knowledge base for Oracle Analytics Cloud
-site_url: https://ravibhuma.github.io/oac-second-brain/
-repo_url: https://github.com/ravibhuma/oac-second-brain
-repo_name: ravibhuma/oac-second-brain
+site_url: https://ravibhuma.github.io/oac-knowledge-graph/
+repo_url: https://github.com/ravibhuma/oac-knowledge-graph
+repo_name: ravibhuma/oac-knowledge-graph
 edit_uri: edit/main/
 
 # Don't fail on warnings (e.g., files not in nav)
