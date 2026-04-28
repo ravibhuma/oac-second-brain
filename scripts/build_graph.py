@@ -577,14 +577,14 @@ const nodes = new vis.DataSet(GRAPH_DATA.nodes.map(n => ({
   },
   size: n.size,
   font: {
-    // Tiny by default — only readable when zoomed in or on hover (Obsidian-style)
-    color: 'rgba(90, 103, 114, 0.0)',  // invisible until hovered/zoomed
-    size: 9,
+    // Always visible but subtle; brightens on hover
+    color: 'rgba(90, 103, 114, 0.85)',
+    size: 10,
     face: 'Inter, system-ui, sans-serif',
-    strokeWidth: 3,
-    strokeColor: 'rgba(255,255,255,0.92)',
+    strokeWidth: 4,
+    strokeColor: 'rgba(255,255,255,0.95)',
     multi: false,
-    vadjust: -2,
+    vadjust: -4,
   },
   shape: 'dot',
   borderWidth: 0,
@@ -741,45 +741,20 @@ network.on('hoverNode', params => {
 });
 
 network.on('blurNode', () => {
-  // Revert: hide labels (transparent), restore opacity
+  // Revert to default subtle labels
   nodes.forEach(n => nodes.update({
     id: n.id,
     opacity: 1,
     font: {
-      color: 'rgba(90, 103, 114, 0.0)',
-      size: 9,
+      color: 'rgba(90, 103, 114, 0.85)',
+      size: 10,
       face: 'Inter, system-ui, sans-serif',
-      strokeWidth: 3,
-      strokeColor: 'rgba(255,255,255,0.92)',
-      vadjust: -2,
+      strokeWidth: 4,
+      strokeColor: 'rgba(255,255,255,0.95)',
+      vadjust: -4,
     }
   }));
   edges.forEach(e => edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.18)' }, width: 0.6 }));
-});
-
-// Reveal labels when zoomed in (Obsidian-style)
-network.on('zoom', (params) => {
-  const scale = params.scale || network.getScale();
-  // Above 1.5x zoom, fade in all labels gradually
-  const labelOpacity = Math.max(0, Math.min(1, (scale - 1.0) * 1.5));
-  if (labelOpacity > 0) {
-    nodes.forEach(n => {
-      // Don't override hover styling
-      const current = nodes.get(n.id);
-      if (current.opacity < 0.5) return;
-      nodes.update({
-        id: n.id,
-        font: {
-          color: `rgba(90, 103, 114, ${labelOpacity})`,
-          size: 9 + labelOpacity * 2,
-          face: 'Inter, system-ui, sans-serif',
-          strokeWidth: 3,
-          strokeColor: 'rgba(255,255,255,0.92)',
-          vadjust: -2,
-        }
-      });
-    });
-  }
 });
 
 // Click → show info panel
