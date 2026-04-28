@@ -702,70 +702,98 @@ GRAPH_DATA.categories.forEach(cat => {
   legendItems.appendChild(item);
 });
 
-// Hover highlights — Obsidian-style: focus + reveal labels
-network.on('hoverNode', params => {
-  const nodeId = params.node;
+// Track current selection (sticky after click)
+let selectedNodeId = null;
+
+// Default font (visible but subtle)
+const FONT_DEFAULT = {
+  color: 'rgba(90, 103, 114, 0.85)',
+  size: 10,
+  face: 'Inter, system-ui, sans-serif',
+  strokeWidth: 4,
+  strokeColor: 'rgba(255,255,255,0.95)',
+  vadjust: -4,
+};
+
+// Highlight a node + its connections (used by both hover and click)
+function highlightNode(nodeId) {
   const connectedNodes = new Set(network.getConnectedNodes(nodeId));
   connectedNodes.add(nodeId);
   const connectedEdges = new Set(network.getConnectedEdges(nodeId));
 
-  // Reveal labels for connected nodes; dim others
   nodes.forEach(n => {
     if (connectedNodes.has(n.id)) {
-      const isHovered = n.id === nodeId;
+      const isFocus = n.id === nodeId;
       nodes.update({
         id: n.id,
         opacity: 1,
         font: {
-          color: isHovered ? '#161B1F' : '#5A6772',
-          size: isHovered ? 13 : 11,
-          face: 'Inter, system-ui, sans-serif',
-          strokeWidth: 4,
-          strokeColor: 'rgba(255,255,255,0.95)',
-          vadjust: -4,
+          ...FONT_DEFAULT,
+          color: isFocus ? '#161B1F' : '#2A323A',
+          size: isFocus ? 14 : 12,
         }
       });
     } else {
-      nodes.update({ id: n.id, opacity: 0.10 });
+      nodes.update({
+        id: n.id,
+        opacity: 0.08,
+        font: { ...FONT_DEFAULT, color: 'rgba(90, 103, 114, 0.15)' }
+      });
     }
   });
 
-  // Highlight connected edges; dim others
   edges.forEach(e => {
     if (connectedEdges.has(e.id)) {
-      edges.update({ id: e.id, color: { color: '#2D7D55', opacity: 1 }, width: 1.4 });
+      edges.update({ id: e.id, color: { color: '#2D7D55' }, width: 1.6 });
     } else {
       edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.04)' }, width: 0.4 });
     }
   });
-});
+}
 
-network.on('blurNode', () => {
-  // Revert to default subtle labels
+// Reset to default state
+function resetHighlights() {
   nodes.forEach(n => nodes.update({
     id: n.id,
     opacity: 1,
-    font: {
-      color: 'rgba(90, 103, 114, 0.85)',
-      size: 10,
-      face: 'Inter, system-ui, sans-serif',
-      strokeWidth: 4,
-      strokeColor: 'rgba(255,255,255,0.95)',
-      vadjust: -4,
-    }
+    font: FONT_DEFAULT,
   }));
-  edges.forEach(e => edges.update({ id: e.id, color: { color: 'rgba(90, 103, 114, 0.18)' }, width: 0.6 }));
+  edges.forEach(e => edges.update({
+    id: e.id,
+    color: { color: 'rgba(90, 103, 114, 0.18)' },
+    width: 0.6
+  }));
+}
+
+network.on('hoverNode', params => {
+  // Don't override sticky selection on hover — but if nothing selected, hover takes effect
+  if (selectedNodeId === null) {
+    highlightNode(params.node);
+  }
 });
 
-// Click → show info panel
+network.on('blurNode', () => {
+  // Restore selection if any, else reset fully
+  if (selectedNodeId !== null) {
+    highlightNode(selectedNodeId);
+  } else {
+    resetHighlights();
+  }
+});
+
+// Click → sticky selection: highlight node + connections, show info panel
 network.on('click', params => {
   if (params.nodes.length === 0) {
+    // Clicked empty space → clear selection
+    selectedNodeId = null;
+    resetHighlights();
     document.getElementById('info-panel').classList.remove('active');
     return;
   }
   const nodeId = params.nodes[0];
-  const node = nodes.get(nodeId);
-  showInfo(node);
+  selectedNodeId = nodeId;
+  highlightNode(nodeId);
+  showInfo(nodes.get(nodeId));
 });
 
 // Double-click → navigate
