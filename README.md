@@ -12,6 +12,12 @@
 
 ---
 
+## 🕸️ See The Knowledge As A Graph
+
+**[👉 Open the Interactive Knowledge Graph](graph/)** — explore how 30+ Oracle Analytics Cloud topics connect. Hover, search, click any node to jump to its page. Zero install.
+
+---
+
 ## ⚡ Try It In 60 Seconds
 
 ```bash
@@ -22,8 +28,6 @@ claude    # or: codex, or upload to Gemini/ChatGPT
 ```
 
 That's it. No vector database. No chunking pipeline. No embedding model. Just **markdown + an LLM**.
-
-🕸️ **[Explore the interactive Knowledge Graph](graph.html)** — see how 30+ topics connect, in your browser
 
 📖 [Browse the site](https://ravibhuma.github.io/oac-second-brain/) · 💬 [Setup any AI tool](AI_ASSISTANTS.md) · 🤖 [OAC Prompt Studio](https://ravi-bhuma.github.io/oac-prompt-studio/)
 

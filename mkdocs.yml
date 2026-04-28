@@ -95,7 +95,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - "🕸️ Knowledge Graph": graph.html
   - All Topics: topics.md
   - Coverage Matrix: wiki/Docs Coverage Matrix.md
   - "Use With AI":

@@ -98,6 +98,9 @@ def slugify_for_url(name: str) -> str:
     """MkDocs preserves filename case; URLs are file-name based."""
     return urllib.parse.quote(name)
 
+
+# Wiki URLs need to be relative to /graph/ now (one level up)
+
 def extract_links(text: str) -> set[str]:
     """Extract all .md link targets, normalize to bare filenames."""
     targets = set()
@@ -130,7 +133,7 @@ def build_graph(wiki_dir: Path) -> dict:
             "label": name,
             "group": category,
             "color": CATEGORY_COLORS[category],
-            "url": f"wiki/{slugify_for_url(name)}/",
+            "url": f"../wiki/{slugify_for_url(name)}/",
         })
         name_to_id[name] = i
 
@@ -185,7 +188,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Knowledge Graph — OAC Second Brain</title>
 <meta name="description" content="Interactive knowledge graph showing how 30+ Oracle Analytics Cloud topics connect — built without RAG or vector databases.">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 <style>
   :root {
@@ -412,14 +415,14 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <body>
 
 <header>
-  <a href="./" class="brand">
+  <a href="../" class="brand">
     <span class="dot"></span>
     <span><span class="red">OAC</span> Second Brain</span>
     <span style="color: var(--slate-500); font-weight: 500; font-size: 0.85rem; margin-left: 8px;">Knowledge Graph</span>
   </a>
   <nav class="controls">
     <input type="text" class="search" id="search" placeholder="Search topics..." />
-    <a href="./" class="btn">← Back to docs</a>
+    <a href="../" class="btn">← Back to docs</a>
   </nav>
 </header>
 
@@ -641,13 +644,17 @@ def main():
     graph = build_graph(wiki_dir)
     print(f"[OK] Found {graph['stats']['total_nodes']} nodes, {graph['stats']['total_edges']} edges")
 
+    # Output to docs/graph/ as a static asset (subfolder = MkDocs leaves it alone)
+    graph_dir = docs_dir / "graph"
+    graph_dir.mkdir(parents=True, exist_ok=True)
+
     # Write graph data
-    json_path = docs_dir / "graph-data.json"
+    json_path = graph_dir / "graph-data.json"
     json_path.write_text(json.dumps(graph, indent=2), encoding="utf-8")
     print(f"[OK] Wrote {json_path}")
 
-    # Write HTML page (inject graph data inline so no fetch needed)
-    html_path = docs_dir / "graph.html"
+    # Write HTML page as index.html so URL becomes /graph/
+    html_path = graph_dir / "index.html"
     html = HTML_TEMPLATE.replace("__GRAPH_DATA__", json.dumps(graph))
     html_path.write_text(html, encoding="utf-8")
     print(f"[OK] Wrote {html_path}")
